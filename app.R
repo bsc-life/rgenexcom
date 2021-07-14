@@ -41,12 +41,12 @@ discat_abbv <- data.frame(discats = sort(unique(meta$disease_cat)),
                           abbv = c("congenital","circulatory","digestive","musculoskeletal",
                                    "nervous","respiratory","infectious","mentaldisorders","neoplasms"))
 
-reactome_cats <- read.csv("aditional_data/reactome_pathway_categories.txt",header=F, sep="\t",stringsAsFactors = F)
+reactome_cats <- read.csv("additional_data/reactome_pathway_categories.txt",header=F, sep="\t",stringsAsFactors = F)
 reactome_cats <- reactome_cats$V1; dim(reactome_cats)
 reactome_cats <- reactome_cats[!reactome_cats == "Digestion and absorption"]   # It is not present. 
 
 diseases_dic <- readRDS("disease_dic.rds")
-extended_node_names <- read.csv("aditional_data/extended_node_names.txt",header=T, sep="\t",stringsAsFactors = F); dim(extended_node_names)
+extended_node_names <- read.csv("additional_data/extended_node_names.txt",header=T, sep="\t",stringsAsFactors = F); dim(extended_node_names)
 
 
 # User Interface, generates the html
@@ -502,7 +502,7 @@ server <- function(input, output) {
       # old_dis_name = meta[meta$final_disease_name == input$selected_node_genes, ]$disease_name
       
       if(input$granularity == "Genes"){
-        df <- read.csv(paste0("aditional_data/Genes/",old_dis_name,"_DEGs.txt"),header=T, sep="\t",stringsAsFactors = F)
+        df <- read.csv(paste0("additional_data/Genes/",old_dis_name,"_DEGs.txt"),header=T, sep="\t",stringsAsFactors = F)
         if(input$granularity_signif == "sign"){
           df <- df[df$adj.p.val < 0.05, ]
         }else{df}
@@ -517,7 +517,7 @@ server <- function(input, output) {
         df
         
       }else{
-        df <- read.csv(paste0("aditional_data/FE/",old_dis_name,"_pathways.txt"),header=T, sep="\t",stringsAsFactors = F)
+        df <- read.csv(paste0("additional_data/FE/",old_dis_name,"_pathways.txt"),header=T, sep="\t",stringsAsFactors = F)
         if(input$granularity_signif == "sign"){
           df <- df[df$FDR.q.val < 0.05, ]
         }else{df}
