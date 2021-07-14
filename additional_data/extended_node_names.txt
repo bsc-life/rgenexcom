@@ -1,0 +1,162 @@
+final_names	old_names	sDEGs
+Prostate cancer	ProstateCancer	0
+Huntington's disease 1	HuntingtonsDisease_1	5510
+Bipolar disorder 2	BipolarDisorder_2	0
+Chronic lymphocytic leukemia 1	ChronicLymphocyticLeukemia_1	1220
+Bipolar disorder	BipolarDisorder	0
+Amyotrophic lateral sclerosis 2	AmyotrophicLateralSclerosis_2	61
+Asthma	Asthma	1236
+Autism	Autism	5
+Human immunodeficiency virus infection 2	HIV_2	111
+Facioscapulohumeral muscular dystrophy 2	FacioscapulohumeralDystrophy_2	0
+Borrelia burgdorferi infection 1	BorreliaBurdorferiInfection_1	5939
+Ulcerative colitis 2	UlcerativeColitis_2	9126
+Idiopathic pulmonary fibrosis	IdiopathicPulmonaryFibrosis	6519
+Down syndrome 1	DownsSyndrome_1	63
+Chronic lymphocytic leukemia 2	ChronicLymphocyticLeukemia_2	1262
+Alagille syndrome	AlagilleSyndrome	1
+Kaposi's sarcoma 1	KaposisSarcoma_1	2200
+Lymphocytic colitis	LymphocyticColitis	0
+Facioscapulohumeral muscular dystrophy 4	FacioscapulohumeralDystrophy_4	0
+Crohn's disease 2	CrohnsDisease_2	8944
+Papillary thyroid cancer 3	ThyroidCancer_Papillary_3	2166
+Hyperplastic polyps	HyperplasticPolyps	4287
+Borrelia burgdorferi infection	BorreliaBurdorferiInfection	4668
+Rheumatoid arthritis	RheumatoidArthritis	0
+Bipolar disorder 3	BipolarDisorder_3	0
+Autism 1	Autism_1	8
+Facioscapulohumeral muscular dystrophy 1	FacioscapulohumeralDystrophy_1	0
+Myotonic dystrophy	MyotonicDystrophy	0
+Facioscapulohumeral muscular dystrophy 5	FacioscapulohumeralDystrophy_5	0
+Smoker	Smoker	623
+Autism 2	Autism_2	27
+Amyotrophic lateral sclerosis	AmyotrophicLateralSclerosis	2
+Cardiomyopathy	Cardiomyopathy	133
+Papillary thyroid cancer	ThyroidCancer_Papillary	1513
+Bipolar disorder 1	BipolarDisorder_1	0
+Facioscapulohumeral muscular dystrophy	FacioscapulohumeralDystrophy	0
+Friedreich's ataxia	FriedreichsAtaxia	2677
+Down syndrome 2	DownsSyndrome_2	62
+Lung cancer	LungCancer	7375
+Keratoconus	Keratoconus	0
+Bipolar disorder 4	BipolarDisorder_4	0
+Glioblastoma	Glioblastoma	8699
+Asthma 1	Asthma_1	1561
+Borrelia burgdorferi infection 2	BorreliaBurdorferiInfection_2	6185
+Idiopathic pulmonary fibrosis 1	IdiopathicPulmonaryFibrosis_1	7828
+Familial dysautonomia	FamilialDysautonomia	1063
+Colorectal cancer	ColorectalCancer	835
+Lymphocytic colitis 3	LymphocyticColitis_3	0
+Asthma 5	Asthma_5	2895
+Kaposi's sarcoma 2	KaposisSarcoma_2	3817
+Sessile serrated polyps	SessileSerratedPolyp	2746
+Kaposi's sarcoma	KaposisSarcoma	1574
+Chronic obstructive pulmonary disease	ChronicObstructivePulmonaryDisease	7918
+Crohn's disease	CrohnsDisease	8600
+Coeliac disease 1	CoeliacDisease_1	77
+Ulcer	Ulcer	4794
+Eosinophilic esophagitis	EosinophilicEsophagitis	5036
+Huntington's disease	HuntingtonsDisease	2925
+Human immunodeficiency virus infection 1	HIV_1	332
+Coeliac disease 2	CoeliacDisease_2	771
+Parkinson's disease	ParkinsonsDisease	4502
+Adenomatous polyps	AdenomatousPolyps	807
+Chronic lymphocytic leukemia	ChronicLymphocyticLeukemia	1027
+Papillary thyroid cancer 1	ThyroidCancer_Papillary_1	2598
+Lymphocytic colitis 1	LymphocyticColitis_1	0
+Amyotrophic lateral sclerosis 1	AmyotrophicLateralSclerosis_1	300
+Idiopathic pulmonary fibrosis 2	IdiopathicPulmonaryFibrosis_2	7286
+Post-traumatic stress disorder	PosttraumaticStressDisorder	0
+Lymphocytic colitis 2	LymphocyticColitis_2	6
+Ulcerative colitis	UlcerativeColitis	7089
+Ulcerative colitis 1	UlcerativeColitis_1	6636
+Asthma 2	Asthma_2	666
+Multiple sclerosis	MultipleSclerosis	292
+Human immunodeficiency virus infection	HIV	0
+Coeliac disease	CoeliacDisease	0
+Facioscapulohumeral muscular dystrophy 3	FacioscapulohumeralDystrophy_3	0
+Ischemia	Ischemia	3
+Familial pulmonary arterial hypertension	FamilialPulmonaryArterialHypertension	0
+Breast cancer	BreastCancer	8493
+Down syndrome	DownsSyndrome	30
+Asthma 3	Asthma_3	3278
+Asthma 4	Asthma_4	1135
+Systemic lupus erythematosus	SLE	1
+Muscular dystrophy	MuscularDystrophy	0
+Crohn's disease 1	CrohnsDisease_1	10002
+Papillary thyroid cancer 2	ThyroidCancer_Papillary_2	1660
+Adenomatous polyps 1	AdenomatousPolyps_1	1407
+Liver cancer	LiverCancer	6839
+Myotonic dystrophy 1	MyotonicDystrophy_1	0
+Smoker 1	Smoker_1	2235
+Ulcer 2	Ulcer_2	7999
+Alagille syndrome 1	AlagilleSyndrome_1	5
+Huntington's disease 2	HuntingtonsDisease_2	3335
+Hyperplastic polyps 3	HyperplasticPolyps_3	4604
+Hyperplastic polyps 4	HyperplasticPolyps_4	5454
+Smoker 2	Smoker_2	1002
+Chronic obstructive pulmonary disease 1	ChronicObstructivePulmonaryDisease_1	7230
+Chronic obstructive pulmonary disease 2	ChronicObstructivePulmonaryDisease_2	9499
+Hyperplastic polyps 1	HyperplasticPolyps_1	4271
+Schizophrenia	Schizophrenia	349
+Adenomatous polyps 2	AdenomatousPolyps_2	3813
+Hyperplastic polyps 2	HyperplasticPolyps_2	5776
+Breast cancer 1	BreastCancer_1	9891
+Colorectal cancer 1	ColorectalCancer_1	966
+Keratoconus 1	Keratoconus_1	1
+Keratoconus 2	Keratoconus_2	0
+Colorectal cancer 4	ColorectalCancer_4	1056
+Colorectal cancer 5	ColorectalCancer_5	908
+Colorectal cancer 3	ColorectalCancer_3	883
+Colorectal cancer 2	ColorectalCancer_2	930
+Myotonic dystrophy 2	MyotonicDystrophy_2	1
+Ulcer 1	Ulcer_1	3465
+Alagille syndrome 2	AlagilleSyndrome_2	6
+Breast cancer 2	BreastCancer_2	9745
+Parkinson's disease 5	ParkinsonsDisease_5	6305
+Parkinson's disease 1	ParkinsonsDisease_1	4310
+Parkinson's disease 8	ParkinsonsDisease_8	4477
+Parkinson's disease 6	ParkinsonsDisease_6	3651
+Parkinson's disease 9	ParkinsonsDisease_9	5413
+Rheumatoid arthritis 1	RheumatoidArthritis_1	225
+Parkinson's disease 7	ParkinsonsDisease_7	5244
+Parkinson's disease 3	ParkinsonsDisease_3	5105
+Parkinson's disease 10	ParkinsonsDisease_10	4750
+Muscular dystrophy 1	MuscularDystrophy_1	3
+Parkinson's disease 4	ParkinsonsDisease_4	4378
+Parkinson's disease 2	ParkinsonsDisease_2	4461
+Cardiomyopathy 1	Cardiomyopathy_1	1683
+Muscular dystrophy 4	MuscularDystrophy_4	4
+Rheumatoid arthritis 2	RheumatoidArthritis_2	3418
+Breast cancer 3	BreastCancer_3	9300
+Liver cancer 1	LiverCancer_1	7328
+Ischemia 2	Ischemia_2	57
+Eosinophilic esophagitis 1	EosinophilicEsophagitis_1	5554
+Systemic lupus erythematosus 2	SLE_2	22
+Post-traumatic stress disorder 2	PosttraumaticStressDisorder_2	18
+Cardiomyopathy 2	Cardiomyopathy_2	1906
+Post-traumatic stress disorder 1	PosttraumaticStressDisorder_1	0
+Familial pulmonary arterial hypertension 2	FamilialPulmonaryArterialHypertension_2	0
+Glioblastoma 1	Glioblastoma_1	9296
+Schizophrenia 1	Schizophrenia_1	1104
+Lung cancer 2	LungCancer_2	7453
+Lung cancer 1	LungCancer_1	7706
+Glioblastoma 2	Glioblastoma_2	8324
+Friedreich's ataxia 1	FriedreichsAtaxia_1	2973
+Familial pulmonary arterial hypertension 1	FamilialPulmonaryArterialHypertension_1	0
+Prostate cancer 2	ProstateCancer_2	8
+Prostate cancer 1	ProstateCancer_1	6
+Systemic lupus erythematosus 1	SLE_1	5
+Ischemia 1	Ischemia_1	37
+Liver cancer 2	LiverCancer_2	6733
+Liver cancer 3	LiverCancer_3	6978
+Multiple sclerosis 2	MultipleSclerosis_2	489
+Multiple sclerosis 1	MultipleSclerosis_1	1325
+Multiple sclerosis 3	MultipleSclerosis_3	786
+Muscular dystrophy 3	MuscularDystrophy_3	4
+Schizophrenia 2	Schizophrenia_2	1425
+Friedreich's ataxia 2	FriedreichsAtaxia_2	4505
+Eosinophilic esophagitis 2	EosinophilicEsophagitis_2	6076
+Familial dysautonomia 1	FamilialDysautonomia_1	3247
+Muscular dystrophy 2	MuscularDystrophy_2	23
+Familial dysautonomia 2	FamilialDysautonomia_2	2174
