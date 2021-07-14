@@ -1,0 +1,12 @@
+name: shiny_network_app
+title:
+username:
+account: beatrizurda
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2466356
+bundleId: 4814532
+url: https://beatrizurda.shinyapps.io/shiny_network_app/
+when: 1626172307.00051
+asMultiple: FALSE
+asStatic: FALSE
