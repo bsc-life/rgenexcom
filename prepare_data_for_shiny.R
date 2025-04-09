@@ -3,7 +3,7 @@
 # 
 # Color,   epidem/notepidem,    final names,     
 # 
-# Beatriz Urda García 2020
+# Beatriz Urda García 2025
 #########################################################################################
 
 
@@ -16,7 +16,7 @@ library(stringr)
 source("../analysis_library.R")
 
 
-setwd("~/Desktop/ANALYSIS/shiny_network_app/")
+setwd("~/Desktop/ANALYSIS/shiny_network_app_pnas/")
 
 #################
 # ADD BACKBONE TO THE NETWORKS
@@ -94,11 +94,56 @@ ssn_filename = "metap_dis_pairwise_union_spearman_distance_sDEGs_network.txt"
 write.table(dsn, file=paste0("final_",dsn_filename), quote=FALSE,sep="\t", row.names = FALSE)
 write.table(ssn, file=paste0("final_",ssn_filename), quote=FALSE,sep="\t", row.names = FALSE)
 
+##### ADD PHI and MANUAL VALIDATION TRUES
+manual_annotations <- read.csv("additional_data/manual_annotations.csv", header = TRUE, stringsAsFactors = FALSE)
+head(manual_annotations)
+# Content:
+# in_epidem = IN RR Hidalgo
+# in_phi = IN PHI Hidalgo (Includes all RR Hidalgo)
+# in_literature = In literature + in phi (+ in RR Hidalgo) = ALL
+nrow(dsn)
+dsn$icd_pairs <- apply(dsn[, c("Dis1_icd9", "Dis2_icd9")], 1, function(x) {
+  paste(sort(as.numeric(x)), collapse = " _ ")
+})
+nrow(ssn)
+ssn$icd_pairs <- apply(ssn[, c("Dis1_icd9", "Dis2_icd9")], 1, function(x) {
+  paste(sort(as.numeric(x)), collapse = " _ ")
+})
+
+setdiff(ssn$icd_pairs, manual_annotations$icd_pairs)
+setdiff(manual_annotations$icd_pairs, ssn$icd_pairs)
+
+# Add in_phi
+in_phi <- manual_annotations$icd_pairs[manual_annotations$in_phi == TRUE]
+in_epidem_total <- manual_annotations$icd_pairs[manual_annotations$in_literature == TRUE]
+
+dsn$in_phi <- dsn$icd_pairs %in% in_phi
+ssn$in_phi <- ssn$icd_pairs %in% in_phi
+
+# Add in_epidem_all
+dsn$in_epidem_total <- dsn$icd_pairs %in% in_epidem_total
+ssn$in_epidem_total <- ssn$icd_pairs %in% in_epidem_total
+
+dsn$icd_pairs = NULL
+ssn$icd_pairs = NULL
+
+# Add annotations only to positive interactions
+dsn[dsn$Distance < 0, ]$in_phi = FALSE; dsn[dsn$Distance < 0, ]$in_epidem_total = FALSE
+ssn[ssn$Distance < 0, ]$in_phi = FALSE; ssn[ssn$Distance < 0, ]$in_epidem_total = FALSE
+
+
+# Saving the new final networks
+dsn_filename = "pairwise_union_spearman_distance_sDEGs_network.txt"
+ssn_filename = "metap_dis_pairwise_union_spearman_distance_sDEGs_network.txt"
+write.table(dsn, file=paste0("final_",dsn_filename), quote=FALSE,sep="\t", row.names = FALSE)
+write.table(ssn, file=paste0("final_",ssn_filename), quote=FALSE,sep="\t", row.names = FALSE)
+
 #####################
 # ADD SHARED GENES AND PATHWAYS TO THE NETWORKS
 dsn<-read.csv2("final_pairwise_union_spearman_distance_sDEGs_network.txt",stringsAsFactors = F,sep="\t",header=T)
 ssn<-read.csv2("final_metap_dis_pairwise_union_spearman_distance_sDEGs_network.txt",stringsAsFactors = F,sep="\t",header=T)
 extended_node_names = read.csv2("additional_data/extended_node_names.txt",stringsAsFactors = F,sep="\t",header=T)
+extended_node_names = unique(extended_node_names)
 
 nodes_dsn = union(dsn$Dis1, dsn$Dis2); length(nodes_dsn) # 45
 nodes_ssn = union(ssn$Dis1, ssn$Dis2); length(nodes_ssn) # 161
@@ -112,7 +157,8 @@ add_genes_pathways <- function(dsn){
   dsn$pathways_up = rep(NA, nrow(dsn)); dsn$pathways_down = rep(NA, nrow(dsn))
   
   for(k in 1:nrow(dsn)){
-    # k = 1; k=16
+    print(k)
+    # k = 1; k=16; k=93; k=469 (Breast and Lung)
     dis1 = str_trim(dsn$Dis1[k]); dis2 = str_trim(dsn$Dis2[k])
     
     # Get old names
@@ -120,16 +166,19 @@ add_genes_pathways <- function(dsn){
     odis2 = extended_node_names[extended_node_names$final_names == dis2, ]$old_names
     
     # Get FC table for each node
-    genes1 = read.csv2(paste0("additional_data/Genes/",odis1,"_DEGs.txt"),stringsAsFactors = F,sep="\t",header=T)
-    genes2 = read.csv2(paste0("additional_data/Genes/",odis2,"_DEGs.txt"),stringsAsFactors = F,sep="\t",header=T)
+    # genes1 = read.csv2(paste0("additional_data/Genes/",odis1,"_DEGs.txt"),stringsAsFactors = F,sep="\t",header=T)
+    # genes2 = read.csv2(paste0("additional_data/Genes/",odis2,"_DEGs.txt"),stringsAsFactors = F,sep="\t",header=T)
+    genes1 = read.table(paste0("additional_data/Genes/",odis1,"_DEGs.txt"),stringsAsFactors = F,sep="\t",header=T)
+    genes2 = read.table(paste0("additional_data/Genes/",odis2,"_DEGs.txt"),stringsAsFactors = F,sep="\t",header=T)
+    
     # Select sDEGs
     genes1 = genes1[genes1$adj.p.value <= 0.05, ]; genes2 = genes2[genes2$adj.p.value <= 0.05, ]; nrow(genes1); nrow(genes2)
     genes1up=genes1[genes1$logFC > 0, ]$Gene.Symbol; genes1down=genes1[genes1$logFC < 0, ]$Gene.Symbol; 
     genes2up=genes2[genes2$logFC > 0, ]$Gene.Symbol; genes2down=genes2[genes2$logFC < 0, ]$Gene.Symbol;
     
     # Get Pathway table for each node
-    paths1 = read.csv2(paste0("additional_data/FE/",odis1,"_pathways.txt"),stringsAsFactors = F,sep="\t",header=T)
-    paths2 = read.csv2(paste0("additional_data/FE/",odis2,"_pathways.txt"),stringsAsFactors = F,sep="\t",header=T)
+    paths1 = read.table(paste0("additional_data/FE/",odis1,"_pathways.txt"),stringsAsFactors = F,sep="\t",header=T)
+    paths2 = read.table(paste0("additional_data/FE/",odis2,"_pathways.txt"),stringsAsFactors = F,sep="\t",header=T)
     all_pathways = union(all_pathways, union(paths1$NAME, paths2$NAME)); # print(length(all_pathways))
     
     # Select significantly altered pathways
@@ -146,7 +195,7 @@ add_genes_pathways <- function(dsn){
       dsn$pathways_down[k] = list(intersect(paths1down, paths2down)) # down_down
     }else{
       # Genes
-      dsn$genes_up[k] = list(intersect(genes1up, genes2up)) # up_down
+      dsn$genes_up[k] = list(intersect(genes1up, genes2down)) # up_down
       dsn$genes_down[k] = list(intersect(genes1down, genes2up)) # down_up
       # Pathways
       dsn$pathways_up[k] = list(intersect(paths1up, paths2down)) # up_up
@@ -161,6 +210,21 @@ add_genes_pathways <- function(dsn){
 # Add genes and pathways to the DSN
 outp_dsn = add_genes_pathways(dsn)
 fdsn = outp_dsn[[1]]; all_pathways = outp_dsn[[2]]
+# > head(fdsn)
+# Dis1               Dis2 Dis1_icd9 Dis2_icd9                                     Dis1_discat Dis2_discat Dis1_catcolor Dis2_catcolor          Distance               pvalue
+# 1  Multiple sclerosis Adenomatous polyps       340       211 diseases of the nervous system and sense organs   neoplasms       #985396       #FFB6AD 0.138718827118173 4.37799660313244e-06
+# 2   Colorectal cancer Adenomatous polyps       153       211                                       neoplasms   neoplasms       #FFB6AD       #FFB6AD 0.357422483677418 2.63069470985315e-48
+# 3 Lymphocytic colitis Adenomatous polyps       558       211                diseases of the digestive system   neoplasms       #FBAF5F       #FFB6AD 0.152593637905172 1.33894069994349e-05
+# 4  Muscular dystrophy Adenomatous polyps       359       211 diseases of the nervous system and sense organs   neoplasms       #985396       #FFB6AD 0.218219729008765 3.72396647827548e-10
+# 5 Parkinson's disease Adenomatous polyps       332       211 diseases of the nervous system and sense organs   neoplasms       #985396       #FFB6AD 0.152992459039789 1.08264464681043e-27
+# 6    Bipolar disorder Adenomatous polyps       296       211                                mental disorders   neoplasms       #805462       #FFB6AD 0.228099398432121 5.51344670933695e-11
+#             adj_pvalue in_epidem is_metric is_ultrametric id     genes_up   genes_down  pathways_up pathways_down
+# 1 8.41036189549127e-06     FALSE      TRUE          FALSE  1 ENSG0000.... ENSG0000.... GO_HUMOR....  REACTOME....
+# 2 1.84359085266509e-47      TRUE      TRUE           TRUE  2 ENSG0000.... ENSG0000.... GO_RESPO....  GO_CHLOR....
+# 3 2.44866816941649e-05      TRUE      TRUE          FALSE  3                           REACTOME....  GO_CELL_....
+# 4 9.18928066188542e-10      TRUE     FALSE          FALSE  4                           REACTOME....  REACTOME....
+# 5 4.64900348336241e-27     FALSE      TRUE          FALSE  5 ENSG0000.... ENSG0000.... REACTOME....  GO_PRESY....
+# 6 1.39588997612115e-10      TRUE      TRUE          FALSE  6                           KEGG_RIB....  GO_SYNAP....
 
 # Add genes and pathways to the SSN
 outp_ssn = add_genes_pathways(ssn)
@@ -169,6 +233,12 @@ fssn = outp_ssn[[1]]; all_pathways_ssn = outp_ssn[[2]]
 # Add an id to the interactions
 fdsn$id = 1:nrow(fdsn)
 fssn$id = 1:nrow(fssn)
+
+hey = fdsn[fdsn$Dis1 == "Breast cancer" & fdsn$Dis2 == "Lung cancer", ]
+"ENSG00000145216" %in% hey$genes_up[[1]]
+# [1] TRUE
+"ENSG00000012048" %in% hey$genes_up[[1]]
+# FALSE
 
 dsn_filename = "pairwise_union_spearman_distance_sDEGs_network.rds"
 ssn_filename = "metap_dis_pairwise_union_spearman_distance_sDEGs_network.rds"
@@ -186,9 +256,18 @@ write.table(to_save_ssn, file=paste0("final_",ssn_filename), quote=FALSE,sep="\t
 all_pathways = union(all_pathways, all_pathways_ssn); length(all_pathways) # 4997
 saveRDS(all_pathways, "additional_data/all_pathways.rds")
 
+### READ .rds objects to continue
+dsn_filename = "pairwise_union_spearman_distance_sDEGs_network.rds"
+ssn_filename = "metap_dis_pairwise_union_spearman_distance_sDEGs_network.rds"
+fdsn = readRDS(paste0("genes_paths_final_",dsn_filename))
+fssn = readRDS(paste0("genes_paths_final_",ssn_filename))
+all_pathways = readRDS("additional_data/all_pathways.rds")
+  
+  
 # CREATE GENES DICTIONARY
 create_genes_pathways_dictionaries <- function(fdsn){
   # Creates genes and paths df for a given network (DSN or SSN)
+  print("Processing genes......")
   genesdf = c() # For each gene, the interactions that share the gene up or down
   for(gene in genelist$ensemble){
     # gene = genelist$ensemble[1]; gene = "ENSG00000163453" # to test
@@ -206,6 +285,7 @@ create_genes_pathways_dictionaries <- function(fdsn){
     genesdf[[gene]]$down = cdown
   }
   
+  print("Processing pathways......")
   # CREATE PATHWAYS DICTIONARY
   pathwaysdf = c() # For each pathway, the interactions that share the pathway up or down
   for(path in all_pathways){
@@ -218,12 +298,10 @@ create_genes_pathways_dictionaries <- function(fdsn){
       }
       if(path %in% fdsn$pathways_down[[k]]){
         cdown = append(cdown, fdsn$id[k])       # cup por cdown?????
-        
-        
       }
     }
     pathwaysdf[[path]]$up = cup
-    pathwaysdf[[path]]$down = cdowns
+    pathwaysdf[[path]]$down = cdown
   }
   
   return(list("genesdf" = genesdf, "pathwaysdf" = pathwaysdf))
@@ -233,10 +311,12 @@ create_genes_pathways_dictionaries <- function(fdsn){
 dics_dsn = create_genes_pathways_dictionaries(fdsn)
 dics_ssn = create_genes_pathways_dictionaries(fssn)
 
-
 saveRDS(dics_dsn, "additional_data/DSN_genes_pathways_dics.rds")
 saveRDS(dics_ssn, "additional_data/SSN_genes_pathways_dics.rds")
 
+# Reading
+dics_dsn = readRDS("additional_data/DSN_genes_pathways_dics.rds")
+dics_ssn = readRDS("additional_data/SSN_genes_pathways_dics.rds")
 
 # EXAMPLES
 dics_fdsn$genesdf[["ENSG00000104093"]]$down
@@ -324,7 +404,7 @@ for (k in 1:nunique_nodes){
     cdir = paste0("../Metapatients/with_entire_count_matrix/DEAnalysis/",cdis,"/")
     cdir2 = list.files(cdir,paste0(cdis,"_DEGs_",".*_",cnumber,"\\.txt"))
     cdf = read.csv(paste0(cdir,cdir2),header=T, sep="\t",stringsAsFactors = F); dim(cdf)
-    outputpath_g = paste0("aditional_data/Genes/",cdis,"_",cnumber,"_DEGs.txt")
+    outputpath_g = paste0("additional_data/Genes/",cdis,"_",cnumber,"_DEGs.txt")
     
     csign <- dim(cdf[cdf$adj.P.Val < 0.05, ])[1]
     extended_node_names <- rbind(extended_node_names, c(unique_nodes[k], paste(cdis,cnumber,sep="_"), csign))
@@ -337,7 +417,7 @@ for (k in 1:nunique_nodes){
     #Get genes
     cdir = paste0("../DL_RESULTS_GREIN/",cdis,"/")
     cdf = read.csv(paste0(cdir,cdis,"_DEGs.txt"),header=T, sep="\t",stringsAsFactors = F); dim(cdf)
-    outputpath_g = paste0("aditional_data/Genes/",cdis,"_DEGs.txt")
+    outputpath_g = paste0("additional_data/Genes/",cdis,"_DEGs.txt")
     
     csign <- dim(cdf[cdf$adj.P.Val < 0.05, ])[1]
     extended_node_names <- rbind(extended_node_names, c(unique_nodes[k], cdis, csign))
@@ -357,10 +437,10 @@ for (k in 1:nunique_nodes){
     cdir = paste0("../Metapatients/with_entire_count_matrix/FE_results/")
     if(cdis == "ThyroidCancer_Papillary"){
       cdisdir = list.files(cdir,paste0('ThyroidCancerPapillary',"_.*_",cnumber,".*"), include.dirs=TRUE)[1]; cdisdir
-      outputpath_p = paste0("aditional_data/FE/",'ThyroidCancer_Papillary',"_",cnumber,"_pathways.txt")
+      outputpath_p = paste0("additional_data/FE/",'ThyroidCancer_Papillary',"_",cnumber,"_pathways.txt")
     }else{
       cdisdir = list.files(cdir,paste0(cdis,"_.*_",cnumber,".*"), include.dirs=TRUE)[1]; cdisdir
-      outputpath_p = paste0("aditional_data/FE/",cdis,"_",cnumber,"_pathways.txt")
+      outputpath_p = paste0("additional_data/FE/",cdis,"_",cnumber,"_pathways.txt")
     }
     dir_up = list.files(paste0(cdir,cdisdir),"gsea_report_for_na_pos_.*\\.xls"); dir_up
     dir_down = list.files(paste0(cdir,cdisdir),"gsea_report_for_na_neg_.*\\.xls"); dir_down
@@ -377,7 +457,7 @@ for (k in 1:nunique_nodes){
     df_up = read.csv(paste0(cdir,cdisdir,"/",dir_up),header=T, sep="\t",stringsAsFactors = F); head(df_up)
     df_down = read.csv(paste0(cdir,cdisdir,"/",dir_down),header=T, sep="\t",stringsAsFactors = F); head(df_down)
     
-    outputpath_p = paste0("aditional_data/FE/",cdis,"_pathways.txt")
+    outputpath_p = paste0("additional_data/FE/",cdis,"_pathways.txt")
     
   }
   # print("Here")
@@ -401,7 +481,7 @@ for (k in 1:nunique_nodes){
 
 saveRDS(diseases_dic, file="disease_dic.rds")
 extended_node_names <- as.data.frame(extended_node_names); colnames(extended_node_names) <- c("final_names", "old_names", "sDEGs")
-write.table(extended_node_names, file="aditional_data/extended_node_names.txt", sep="\t",
+write.table(extended_node_names, file="additional_data/extended_node_names.txt", sep="\t",
             row.names = FALSE, col.names = TRUE, quote = FALSE)
 
 
@@ -460,7 +540,7 @@ ssn$fDis1_name <- paste(ssn$fDis1_name, n_dis1, sep=" ")
 ssn$fDis2_name <- paste(ssn$fDis2_name, n_dis2, sep=" ")
 
 # EPIDEM / NOT EPIDEM
-barabasi <- read.csv("aditional_data/PDN_3_digits.net",header=F, sep="\t",stringsAsFactors = F)
+barabasi <- read.csv("additional_data/PDN_3_digits.net",header=F, sep="\t",stringsAsFactors = F)
 colnames(barabasi) <- c('Dis1','Dis2','Prev1','Prev2','Co-ocurrence','RR','RR_99perc_left_bound','RR_99perc_right_bound','phi_corr','p_value')
 barabasi <- barabasi[,c('Dis1','Dis2','RR_99perc_left_bound')]
 barabasi <- barabasi[which(barabasi$RR_99perc_left_bound > 1 ), ]
@@ -552,132 +632,3 @@ ssn_filename = "metap_dis_pairwise_union_spearman_distance_sDEGs_network.txt"
 ssn <- read.csv(paste0("final_",ssn_filename),header=T, sep="\t",stringsAsFactors = F)
 
 
-
-########## OLD ###########
-
-# # DSN
-# final_dsn <- read.csv("aditional_data/pairwise_union_spearman_distance_sDEGs_pos_allpos_B_TRUE_final_network.txt",header=T, sep="\t",stringsAsFactors = F)
-# final_barabasi <- read.csv("aditional_data/pairwise_union_spearman_distance_sDEGs_pos_allpos_B_TRUE_final_barabasi.txt",header=T, sep="\t",stringsAsFactors = F)
-# 
-# final_dsng <- graph_from_data_frame(final_dsn, directed=FALSE)
-# final_barabasig <- graph_from_data_frame(final_barabasi, directed=FALSE)
-# intersect <- intersection(final_dsng,final_barabasig)
-# gsize(intersect) # 157
-# 
-# intersectg <- as_data_frame(intersect)
-# epidem_interacts_dd <- unique(paste(intersectg$from, intersectg$to, sep="_")); length(epidem_interacts_dd) # 157 = N Overlapping interactions
-# 
-# cunique_int <- c()
-# dsn$in_epidem <- FALSE
-# for(k in 1:length(dsn$Dis1)){
-#   cinteract <- sort(c(dsn$Dis1_icd9[k], dsn$Dis2_icd9[k]))
-#   cinteract <- paste(cinteract, collapse="_")
-#   if(cinteract %in% epidem_interacts_dd){
-#     dsn$in_epidem[k] <- TRUE
-#     cunique_int <- append(cunique_int, cinteract)
-#   }
-# }
-# length(unique(cunique_int)) # 106 interactions
-# 
-# # SSN
-# #--- Considering all interactions: D-D, D-M, M-M
-# all_barabasi <- read.csv("aditional_data/metap_dis_pairwise_union_spearman_distance_sDEGs_pos_all_TRUE_final_barabasi.txt",header=T, sep="\t",stringsAsFactors = F) 
-# all_barabasi$interact <- paste(all_barabasi$Dis1, all_barabasi$Dis2, sep="_")
-# epidem_interacts_ssn <- union(all_barabasi$interact, epidem_interacts_dd); length(epidem_interacts_ssn) # 522
-# 
-# cunique_int <- c()
-# ssn$in_epidem <- FALSE
-# for(k in 1:length(dsn$Dis1)){
-#   cinteract <- sort(c(ssn$Dis1_icd9[k], ssn$Dis2_icd9[k]))
-#   cinteract <- paste(cinteract, collapse="_")
-#   if(cinteract %in% epidem_interacts_ssn){
-#     ssn$in_epidem[k] <- TRUE
-#     cunique_int <- append(cunique_int, cinteract)
-#   }
-# }
-# length(unique(cunique_int)) # 77
-# length(ssn[ssn$in_epidem == TRUE, ]$in_epidem) # 417
-# 
-# #--- Considering only: D-D and D-M interactions
-# final_ssn <- read.csv("aditional_data/metap_dis_pairwise_union_spearman_distance_sDEGs_pos_metap_dis_TRUE_final_network.txt",header=T, sep="\t",stringsAsFactors = F)
-# final_barab_ssn <- read.csv("aditional_data/metap_dis_pairwise_union_spearman_distance_sDEGs_pos_metap_dis_TRUE_final_barabasi.txt",header=T, sep="\t",stringsAsFactors = F)
-# 
-# final_ssng <- graph_from_data_frame(final_ssn, directed=FALSE)
-# final_barab_ssng <- graph_from_data_frame(final_barab_ssn, directed=FALSE)
-# intersect <- intersection(final_ssng,final_barab_ssng)
-# gsize(intersect)
-# gsize(final_ssng)
-# 
-# intersectg_ssn <- as_data_frame(final_ssng);  
-# epidem_interacts_ssn <- paste(intersectg_ssn$from, intersectg_ssn$to, sep="_")
-# epidem_interacts_all <- union(epidem_interacts, epidem_interacts_ssn); length(epidem_interacts_all) # 563
-# 
-# cunique_int <- c()
-# ssn$in_epidem_dd_dm <- FALSE
-# for(k in 1:length(dsn$Dis1)){
-#   if((ssn$Corr_Dis1[k] == ssn$Dis1[k]) | (ssn$Corr_Dis2[k] == ssn$Dis2[k])){ # if D-D or D-M = si Dis1 o Dis2 son una enfermedad (no contienen número)
-#     # Check if it is in epidemiology
-#     cinteract <- sort(c(ssn$Dis1_icd9[k], ssn$Dis2_icd9[k]))
-#     cinteract <- paste(cinteract, collapse="_")
-#     if(cinteract %in% epidem_interacts_all){
-#       ssn$in_epidem_dd_dm[k] <- TRUE
-#       cunique_int <- append(cunique_int, cinteract)
-#     }
-#   }
-# }
-# length(unique(cunique_int)) # 67
-# length(ssn[ssn$in_epidem_dd_dm == TRUE, ]$Corr_Dis2) # 200
-# 
-# ### SAVE THE CORRECT NETWORKS
-# fdsn <- dsn[, c("Dis1","Dis2", "Dis1_icd9","Dis2_icd9", 
-#                 "Dis1_discat","Dis2_discat","Dis1_catcolor","Dis2_catcolor",
-#                 "Distance","pvalue","adj_pvalue",
-#                 "in_epidem")]
-# 
-# fssn <- ssn[, c("fDis1_name","fDis2_name","Dis1_icd9","Dis2_icd9",
-#                 "Dis1_discat","Dis2_discat","Dis1_catcolor","Dis2_catcolor",
-#                 "Corr_Dis1","Corr_Dis2",
-#                 "Distance","pvalue","adj_pvalue",
-#                 "in_epidem","in_epidem_dd_dm")]
-# colnames(fssn)[1:2] <- c("Dis1", "Dis2")
-# 
-# write.table(fdsn, file=paste0("final_",dsn_filename), quote=FALSE,sep="\t", row.names = FALSE)
-# write.table(fssn, file=paste0("final_",ssn_filename), quote=FALSE,sep="\t", row.names = FALSE)
-
-
-# Get network backbone  # LIBRARY WITH A BUG
-# fdsn = read.csv("final_pairwise_union_spearman_distance_sDEGs_network.txt",header=T, sep="\t",stringsAsFactors = F)
-# fssn = read.csv("final_metap_dis_pairwise_union_spearman_distance_sDEGs_network.txt",header=T, sep="\t",stringsAsFactors = F)
-# 
-# fdsn = fdsn[fdsn$Distance > 0, c("Dis1", "Dis2", "Distance")]
-# fssn = fssn[fssn$Distance > 0, c("Dis1", "Dis2", "Distance")]
-# 
-# colnames(fdsn)[3] = "weight"
-# colnames(fssn)[3] = "weight"
-# 
-# fdsn$weight = fdsn$weight*100
-# fssn$weight = fssn$weight*100
-# 
-# fdsn_graph = graph_from_data_frame(fdsn, directed = FALSE)
-# fssn_graph = graph_from_data_frame(fssn, directed = FALSE)
-# is_weighted(fdsn_graph) # FALSE; 
-# is_weighted(fssn_graph) # FALSE
-# 
-# # epsilon=0.0000001
-# # E(fdsn_graph)$weight = fdsn$Distance; plot(fdsn_graph)
-# # E(fssn_graph)$weight = fssn$Distance; plot(fssn_graph)
-# 
-# # Backbone: edge represents the strenght of the interaction
-# # E(fdsn_graph)$weight = sample(1:25, ecount(fdsn_graph), replace = TRUE); plot(fdsn_graph)
-# bkbone_dsn = backbone(fdsn_graph); plot(bkbone_dsn)
-# bkbone_ssn = backbone(fssn_graph); plot(bkbone_ssn)
-# plot(backbone(fdsn_graph))
-# 
-# 
-# g <- sample_pa(n = 250, m = 5, directed = FALSE)
-# E(g)$weight <- sample(1:25, ecount(g), replace = TRUE)
-# plot(backbone(g))
-# 
-# g <- sample_pa(n = 250, m = 5, directed = FALSE)
-# E(g)$weight <- rep(0.5,ecount(g))
-# plot(backbone(g))

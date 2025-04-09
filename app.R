@@ -1,9 +1,9 @@
 #########################################################################################
 # SHINY APP THAT PERFORMS COMMUNITY DETECTION ALGORITHMS TO FIND META-PATIENT'S COMMUNITIES
 # 
-# V1
+# V3
 #
-# Beatriz Urda García 2020
+# Beatriz Urda García 2025
 #########################################################################################
 
 # shiny::runApp(system.file("shiny", package = "visNetwork"))
@@ -19,6 +19,7 @@ library(stringr)
 library(shinydashboard)
 library("shinydashboardPlus")
 library(shinythemes)
+library(tippy) # hover 
 # library(BiocManager)
 # options(repos = BiocManager::repositories())
 
@@ -74,7 +75,7 @@ ui <- fluidPage(   # makes it responsible to different web browser windows dimen
   #      ')
   # ),
   
-  navbarPage(title="Patient stratification reveals the molecular basis of disease comorbidities", #theme=shinytheme("flatly"),   # flatly, lumen
+  navbarPage(title="Patient stratification reveals the molecular basis of disease co-occurrences", #theme=shinytheme("flatly"),   # flatly, lumen
              tabPanel("Networks",   # NETWORKS SECTION
                       sidebarLayout(
                         sidebarPanel(
@@ -91,7 +92,7 @@ ui <- fluidPage(   # makes it responsible to different web browser windows dimen
                           #                        "Negative" = "neg")),
                           sliderInput("corr_slider","Edge's weight*:",min=0, max=1, value=c(0,1)),
                           p("*|Spearman's correlation|"),
-                          radioButtons("comm_algorithm", "Color by:",
+                          radioButtons("comm_algorithm", "Color nodes by:",
                                        choices=c("ICD9 category" = "ICD9",
                                                  "Greedy modularity optimization algorithm" = "greedy",
                                                  "Random walks" = "rand_walks")),  #walktrap
@@ -101,7 +102,8 @@ ui <- fluidPage(   # makes it responsible to different web browser windows dimen
                             condition = "input.net_choice == 'final_metap_dis_pairwise_union_spearman_distance_sDEGs_network.txt'",
                             checkboxGroupInput("select_interact_type", "Select interactions:", c("Disease-Disease" = "DD", "Disease-Metap"="DM", "Metap-Metap"="MM"))
                           ),
-                          selectizeInput('filt_network_genes', "Filter by genes:", choices = NULL, multiple = TRUE),
+                          # tags$hr(),  # Horizontal line here
+                          selectizeInput('filt_network_genes', "Filter by genes:", choices = NULL, multiple = TRUE, options = list(placeholder = "e.g. TP53 or ENSG00000141510")),
                           tagList(
                             selectizeInput('filt_network_pathways', "Filter by pathways:", choices = NULL, multiple = TRUE),
                             tags$style(    type='text/css', 
@@ -116,12 +118,44 @@ ui <- fluidPage(   # makes it responsible to different web browser windows dimen
                           #                                .selectize-input { word-break: break-word;}
                           #                                .selectize-dropdown { word-wrap: break-word;}"
                           #                )),
-                          radioButtons("genespaths_direction", "Direction of genes & pathways: ",
+                          div(
+                            id = "genespaths_help",
+                            strong("Direction of genes & pathways:")
+                          ),
+                          radioButtons("genespaths_direction",
+                                       label=NULL,
+                                       # "Direction of genes & pathways: ",
                                        choices=c("All commonly / oppositively altered" = "all",
                                                  "Up-Up / Up-Down" = "up",
-                                                 "Down-Dow / Down-Up" = "down")),
-                          p("Disease 1 - Disease 2"),
-                          p("Positive / Negative interactions")
+                                                 "Down-Down / Down-Up" = "down")
+                                      # choiceNames = list(
+                                      #   HTML("<span style='color:#cc5052;'>All commonly</span> /  <span style='color:#6b7ab5;'>oppositely altered</span>"),
+                                      #   HTML("<span style='color:#cc5052;'>Up-Up</span> /  <span style='color:#6b7ab5;'>Up-Down</span>"),
+                                      #   HTML("<span style='color:#cc5052;'>Down-Down</span> /  <span style='color:#6b7ab5;'>Down-Up</span>")
+                                      # ),
+                                      # choiceValues = c("all", "up", "down")
+                          ),
+                          tippy_this(
+                            "genespaths_help",
+                            tooltip = HTML(paste0(
+                              "<b>Select a scenario (<span style='color:#cc5052;'>Positive</span>/<span style='color:#6b7ab5;'>Negative interactions</span>):</b><br>",
+                              "<b>- All: All interactions in which the processes are altered in the <span style='color:#cc5052;'>same direction</span> / <span style='color:#6b7ab5;'>opposite direction</span><br>",
+                              "<b>- Up: The process is <span style='color:#cc5052;'>Up in both diseases</span> / <span style='color:#6b7ab5;'>Up in the first disease and down in the second one</span><br>",
+                              "<b>- Down: The process is <span style='color:#cc5052;'>Down in both diseases</span> / <span style='color:#6b7ab5;'>Down in the first disease and up in the second one</span><br>",
+                             
+                              "<br><b>Summary:<br>",
+                              "<b>All:</b> <span style='color:#cc5052;'> Up-Up, Down-Down</span>/ <span style='color:#6b7ab5;'>Up-Down, Down-Up</span><br>",
+                              "<b>Up:</b> <span style='color:#cc5052;'> Up-Up</span> / <span style='color:#6b7ab5;'>Up-Down</span><br>",
+                              "<b>Down:</b><span style='color:#cc5052;'> Down-Down</span> / <span style='color:#6b7ab5;'>Down-Up</span><br><br>",
+                              "* The order of the diseases can be obtained from the table below.<br>"
+                            )),
+                            placement = "right",
+                            theme = "light"
+                          ),
+          
+                          p(HTML("<span style='color:#cc5052;'>Positive</span> / <span style='color:#6b7ab5;'>Negative interactions</span>")),
+                          # p("Disease 1 - Disease 2"),
+                          
                           # p("Considers genes and pathways significantly altered.")
                           # p("All: show all interactions that share the significant alteration of the selected genes and pathways (in the same direction for + interactions and in the opposite direction for - ones) ."),
                           # p("Up: show only up-up for + interactions and up-down for - interactions."),
@@ -129,6 +163,24 @@ ui <- fluidPage(   # makes it responsible to different web browser windows dimen
                           # uiOutput("select_int_type"),
                           
                           # textOutput("txt")
+                          div(
+                            id = "epidem_reference_help",
+                            strong("Epidemiology:")
+                          ),
+                          selectInput("epidem_reference", label=NULL,
+                                      # "Epidemiology:",
+                                      choices = c("Relative Risks" = "in_epidem", 
+                                                  "Phi-correlation" = "in_phi", 
+                                                  "Total" = "in_epidem_total"),
+                                      selected = "in_epidem_total"),
+                          tippy_this(
+                            "epidem_reference_help",
+                            tooltip = HTML(
+                              "<b>Select epidemiological network of reference</b><br>"
+                            ),
+                            placement = "right",
+                            theme = "light"
+                          ),
                         ),
                         mainPanel(
                           width = 10,
@@ -138,12 +190,26 @@ ui <- fluidPage(   # makes it responsible to different web browser windows dimen
                           p("Red edges denote posite interactions", style="color:#cc5052"),   # style="color:#cc5052; display:inline"
                           p("Blue edges denote negative interactions", style="color:#6b7ab5; margin-top: -0.4em"),
                           p("Dashed red lines denote positive interactions that correspond to known comorbidities (See Documentation)", style="margin-top: -0.4em"),
-                          p("Nodes are coloured according to their ICD9 disease category", style="margin-top: -0.4em"),
+                          # p("Nodes are coloured according to their ICD9 disease category", style="margin-top: -0.4em"),
+                          conditionalPanel(
+                            condition = "input.comm_algorithm == 'ICD9'",
+                            p("Nodes are coloured according to their ICD9 disease category", style="margin-top: -0.4em")
+                          ),
+                          conditionalPanel(
+                            condition = "input.comm_algorithm != 'ICD9'",
+                            p("Nodes are coloured according to the selected clustering algorithm", style="margin-top: -0.4em")
+                          ),
                           br(),
                           fluidRow(id="fluidrow1",#div(style="display: inline-block;"),
                             column(width=9, offset = 0, aligh="center", visNetworkOutput("net_plot", height = "800px")),
                             column(width=3, offset = 0, align="center", id="legends",
-                                   img(src="legend_discats_500.png", width='95%'))   # To center the image: , style="margin-top: +20em"
+                                   conditionalPanel(
+                                     condition = "input.comm_algorithm == 'ICD9'",
+                                     img(src="legend_discats_500.png", width='95%') # To center the image: , style="margin-top: +20em"
+                                   )
+                            )
+                            # column(width=3, offset = 0, align="center", id="legends",
+                            #        img(src="legend_discats_500.png", width='95%'))   # To center the image: , style="margin-top: +20em"
                           ),
                           # plotOutput("net_plot"),
                           br(), br(), br(),
@@ -239,55 +305,10 @@ ui <- fluidPage(   # makes it responsible to different web browser windows dimen
                         )
              ),
              tabPanel("Documentation",      # DOCUMENTATION SECTION
-                      h2("Patient stratification reveals the molecular basis of disease comorbidities", align="left"),
+                      h2("Patient stratification reveals the molecular basis of disease disease co-occurrences", align="left"),
                       h4("Beatriz Urda-García, Jon Sánchez-Valle, Rosalba Lepore and Alfonso Valencia", align="left"),
                       br(),
                       # column(width=3, offset = 0, aligh="left",
-                      #        h4("Disease Similarity Network (DSN)", align="left"),
-                      #        h5("First, we implemented an RNA-seq pipeline to perform Differential Expression Analysis for each disease.
-                      #   Next, we computed the spearmans' correlation between the diseases' gene expression profiles. 
-                      #   We kept significant interactions after multiple testing correction (FDR < 0.05)."),
-                      #        h5("The obtained DSN contains positive and negative interactions, representing diseases with significantly 
-                      # similar and dissimilar gene expression profiles, respectively.
-                      #    Next, we evaluated the overlap of the positive interactions in the DSN with the epidemiological network from
-                      #    Hidalgo et al. Positive interactions in the DSN described in this epidemiological network are represented with 
-                      #    red dashed lines."),
-                      #        br(),
-                      #        h4("Stratified Similarity Network (SSN)", align="left"),
-                      #        h5("We stratified each disease into subgroups of patients with similar expression profiles (meta-patients) by applying 
-                      #    the k-medoids clustering algorithm to its normalized and batch effect corrected gene expression matrix.
-                      #    Next, we performed Differential Expression Analyses for each meta-patient. "),
-                      #        h5("To analyze the disease subtype-associated comorbidities, we built the Stratified Similarity Network (SSN) connecting 
-                      #    meta-patients and diseases based on the similarities of their gene expression profiles 
-                      #    (following the same methodology described for the DSN). The resulting Stratified Similarity Network (SSN) contains three 
-                      #    types of interactions: (1) the previously described disease-disease interactions, (2) interactions connecting different 
-                      #    meta-patients and (3) interactions connecting meta-patients to diseases."),
-                      #        br()
-                      #        ),
-                      # column(width=3, offset = 0, aligh="right",
-                      #        h4("Molecular mechanism behind diseases", align="left"),
-                      #        h5("Reactome pathways significantly dysregulated in human diseases by pathway category.
-                      # For each disease, Reactome pathways significantly over and underexpressed were identified using the GSEA method (FDR <= 0.05). 
-                      # Ward2 algorithm was applied to cluster diseases based on the Euclidean distance of their binarized Normalized Effect Size 
-                      # (1s, and -1s for over and underxpressed pathways). The heatmap shows the dysregulated Reactome pathways (rows) in the 
-                      # diseases (columns), where over and underexpressed pathways are blue and red colored respectively."),
-                      #        br(),
-                      #        h4("Molecular mechanism behind disease interactions", align="left"),
-                      #        h5("Over and underexpressed pathways behind epidemiological and not epidemiological interactions for each disease category pair.
-                      #    Percentage of epidemiological versus non epidemiological interactions that share overexpressed or underexpressed 
-                      #    pathways. Each point represents a Reactome pathway category. The size of the points corresponds to the mean number of shared
-                      #    pathways in the epidemiological interactions. The color corresponds to the ratio of the mean number of shared pathways in 
-                      #    epidemiological versus non epidemiological interactions."),
-                      #        br(),
-                      #        h4("Get genes and pathways", align="left"),
-                      #        h5("In this section you can access the differentially expressed genes and pathways in a given phenotype (disease or meta-patient)
-                      # and commonly dysregulated in phenotype pairs or groups."),
-                      #        tags$li("If you select one phenotype, you will get the table of dysregulated genes and pathways
-                      #    for that phenotype. You can filter the tables by selecting only the features that are significantly altered
-                      #    or by selecting only the over or underexpressed features."),
-                      #        tags$li("If you only select two or more phenotypes, you will get the genes or pathways
-                      # that are significantly altered in all those phenotypes. Again, you can select only the over or the underexpressed features.")
-                      # ),
                       h4("Tutorial", align="left"),
                       h5("Download the tutorial of the web application (", align="left", style="display: inline"),
                       tags$a("tutorial", href="rgenexcom_tutorial.pdf", style="display: inline"), 
@@ -301,7 +322,8 @@ ui <- fluidPage(   # makes it responsible to different web browser windows dimen
                       h5("The obtained DSN contains positive and negative interactions, representing diseases with significantly 
                       similar and dissimilar gene expression profiles, respectively.
                          Next, we evaluated the overlap of the positive interactions in the DSN with the epidemiological network from
-                         Hidalgo et al. Positive interactions in the DSN described in this epidemiological network are represented with 
+                         Hidalgo et al. based on Relative Risks (RR), phi-correlation, and the combination of these metric with a subset literature validation (Total, see Methods). 
+                         Positive interactions in the DSN described in the selected epidemiological reference are represented with 
                          red dashed lines."),
                       br(),
                       h4("Stratified Similarity Network (SSN)", align="left"),
@@ -348,7 +370,8 @@ ui <- fluidPage(   # makes it responsible to different web browser windows dimen
                          for that phenotype. You can filter the tables by selecting only the features that are significantly altered
                          or by selecting only the over or underexpressed features."),
                       tags$li("If you only select two or more phenotypes, you will get the genes or pathways
-                      that are significantly altered in all those phenotypes. Again, you can select only the over or the underexpressed features.")
+                      that are significantly altered in all those phenotypes. Again, you can select only the over or the underexpressed features."),
+                      br()
                       
                       ),
              tabPanel("Authors",
@@ -397,7 +420,7 @@ server <- function(input, output, session) {
   #   updateSelectizeInput(session, 'filt_network_pathways', choices = genesdf$ensemble, server = TRUE)
   # })
   
-  updateSelectizeInput(session, 'filt_network_genes', choices = genesdf$ensemble, server = TRUE, selected = NULL)
+  updateSelectizeInput(session, 'filt_network_genes', choices = union(genesdf$gene_symbol, genesdf$ensemble), server = TRUE, selected = NULL)
   updateSelectizeInput(session, 'filt_network_pathways', choices = all_pathways, server = TRUE, selected = NULL)
   # updateSelectizeInput(session, 'filt_network_pathways', choices = pathwaysdf$pathway, server = TRUE, selected = NULL)
    
@@ -468,18 +491,31 @@ server <- function(input, output, session) {
       }
     }
     
+    ### testing
+    # head(genesdf)
+    
     # Filtering pairs based on selected genes and pathways
     gene_pairs = c()
     if(!is.null(input$filt_network_genes)){
-      for(gene in input$filt_network_genes){
+      # Resolve gene symbols to Ensembl ID (if needed) - I have to do it before because some gene symbols have the same ENSEMBLE ID.
+      cgenes = c()
+      cgenes = append(cgenes, intersect(input$filt_network_genes, genesdf$ensemble)) # Append ensemble ids
+      cgene_symbols = intersect(input$filt_network_genes, genesdf$gene_symbol) # Detect gene symbols
+      for(gene in cgene_symbols){
+        cgenes = append(cgenes, genesdf$ensembl[genesdf$gene_symbol == gene]) 
+      }
+      # print(cgenes)
+      for(gene in cgenes){    # old: for(gene in input$filt_network_genes)
+        # Get interactions
         if(input$genespaths_direction == "all"){
           gene_pairs = append(gene_pairs, union(genespathsdic$genesdf[[gene]]$up, genespathsdic$genesdf[[gene]]$down))
         }else if(input$genespaths_direction == 'up'){
-          gene_pairs = append(gene_pairs, genespathsdic$genesdf[[gene]]$up)
+          gene_pairs = append(gene_pairs, genespathsdic$genesdf[[gene]]$up) # Contains up-up for positive interactions and up-down for negative interactions
         }else{  # down
-          gene_pairs = append(gene_pairs, genespathsdic$genesdf[[gene]]$down)
+          gene_pairs = append(gene_pairs, genespathsdic$genesdf[[gene]]$down)  # Contains down-down for positive interactions and down-up for negative interactions
         }
       }
+      # print(gene_pairs)
     }
     path_pairs = c()
     if(!is.null(input$filt_network_pathways)){
@@ -498,6 +534,7 @@ server <- function(input, output, session) {
       selected_pairs = union(gene_pairs, path_pairs)
       # print(selected_pairs)
       df <- df[df$id %in% selected_pairs,]
+      # head(df)
     }
     
     if(nrow(df) > 0){
@@ -549,7 +586,14 @@ server <- function(input, output, session) {
       edges$color[edges$color > 0] <- "#cc505295"   # "#C7535595" #"#d46e6e" # "#C75355" # "#C81E17" # RED
       
       edges$value <- abs(df$Distance)
-      edges$dashes <- df$in_epidem; edges$dashes <- tolower(as.character(df$in_epidem))
+      if (input$epidem_reference == "in_epidem") {
+        edges$dashes <- tolower(as.character(df$in_epidem))
+      } else if (input$epidem_reference == "in_phi") {
+        edges$dashes <- tolower(as.character(df$in_phi))
+      } else if (input$epidem_reference == "in_epidem_total") {
+        edges$dashes <- tolower(as.character(df$in_epidem | df$in_epidem_total))
+      }
+      # edges$dashes <- df$in_epidem; edges$dashes <- tolower(as.character(df$in_epidem))
       edges$dashes[edges$dashes == 'false'] <- "[6,0]"
       edges$dashes[edges$dashes == 'true'] <- "[6,15]"
       # visNetwork(nodes, edges)
@@ -635,13 +679,21 @@ server <- function(input, output, session) {
     # Filtering pairs based on selected genes and pathways
     gene_pairs = c()
     if(!is.null(input$filt_network_genes)){
-      for(gene in input$filt_network_genes){
+      # Resolve gene symbols to Ensembl ID (if needed) - I have to do it before because some gene symbols have the same ENSEMBLE ID.
+      cgenes = c()
+      cgenes = append(cgenes, intersect(input$filt_network_genes, genesdf$ensemble)) # Append ensemble ids
+      cgene_symbols = intersect(input$filt_network_genes, genesdf$gene_symbol) # Detect gene symbols
+      for(gene in cgene_symbols){
+        cgenes = append(cgenes, genesdf$ensembl[genesdf$gene_symbol == gene]) 
+      }
+      for(gene in cgenes){    # old: for(gene in input$filt_network_genes)
+        # Get interactions
         if(input$genespaths_direction == "all"){
           gene_pairs = append(gene_pairs, union(genespathsdic$genesdf[[gene]]$up, genespathsdic$genesdf[[gene]]$down))
         }else if(input$genespaths_direction == 'up'){
-          gene_pairs = append(gene_pairs, genespathsdic$genesdf[[gene]]$up)
+          gene_pairs = append(gene_pairs, genespathsdic$genesdf[[gene]]$up) # Contains up-up for positive interactions and up-down for negative interactions
         }else{  # down
-          gene_pairs = append(gene_pairs, genespathsdic$genesdf[[gene]]$down)
+          gene_pairs = append(gene_pairs, genespathsdic$genesdf[[gene]]$down)  # Contains down-down for positive interactions and down-up for negative interactions
         }
       }
     }
@@ -665,7 +717,20 @@ server <- function(input, output, session) {
     }
     
     if(nrow(df) > 0){
-      df <- df[, c("Dis1","Dis2","Distance", "pvalue", "adj_pvalue", "in_epidem")]
+      selected_col <- switch(input$epidem_reference,
+                             "in_epidem" = df$in_epidem,
+                             "in_phi" = df$in_phi,
+                             "in_epidem_total" = df$in_epidem_total)
+      
+      df$in_selected_epidem <- selected_col
+      df <- df[, c("Dis1","Dis2","Distance", "pvalue", "adj_pvalue", "in_selected_epidem")]
+      # if (input$epidem_reference == "in_epidem") {
+      #   df$in_epidem <- tolower(as.character(df$in_epidem))
+      # } else if (input$epidem_reference == "in_phi") {
+      #   df$in_epidem <- tolower(as.character(df$in_phi))
+      # } else if (input$epidem_reference == "in_epidem_total") {
+      #   df$in_epidem <- tolower(as.character(df$in_epidem | df$in_epidem_total))
+      # }
       df$Distance <- round(df$Distance, 4)
       df$pvalue <- formatC(df$pvalue, format = "e", digits = 2); df$adj_pvalue <- formatC(df$adj_pvalue, format = "e", digits = 2)
       if(is.null(input$net_plot_selected) | input$net_plot_selected == ''){
@@ -694,6 +759,8 @@ server <- function(input, output, session) {
       
       if(input$granularity == "Genes"){
         df <- read.csv(paste0("additional_data/Genes/",old_dis_name,"_DEGs.txt"),header=T, sep="\t",stringsAsFactors = F)
+        df = merge(df, genesdf, by.x="Gene.Symbol", by.y="ensemble", all.x=TRUE, all.y=FALSE)
+        
         if(input$granularity_signif == "sign"){
           df <- df[df$adj.p.val < 0.05, ]
         }else{df}
@@ -702,11 +769,13 @@ server <- function(input, output, session) {
         }else if(input$granularity_direction == 'down'){
           df <- df[df$logFC < 0, ]
         }else{df}
-        if(dim(df)[1] == 0){
+        if(nrow(df) == 0){
           df <- df[NULL,]
         }else{
           df$adj.p.value = formatC(df$adj.p.value, format = "e", digits = 2)
           df$logFC = round(df$logFC,3)
+          # head(df)
+          colnames(df) = c("Ensemble", "logFC", "adj p-value", "Gene Symbol")
           df
         }
         
@@ -818,7 +887,11 @@ server <- function(input, output, session) {
         
       }
       nintersect = length(intersection)
-      data.frame(intersection)
+      if(!is.null(intersection)){
+        merge(data.frame(Ensemble=intersection), genesdf, by.x="Ensemble", by.y="ensemble", all.x=TRUE, all.y=FALSE)
+      }else{
+        data.frame(intersection)
+      }
       # paste0("Common significantly dysregulated genes: ", as.character(length(intersection)))
     }
   })
