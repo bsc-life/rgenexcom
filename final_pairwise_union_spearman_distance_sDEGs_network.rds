@@ -1,0 +1,659 @@
+Dis1	Dis2	Dis1_icd9	Dis2_icd9	Dis1_discat	Dis2_discat	Dis1_catcolor	Dis2_catcolor	Distance	pvalue	adj_pvalue	in_epidem	is_metric	is_ultrametric	id
+Multiple sclerosis	Adenomatous polyps	340	211	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.138718827118173	4.37799660313244e-06	8.41036189549127e-06	FALSE	TRUE	FALSE	1
+Colorectal cancer	Adenomatous polyps	153	211	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.357422483677418	2.63069470985315e-48	1.84359085266509e-47	TRUE	TRUE	TRUE	2
+Lymphocytic colitis	Adenomatous polyps	558	211	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.152593637905172	1.33894069994349e-05	2.44866816941649e-05	TRUE	TRUE	FALSE	3
+Muscular dystrophy	Adenomatous polyps	359	211	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.218219729008765	3.72396647827548e-10	9.18928066188542e-10	TRUE	FALSE	FALSE	4
+Parkinson's disease	Adenomatous polyps	332	211	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.152992459039789	1.08264464681043e-27	4.64900348336241e-27	FALSE	TRUE	FALSE	5
+Bipolar disorder	Adenomatous polyps	296	211	mental disorders	neoplasms	#805462	#FFB6AD	0.228099398432121	5.51344670933695e-11	1.39588997612115e-10	TRUE	TRUE	FALSE	6
+Cardiomyopathy	Adenomatous polyps	425	211	diseases of the circulatory system	neoplasms	#DD3232	#FFB6AD	-0.410592070313559	2.99693590039126e-39	1.7502105658285e-38	FALSE	TRUE	TRUE	7
+Chronic obstructive pulmonary disease	Adenomatous polyps	496	211	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	-0.446411262622531	0	0	FALSE	TRUE	TRUE	8
+Ulcer	Adenomatous polyps	569	211	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.0818448235217949	2.2245195536245e-09	5.26670034858124e-09	TRUE	TRUE	FALSE	9
+Adenomatous polyps	Alagille syndrome	211	759	neoplasms	congenital anomalies	#FFB6AD	#AEC6CC	-0.105600127109709	0.0026516234235769	0.00408947556171368	FALSE	TRUE	FALSE	10
+Chronic obstructive pulmonary disease	Alagille syndrome	496	759	diseases of the respiratory system	congenital anomalies	#00619C	#AEC6CC	-0.242028365643808	6.40993177136459e-106	1.00269646994918e-104	FALSE	TRUE	TRUE	11
+Parkinson's disease	Alagille syndrome	332	759	diseases of the nervous system and sense organs	congenital anomalies	#985396	#AEC6CC	0.126492352607318	1.59445297731042e-17	5.25090529369897e-17	FALSE	TRUE	FALSE	12
+Hyperplastic polyps	Alagille syndrome	211	759	neoplasms	congenital anomalies	#FFB6AD	#AEC6CC	0.0467722090563001	0.00218981868612156	0.00341939602324864	TRUE	TRUE	FALSE	13
+Crohn's disease	Alagille syndrome	555	759	diseases of the digestive system	congenital anomalies	#FBAF5F	#AEC6CC	-0.0731794855240929	1.08680723013355e-11	2.84191980178207e-11	FALSE	TRUE	FALSE	14
+Eosinophilic esophagitis	Alagille syndrome	530	759	diseases of the digestive system	congenital anomalies	#FBAF5F	#AEC6CC	0.073367562506117	1.8604805511032e-07	3.84382302539246e-07	TRUE	TRUE	FALSE	15
+Chronic obstructive pulmonary disease	Amyotrophic lateral sclerosis	496	335	diseases of the respiratory system	diseases of the nervous system and sense organs	#00619C	#985396	0.490980746380314	0	0	TRUE	TRUE	TRUE	16
+Alagille syndrome	Amyotrophic lateral sclerosis	759	335	congenital anomalies	diseases of the nervous system and sense organs	#AEC6CC	#985396	1	0	0	FALSE	TRUE	TRUE	17
+Breast cancer	Amyotrophic lateral sclerosis	174	335	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.349611110078439	1.04894478035353e-242	3.82864844829039e-241	FALSE	TRUE	FALSE	18
+Chronic lymphocytic leukemia	Amyotrophic lateral sclerosis	204	335	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.178980398562941	7.42128175765227e-09	1.69740021402177e-08	FALSE	TRUE	FALSE	19
+Papillary thyroid cancer	Amyotrophic lateral sclerosis	193	335	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.190507054627874	7.71477990721524e-14	2.24523162748191e-13	FALSE	TRUE	FALSE	20
+Familial dysautonomia	Amyotrophic lateral sclerosis	742	335	congenital anomalies	diseases of the nervous system and sense organs	#AEC6CC	#985396	0.242318110734821	1.07129759223672e-15	3.30442496760339e-15	FALSE	TRUE	FALSE	21
+Idiopathic pulmonary fibrosis	Amyotrophic lateral sclerosis	516	335	diseases of the respiratory system	diseases of the nervous system and sense organs	#00619C	#985396	0.0923278359684655	8.07406547572438e-14	2.34201369428296e-13	FALSE	TRUE	FALSE	22
+Multiple sclerosis	Amyotrophic lateral sclerosis	340	335	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	0.175927324135313	0.00246732043878496	0.00382543841482411	TRUE	TRUE	FALSE	23
+Crohn's disease	Amyotrophic lateral sclerosis	555	335	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	0.267366875446697	1.07512660804022e-140	2.19025792707729e-139	FALSE	TRUE	FALSE	24
+Eosinophilic esophagitis	Amyotrophic lateral sclerosis	530	335	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	0.0701366507431804	6.25664704155116e-07	1.25132940831023e-06	TRUE	FALSE	FALSE	25
+Glioblastoma	Amyotrophic lateral sclerosis	191	335	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.219044330794974	5.39932604678874e-95	6.85479654635787e-94	TRUE	TRUE	FALSE	26
+Hyperplastic polyps	Amyotrophic lateral sclerosis	211	335	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.180044348851773	1.41644567762377e-32	7.13107134251965e-32	FALSE	TRUE	FALSE	27
+Ulcer	Amyotrophic lateral sclerosis	569	335	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	0.101622766908156	1.75530420159318e-12	4.74582247097415e-12	TRUE	TRUE	FALSE	28
+Liver cancer	Amyotrophic lateral sclerosis	155	335	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.0608328337234529	4.79067853767246e-07	9.66966451382735e-07	FALSE	TRUE	FALSE	29
+Adenomatous polyps	Amyotrophic lateral sclerosis	211	335	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.399200779588465	2.65633381337516e-32	1.32968481172379e-31	FALSE	TRUE	TRUE	30
+Asthma	Amyotrophic lateral sclerosis	493	335	diseases of the respiratory system	diseases of the nervous system and sense organs	#00619C	#985396	-0.187301958908697	3.14141331682205e-11	8.04642709221086e-11	FALSE	TRUE	FALSE	31
+Schizophrenia	Amyotrophic lateral sclerosis	295	335	mental disorders	diseases of the nervous system and sense organs	#805462	#985396	0.123261433371629	0.0208948142749413	0.0289617995329883	FALSE	FALSE	FALSE	32
+Borrelia burgdorferi infection	Amyotrophic lateral sclerosis	88	335	infectious and parasitic diseases	diseases of the nervous system and sense organs	#A1CE5E	#985396	0.0479504538545751	0.00104743218826239	0.0016652460924099	TRUE	TRUE	FALSE	33
+Smoker	Amyotrophic lateral sclerosis	305	335	mental disorders	diseases of the nervous system and sense organs	#805462	#985396	-0.386084046534868	1.19491603095344e-23	4.67297519247865e-23	FALSE	TRUE	TRUE	34
+Chronic lymphocytic leukemia	Asthma	204	493	neoplasms	diseases of the respiratory system	#FFB6AD	#00619C	0.0708242615408083	0.000903596838365583	0.00144443582191287	FALSE	TRUE	FALSE	35
+Schizophrenia	Asthma	295	493	mental disorders	diseases of the respiratory system	#805462	#00619C	0.0549969571226105	0.030164719962034	0.0409678987391346	TRUE	TRUE	FALSE	36
+Bipolar disorder	Asthma	296	493	mental disorders	diseases of the respiratory system	#805462	#00619C	-0.0605022765306209	0.0334315225210852	0.0450554057361087	FALSE	TRUE	FALSE	37
+Multiple sclerosis	Asthma	340	493	diseases of the nervous system and sense organs	diseases of the respiratory system	#985396	#00619C	0.0949759279358774	0.000219071471283585	0.000364841461681408	FALSE	TRUE	FALSE	38
+Muscular dystrophy	Asthma	359	493	diseases of the nervous system and sense organs	diseases of the respiratory system	#985396	#00619C	-0.142468296699517	4.92183160238454e-07	9.91155053721576e-07	FALSE	TRUE	FALSE	39
+Parkinson's disease	Asthma	332	493	diseases of the nervous system and sense organs	diseases of the respiratory system	#985396	#00619C	0.277329723655403	6.31962860470511e-96	8.14116861429658e-95	FALSE	TRUE	TRUE	40
+Hyperplastic polyps	Asthma	211	493	neoplasms	diseases of the respiratory system	#FFB6AD	#00619C	0.227749789885049	3.57358057944231e-62	3.03927824038006e-61	TRUE	TRUE	FALSE	41
+Smoker	Asthma	305	493	mental disorders	diseases of the respiratory system	#805462	#00619C	0.175194176608483	4.35477365532161e-14	1.28012809465159e-13	TRUE	TRUE	FALSE	42
+Papillary thyroid cancer	Asthma	193	493	neoplasms	diseases of the respiratory system	#FFB6AD	#00619C	0.248408063923064	4.98762361543227e-38	2.80074249174274e-37	FALSE	TRUE	FALSE	43
+Ulcer	Asthma	569	493	diseases of the digestive system	diseases of the respiratory system	#FBAF5F	#00619C	0.224738052316728	1.80371329046026e-65	1.64588837754499e-64	TRUE	TRUE	FALSE	44
+Adenomatous polyps	Asthma	211	493	neoplasms	diseases of the respiratory system	#FFB6AD	#00619C	-0.0521462287705082	0.0195079739579957	0.0271684979128843	FALSE	TRUE	FALSE	45
+Eosinophilic esophagitis	Asthma	530	493	diseases of the digestive system	diseases of the respiratory system	#FBAF5F	#00619C	0.0824373118526375	2.56072567896389e-10	6.39087092527741e-10	TRUE	TRUE	FALSE	46
+Keratoconus	Asthma	371	493	diseases of the nervous system and sense organs	diseases of the respiratory system	#985396	#00619C	-0.12064525052184	2.11160657827836e-05	3.82183339374347e-05	FALSE	TRUE	FALSE	47
+Facioscapulohumeral muscular dystrophy	Asthma	359	493	diseases of the nervous system and sense organs	diseases of the respiratory system	#985396	#00619C	0.0785141099502803	0.00574879890292945	0.0084923235058452	TRUE	TRUE	FALSE	48
+Chronic obstructive pulmonary disease	Asthma	496	493	diseases of the respiratory system	diseases of the respiratory system	#00619C	#00619C	-0.231016544028492	2.43583951385611e-104	3.61660239684398e-103	FALSE	TRUE	TRUE	49
+Lymphocytic colitis	Asthma	558	493	diseases of the digestive system	diseases of the respiratory system	#FBAF5F	#00619C	-0.0670436620405283	0.0184079812777126	0.025800626558842	FALSE	TRUE	FALSE	50
+Crohn's disease	Asthma	555	493	diseases of the digestive system	diseases of the respiratory system	#FBAF5F	#00619C	0.0217795648021534	0.0366578718442603	0.0489516703286159	TRUE	TRUE	FALSE	51
+Cardiomyopathy	Asthma	425	493	diseases of the circulatory system	diseases of the respiratory system	#DD3232	#00619C	-0.191652021746981	1.042161928876e-12	2.84403068440928e-12	FALSE	TRUE	FALSE	52
+Alagille syndrome	Asthma	759	493	congenital anomalies	diseases of the respiratory system	#AEC6CC	#00619C	0.208163368549716	1.41336710752838e-13	4.01983631881448e-13	FALSE	TRUE	FALSE	53
+Breast cancer	Asthma	174	493	neoplasms	diseases of the respiratory system	#FFB6AD	#00619C	0.205229972658135	8.73639043051384e-87	9.81163848350016e-86	FALSE	TRUE	FALSE	54
+Colorectal cancer	Autism	153	299	neoplasms	mental disorders	#FFB6AD	#805462	0.105351670867498	0.00223305982480144	0.00346836951511713	FALSE	TRUE	FALSE	55
+Hyperplastic polyps	Autism	211	299	neoplasms	mental disorders	#FFB6AD	#805462	0.0511313225148804	0.00080520062189125	0.00129186033841893	FALSE	TRUE	FALSE	56
+Chronic lymphocytic leukemia	Autism	204	299	neoplasms	mental disorders	#FFB6AD	#805462	-0.111022426356932	0.000352513323030399	0.000578280282724026	FALSE	TRUE	FALSE	57
+Papillary thyroid cancer	Autism	193	299	neoplasms	mental disorders	#FFB6AD	#805462	0.054173753528547	0.0348150592555523	0.0467044286491023	FALSE	TRUE	FALSE	58
+Adenomatous polyps	Autism	211	299	neoplasms	mental disorders	#FFB6AD	#805462	0.262361918974659	3.00419183360827e-14	8.86084864054157e-14	FALSE	TRUE	FALSE	59
+Schizophrenia	Autism	295	299	mental disorders	mental disorders	#805462	#805462	0.431103302676886	1.87298531721776e-17	6.14507542278188e-17	TRUE	TRUE	TRUE	60
+Parkinson's disease	Autism	332	299	diseases of the nervous system and sense organs	mental disorders	#985396	#805462	0.0874729261955791	4.06762388181536e-09	9.45156106225531e-09	TRUE	TRUE	FALSE	61
+Multiple sclerosis	Autism	340	299	diseases of the nervous system and sense organs	mental disorders	#985396	#805462	0.148988287461279	0.0101359641815566	0.0145320861260942	FALSE	TRUE	FALSE	62
+Smoker	Autism	305	299	mental disorders	mental disorders	#805462	#805462	-0.186639557456742	2.48572464939997e-06	4.83887731749861e-06	FALSE	TRUE	TRUE	63
+Ulcer	Bipolar disorder	569	296	diseases of the digestive system	mental disorders	#FBAF5F	#805462	-0.0605109147289637	2.759609881509e-05	4.92345877026861e-05	FALSE	TRUE	FALSE	64
+Crohn's disease	Borrelia burgdorferi infection	555	88	diseases of the digestive system	infectious and parasitic diseases	#FBAF5F	#A1CE5E	0.0437874039583906	5.67817475133834e-06	1.07897637357319e-05	TRUE	TRUE	FALSE	65
+Down syndrome	Borrelia burgdorferi infection	758	88	congenital anomalies	infectious and parasitic diseases	#AEC6CC	#A1CE5E	-0.102707907329644	1.83052496765002e-12	4.93396883588128e-12	FALSE	TRUE	FALSE	66
+Breast cancer	Borrelia burgdorferi infection	174	88	neoplasms	infectious and parasitic diseases	#FFB6AD	#A1CE5E	-0.0558873559491784	1.14414054735078e-08	2.56991569097251e-08	FALSE	TRUE	FALSE	67
+Smoker	Borrelia burgdorferi infection	305	88	mental disorders	infectious and parasitic diseases	#805462	#A1CE5E	-0.0618830868225329	9.52457641760151e-06	1.76023817337952e-05	FALSE	TRUE	FALSE	68
+Schizophrenia	Borrelia burgdorferi infection	295	88	mental disorders	infectious and parasitic diseases	#805462	#A1CE5E	-0.0584237343864904	4.39964755392331e-05	7.69279692063238e-05	FALSE	TRUE	FALSE	69
+Lymphocytic colitis	Borrelia burgdorferi infection	558	88	diseases of the digestive system	infectious and parasitic diseases	#FBAF5F	#A1CE5E	-0.105601388903777	4.7147100416161e-13	1.30286624493871e-12	FALSE	TRUE	FALSE	70
+Eosinophilic esophagitis	Borrelia burgdorferi infection	530	88	diseases of the digestive system	infectious and parasitic diseases	#FBAF5F	#A1CE5E	-0.0315809415660482	0.00460284351486492	0.00690426527229737	FALSE	TRUE	FALSE	71
+Liver cancer	Borrelia burgdorferi infection	155	88	neoplasms	infectious and parasitic diseases	#FFB6AD	#A1CE5E	-0.0560291458927698	5.62666434770873e-08	1.22610894741116e-07	FALSE	TRUE	FALSE	72
+Systemic lupus erythematosus	Borrelia burgdorferi infection	710	88	diseases of the musculoskeletal system and connective tissue	infectious and parasitic diseases	#969A52	#A1CE5E	-0.0772773229725614	1.24434591945833e-07	2.62661933842288e-07	FALSE	TRUE	FALSE	73
+Colorectal cancer	Borrelia burgdorferi infection	153	88	neoplasms	infectious and parasitic diseases	#FFB6AD	#A1CE5E	-0.0748023723520311	6.49893328762591e-08	1.40223289654195e-07	FALSE	TRUE	FALSE	74
+Human immunodeficiency virus infection	Borrelia burgdorferi infection	42	88	infectious and parasitic diseases	infectious and parasitic diseases	#A1CE5E	#A1CE5E	-0.0435108355787221	0.00294527576945951	0.00451059715742401	FALSE	FALSE	FALSE	75
+Post-traumatic stress disorder	Borrelia burgdorferi infection	309	88	mental disorders	infectious and parasitic diseases	#805462	#A1CE5E	0.0656946708566617	7.05268361914451e-06	1.32863459147755e-05	FALSE	TRUE	FALSE	76
+Muscular dystrophy	Borrelia burgdorferi infection	359	88	diseases of the nervous system and sense organs	infectious and parasitic diseases	#985396	#A1CE5E	-0.0852106507781432	5.51374963198775e-09	1.2710643888477e-08	FALSE	TRUE	FALSE	77
+Papillary thyroid cancer	Borrelia burgdorferi infection	193	88	neoplasms	infectious and parasitic diseases	#FFB6AD	#A1CE5E	-0.0553622014985057	2.92654510578319e-05	5.17909800538601e-05	FALSE	TRUE	FALSE	78
+Alagille syndrome	Borrelia burgdorferi infection	759	88	congenital anomalies	infectious and parasitic diseases	#AEC6CC	#A1CE5E	-0.0465909182053304	0.00145206426036333	0.00229190683257347	FALSE	TRUE	FALSE	79
+Parkinson's disease	Borrelia burgdorferi infection	332	88	diseases of the nervous system and sense organs	infectious and parasitic diseases	#985396	#A1CE5E	-0.152557523241248	1.36813564073844e-41	8.38102672228582e-41	FALSE	TRUE	FALSE	80
+Sessile serrated polyps	Borrelia burgdorferi infection	211	88	neoplasms	infectious and parasitic diseases	#FFB6AD	#A1CE5E	0.0427766809607954	0.000542264119480385	0.000881304951140662	FALSE	TRUE	FALSE	81
+Adenomatous polyps	Borrelia burgdorferi infection	211	88	neoplasms	infectious and parasitic diseases	#FFB6AD	#A1CE5E	-0.0387359451746554	0.00515116283740598	0.00766115219960549	FALSE	TRUE	FALSE	82
+Cardiomyopathy	Borrelia burgdorferi infection	425	88	diseases of the circulatory system	infectious and parasitic diseases	#DD3232	#A1CE5E	0.0482002120354778	0.000876057037395672	0.00140297251326985	FALSE	TRUE	FALSE	83
+Asthma	Borrelia burgdorferi infection	493	88	diseases of the respiratory system	infectious and parasitic diseases	#00619C	#A1CE5E	-0.0752971414528851	1.99220802056148e-08	4.45197506635678e-08	FALSE	TRUE	FALSE	84
+Chronic obstructive pulmonary disease	Borrelia burgdorferi infection	496	88	diseases of the respiratory system	infectious and parasitic diseases	#00619C	#A1CE5E	0.0611672463134665	6.73011701196713e-10	1.62861395096221e-09	FALSE	TRUE	FALSE	85
+Bipolar disorder	Borrelia burgdorferi infection	296	88	mental disorders	infectious and parasitic diseases	#805462	#A1CE5E	0.0473274385600078	0.00121861109933867	0.00193038575591442	FALSE	TRUE	FALSE	86
+Multiple sclerosis	Borrelia burgdorferi infection	340	88	diseases of the nervous system and sense organs	infectious and parasitic diseases	#985396	#A1CE5E	0.03416550821789	0.0172012793760253	0.0242255960344022	TRUE	TRUE	FALSE	87
+Chronic lymphocytic leukemia	Borrelia burgdorferi infection	204	88	neoplasms	infectious and parasitic diseases	#FFB6AD	#A1CE5E	-0.0783193660298606	9.12592492243311e-09	2.07106482695632e-08	FALSE	TRUE	FALSE	88
+Ischemia	Borrelia burgdorferi infection	414	88	diseases of the circulatory system	infectious and parasitic diseases	#DD3232	#A1CE5E	0.0651673088968866	8.33348044083268e-06	1.54992120300837e-05	FALSE	TRUE	FALSE	89
+Keratoconus	Borrelia burgdorferi infection	371	88	diseases of the nervous system and sense organs	infectious and parasitic diseases	#985396	#A1CE5E	0.082254884606089	1.82401569341709e-08	4.08654155353803e-08	FALSE	TRUE	FALSE	90
+Lymphocytic colitis	Breast cancer	558	174	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.277625872743293	4.02832433832056e-150	9.53733005505084e-149	FALSE	TRUE	FALSE	91
+Papillary thyroid cancer	Breast cancer	193	174	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.195550597095316	2.04986279815618e-79	2.21688865578372e-78	FALSE	TRUE	FALSE	92
+Prostate cancer	Breast cancer	185	174	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.047915650699995	9.97693282628782e-06	1.83609099912356e-05	FALSE	TRUE	FALSE	93
+Chronic obstructive pulmonary disease	Breast cancer	496	174	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	-0.372060259621911	0	0	FALSE	TRUE	TRUE	94
+Multiple sclerosis	Breast cancer	340	174	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	-0.0306831349310929	0.00430218055110556	0.00646433990183271	FALSE	TRUE	FALSE	95
+Keratoconus	Breast cancer	371	174	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	-0.0989844731155154	6.05878616366083e-20	2.15751897535239e-19	FALSE	TRUE	FALSE	96
+Cardiomyopathy	Breast cancer	425	174	diseases of the circulatory system	neoplasms	#DD3232	#FFB6AD	-0.223709170356572	2.08971894173703e-97	2.73222954173379e-96	FALSE	TRUE	FALSE	97
+Crohn's disease	Breast cancer	555	174	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	-0.276323295266375	9.65304779404194e-211	2.81868995586025e-209	FALSE	TRUE	TRUE	98
+Hyperplastic polyps	Breast cancer	211	174	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0392045605711765	7.19872772418796e-05	0.000124755846842284	FALSE	TRUE	FALSE	99
+Post-traumatic stress disorder	Breast cancer	309	174	mental disorders	neoplasms	#805462	#FFB6AD	0.23876633518846	2.13657338565729e-110	3.40297870151961e-109	FALSE	TRUE	FALSE	100
+Chronic lymphocytic leukemia	Breast cancer	204	174	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0741012768046312	2.4380993235768e-12	6.55145707807753e-12	FALSE	TRUE	FALSE	101
+Colorectal cancer	Breast cancer	153	174	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0670914702835204	2.67741224064068e-10	6.65723677116486e-10	FALSE	TRUE	FALSE	102
+Smoker	Breast cancer	305	174	mental disorders	neoplasms	#805462	#FFB6AD	-0.0795988639887442	9.50495061031931e-14	2.73892655744728e-13	FALSE	TRUE	FALSE	103
+Muscular dystrophy	Breast cancer	359	174	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	-0.129693496989996	3.50256756637416e-33	1.80485246361398e-32	FALSE	TRUE	FALSE	104
+Alagille syndrome	Breast cancer	759	174	congenital anomalies	neoplasms	#AEC6CC	#FFB6AD	0.232999647093723	4.48731223525853e-105	6.77738882428702e-104	FALSE	TRUE	FALSE	105
+Schizophrenia	Breast cancer	295	174	mental disorders	neoplasms	#805462	#FFB6AD	0.0372000595123134	0.00053597091143064	0.00087269613087963	FALSE	TRUE	FALSE	106
+Down syndrome	Breast cancer	758	174	congenital anomalies	neoplasms	#AEC6CC	#FFB6AD	-0.0748122699066649	4.8856743639872e-12	1.29692446753115e-11	FALSE	TRUE	FALSE	107
+Ulcer	Breast cancer	569	174	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	-0.109321445605686	7.88043726606718e-30	3.69158451608281e-29	FALSE	TRUE	FALSE	108
+Eosinophilic esophagitis	Breast cancer	530	174	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.0762292394527959	5.63177086991727e-15	1.70118320070605e-14	FALSE	TRUE	FALSE	109
+Adenomatous polyps	Breast cancer	211	174	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.228952785695228	2.24980027557642e-105	3.4575877919385e-104	FALSE	TRUE	FALSE	110
+Facioscapulohumeral muscular dystrophy	Breast cancer	359	174	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.161742218629438	7.07706144408794e-51	5.20966876052188e-50	FALSE	TRUE	FALSE	111
+Parkinson's disease	Cardiomyopathy	332	425	diseases of the nervous system and sense organs	diseases of the circulatory system	#985396	#DD3232	-0.244127986353689	1.94402328113695e-63	1.72016605482421e-62	FALSE	TRUE	FALSE	112
+Chronic obstructive pulmonary disease	Cardiomyopathy	496	425	diseases of the respiratory system	diseases of the circulatory system	#00619C	#DD3232	0.340446271725036	5.4652577967069e-216	1.84137147304432e-214	TRUE	TRUE	TRUE	113
+Eosinophilic esophagitis	Cardiomyopathy	530	425	diseases of the digestive system	diseases of the circulatory system	#FBAF5F	#DD3232	0.0589541631769665	2.37442892906461e-05	4.27104669786571e-05	TRUE	TRUE	FALSE	114
+Multiple sclerosis	Cardiomyopathy	340	425	diseases of the nervous system and sense organs	diseases of the circulatory system	#985396	#DD3232	-0.126380122175922	0.00952240914162419	0.0137197868553664	FALSE	TRUE	TRUE	115
+Ulcer	Cardiomyopathy	569	425	diseases of the digestive system	diseases of the circulatory system	#FBAF5F	#DD3232	-0.0431742127893297	0.00252471572600295	0.00390061900525324	FALSE	TRUE	FALSE	116
+Smoker	Chronic lymphocytic leukemia	305	204	mental disorders	neoplasms	#805462	#FFB6AD	0.168138650517738	1.15719542298325e-11	3.00802133689414e-11	FALSE	TRUE	FALSE	117
+Adenomatous polyps	Chronic lymphocytic leukemia	211	204	neoplasms	neoplasms	#FFB6AD	#FFB6AD	-0.0812218211397457	0.000607859404117669	0.000984260329033415	FALSE	TRUE	FALSE	118
+Crohn's disease	Chronic lymphocytic leukemia	555	204	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	-0.0621867819492675	3.35312217441904e-09	7.89606189459969e-09	FALSE	TRUE	FALSE	119
+Alagille syndrome	Chronic lymphocytic leukemia	759	204	congenital anomalies	neoplasms	#AEC6CC	#FFB6AD	0.261615521834104	1.50501634377889e-17	4.99277027390756e-17	TRUE	TRUE	TRUE	120
+Schizophrenia	Chronic lymphocytic leukemia	295	204	mental disorders	neoplasms	#805462	#FFB6AD	-0.0728820896432922	0.00727672881619057	0.0106063468269267	FALSE	TRUE	FALSE	121
+Prostate cancer	Chronic lymphocytic leukemia	185	204	neoplasms	neoplasms	#FFB6AD	#FFB6AD	-0.0868148532270658	0.00536911669647504	0.00797177326459684	FALSE	TRUE	FALSE	122
+Down syndrome	Chronic lymphocytic leukemia	758	204	congenital anomalies	neoplasms	#AEC6CC	#FFB6AD	0.0683929921741796	0.0264654387115475	0.0362245692364306	FALSE	TRUE	FALSE	123
+Facioscapulohumeral muscular dystrophy	Chronic lymphocytic leukemia	359	204	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	-0.0953248719067844	0.00222740093819875	0.00346572508323641	FALSE	TRUE	FALSE	124
+Papillary thyroid cancer	Chronic lymphocytic leukemia	193	204	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0424495526019642	0.0360180286642293	0.0482443319722705	FALSE	TRUE	FALSE	125
+Bipolar disorder	Chronic lymphocytic leukemia	296	204	mental disorders	neoplasms	#805462	#FFB6AD	-0.119467836765297	0.000124214277427555	0.000211284868012696	FALSE	TRUE	FALSE	126
+Chronic obstructive pulmonary disease	Chronic lymphocytic leukemia	496	204	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	-0.13611323803147	6.35283118199976e-36	3.43523463915543e-35	FALSE	TRUE	FALSE	127
+Colorectal cancer	Chronic lymphocytic leukemia	153	204	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0584446766810863	0.0131893565111565	0.0187562927009303	FALSE	TRUE	FALSE	128
+Cardiomyopathy	Chronic lymphocytic leukemia	425	204	diseases of the circulatory system	neoplasms	#DD3232	#FFB6AD	0.0991481606047677	0.000756093999777217	0.00121529971340338	FALSE	TRUE	FALSE	129
+Parkinson's disease	Chronic lymphocytic leukemia	332	204	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.0852025770110753	7.91353437431022e-10	1.90971242751949e-09	FALSE	TRUE	FALSE	130
+Parkinson's disease	Chronic obstructive pulmonary disease	332	496	diseases of the nervous system and sense organs	diseases of the respiratory system	#985396	#00619C	-0.201752330065248	2.87576579878176e-92	3.49884838851781e-91	FALSE	TRUE	FALSE	131
+Muscular dystrophy	Chronic obstructive pulmonary disease	359	496	diseases of the nervous system and sense organs	diseases of the respiratory system	#985396	#00619C	0.054180496169646	1.40754698334311e-06	2.75841422239052e-06	TRUE	FALSE	FALSE	132
+Ulcer	Chronic obstructive pulmonary disease	569	496	diseases of the digestive system	diseases of the respiratory system	#FBAF5F	#00619C	0.162163001379098	4.98423307049066e-62	4.19825785552867e-61	TRUE	TRUE	FALSE	133
+Bipolar disorder	Chronic obstructive pulmonary disease	296	496	mental disorders	diseases of the respiratory system	#805462	#00619C	0.0985583012765599	1.49493374522145e-18	5.09557183196105e-18	TRUE	TRUE	FALSE	134
+Lymphocytic colitis	Chronic obstructive pulmonary disease	558	496	diseases of the digestive system	diseases of the respiratory system	#FBAF5F	#00619C	-0.0582798648531652	2.10839229145723e-07	4.33556724722191e-07	FALSE	TRUE	FALSE	135
+Crohn's disease	Coeliac disease	555	579	diseases of the digestive system	diseases of the digestive system	#FBAF5F	#FBAF5F	-0.0366374309151975	0.000678153094022694	0.0010920259381689	FALSE	TRUE	FALSE	136
+Ulcer	Coeliac disease	569	579	diseases of the digestive system	diseases of the digestive system	#FBAF5F	#FBAF5F	0.0557182312698634	0.000113456015177377	0.000194203965409663	TRUE	TRUE	FALSE	137
+Glioblastoma	Coeliac disease	191	579	neoplasms	diseases of the digestive system	#FFB6AD	#FBAF5F	0.0718077870450389	2.0127719032264e-11	5.1858476094892e-11	FALSE	TRUE	FALSE	138
+Sessile serrated polyps	Coeliac disease	211	579	neoplasms	diseases of the digestive system	#FFB6AD	#FBAF5F	0.100647160182762	1.2559150667637e-07	2.64466730405048e-07	TRUE	TRUE	FALSE	139
+Chronic obstructive pulmonary disease	Coeliac disease	496	579	diseases of the respiratory system	diseases of the digestive system	#00619C	#FBAF5F	-0.158711845348987	7.87409722215927e-46	5.22553724743297e-45	FALSE	TRUE	FALSE	140
+Chronic lymphocytic leukemia	Coeliac disease	204	579	neoplasms	diseases of the digestive system	#FFB6AD	#FBAF5F	-0.255012968431951	1.0410075970393e-16	3.32818487228623e-16	FALSE	TRUE	TRUE	141
+Hyperplastic polyps	Coeliac disease	211	579	neoplasms	diseases of the digestive system	#FFB6AD	#FBAF5F	0.183030307069537	1.30446638861826e-33	6.76161275993846e-33	TRUE	TRUE	FALSE	142
+Adenomatous polyps	Coeliac disease	211	579	neoplasms	diseases of the digestive system	#FFB6AD	#FBAF5F	0.219949518536578	2.68265363038949e-10	6.65723677116486e-10	TRUE	TRUE	FALSE	143
+Papillary thyroid cancer	Coeliac disease	193	579	neoplasms	diseases of the digestive system	#FFB6AD	#FBAF5F	0.0969172183446889	0.000159627218220877	0.000267663311360615	FALSE	TRUE	FALSE	144
+Smoker	Coeliac disease	305	579	mental disorders	diseases of the digestive system	#805462	#FBAF5F	0.418009751208761	9.62775221733723e-28	4.15463593221055e-27	TRUE	TRUE	TRUE	145
+Eosinophilic esophagitis	Coeliac disease	530	579	diseases of the digestive system	diseases of the digestive system	#FBAF5F	#FBAF5F	-0.112425559920441	1.227598291267e-15	3.77324948473647e-15	FALSE	TRUE	FALSE	146
+Familial dysautonomia	Coeliac disease	742	579	congenital anomalies	diseases of the digestive system	#AEC6CC	#FBAF5F	0.116750622965296	0.000136141510236529	0.000230231588739767	TRUE	TRUE	FALSE	147
+Idiopathic pulmonary fibrosis	Coeliac disease	516	579	diseases of the respiratory system	diseases of the digestive system	#00619C	#FBAF5F	0.136087189835016	2.5336019021354e-28	1.11529410365357e-27	TRUE	TRUE	FALSE	148
+Parkinson's disease	Coeliac disease	332	579	diseases of the nervous system and sense organs	diseases of the digestive system	#985396	#FBAF5F	0.156481803465758	4.4866076943192e-26	1.84519640386086e-25	FALSE	TRUE	FALSE	149
+Breast cancer	Coeliac disease	174	579	neoplasms	diseases of the digestive system	#FFB6AD	#FBAF5F	0.0813803637541105	5.86033589276525e-14	1.71694121808106e-13	FALSE	TRUE	FALSE	150
+Parkinson's disease	Colorectal cancer	332	153	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.0482614265147049	0.000594380886850477	0.000964217883112995	FALSE	TRUE	FALSE	151
+Eosinophilic esophagitis	Colorectal cancer	530	153	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.098558500233156	2.22061615049909e-13	6.23480688409361e-13	FALSE	TRUE	FALSE	152
+Bipolar disorder	Colorectal cancer	296	153	mental disorders	neoplasms	#805462	#FFB6AD	-0.0719889172922294	0.0375438038249891	0.04998232849649	FALSE	TRUE	FALSE	153
+Lymphocytic colitis	Colorectal cancer	558	153	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.445814528066564	5.12290855750835e-42	3.16032950449107e-41	TRUE	TRUE	TRUE	154
+Ulcer	Colorectal cancer	569	153	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.22973434190311	5.14775278407635e-64	4.60146065188866e-63	TRUE	TRUE	FALSE	155
+Muscular dystrophy	Crohn's disease	359	555	diseases of the nervous system and sense organs	diseases of the digestive system	#985396	#FBAF5F	0.0243992580602065	0.0236540637237707	0.0325289793124382	TRUE	FALSE	FALSE	156
+Chronic obstructive pulmonary disease	Crohn's disease	496	555	diseases of the respiratory system	diseases of the digestive system	#00619C	#FBAF5F	0.280131233733633	7.03252989502381e-214	2.20017721001459e-212	TRUE	TRUE	FALSE	157
+Ulcer	Crohn's disease	569	555	diseases of the digestive system	diseases of the digestive system	#FBAF5F	#FBAF5F	0.71306967843203	0	0	TRUE	TRUE	TRUE	158
+Multiple sclerosis	Crohn's disease	340	555	diseases of the nervous system and sense organs	diseases of the digestive system	#985396	#FBAF5F	0.103467436499277	2.84460114836016e-22	1.06037047062277e-21	FALSE	TRUE	FALSE	159
+Colorectal cancer	Crohn's disease	153	555	neoplasms	diseases of the digestive system	#FFB6AD	#FBAF5F	0.239299990533595	1.24617950166763e-115	2.05972310086952e-114	FALSE	TRUE	FALSE	160
+Down syndrome	Crohn's disease	758	555	congenital anomalies	diseases of the digestive system	#AEC6CC	#FBAF5F	0.0316162738434145	0.00333357456727731	0.00506102481964458	FALSE	TRUE	FALSE	161
+Bipolar disorder	Crohn's disease	296	555	mental disorders	diseases of the digestive system	#805462	#FBAF5F	0.0484869087207996	6.84400249578258e-06	1.29210047118654e-05	TRUE	TRUE	FALSE	162
+Eosinophilic esophagitis	Crohn's disease	530	555	diseases of the digestive system	diseases of the digestive system	#FBAF5F	#FBAF5F	0.0999827846141328	2.16279210986883e-25	8.77132355669024e-25	TRUE	TRUE	FALSE	163
+Lymphocytic colitis	Crohn's disease	558	555	diseases of the digestive system	diseases of the digestive system	#FBAF5F	#FBAF5F	0.16516693510872	1.18726409416142e-53	8.96589091797763e-53	TRUE	TRUE	FALSE	164
+Parkinson's disease	Crohn's disease	332	555	diseases of the nervous system and sense organs	diseases of the digestive system	#985396	#FBAF5F	-0.0312044037263351	0.00130278005137103	0.00205999156137369	FALSE	TRUE	FALSE	165
+Cardiomyopathy	Crohn's disease	425	555	diseases of the circulatory system	diseases of the digestive system	#DD3232	#FBAF5F	0.157347928555119	4.19883646433568e-49	3.01490224816234e-48	FALSE	TRUE	FALSE	166
+Ulcer	Down syndrome	569	758	diseases of the digestive system	congenital anomalies	#FBAF5F	#AEC6CC	0.0756839815264878	1.43984943011111e-07	3.00311452566032e-07	FALSE	TRUE	FALSE	167
+Eosinophilic esophagitis	Down syndrome	530	758	diseases of the digestive system	congenital anomalies	#FBAF5F	#AEC6CC	-0.053147465269408	0.000156079362080169	0.000262429023382395	FALSE	TRUE	FALSE	168
+Parkinson's disease	Down syndrome	332	758	diseases of the nervous system and sense organs	congenital anomalies	#985396	#AEC6CC	0.119251069320104	8.39433594626333e-16	2.59838808795996e-15	FALSE	TRUE	FALSE	169
+Chronic obstructive pulmonary disease	Down syndrome	496	758	diseases of the respiratory system	congenital anomalies	#00619C	#AEC6CC	-0.0280817786746472	0.0123859118621261	0.0176711055231637	FALSE	TRUE	FALSE	170
+Ulcer	Eosinophilic esophagitis	569	530	diseases of the digestive system	diseases of the digestive system	#FBAF5F	#FBAF5F	0.0756379489339132	7.18610304551069e-12	1.89609224935764e-11	TRUE	TRUE	FALSE	171
+Parkinson's disease	Eosinophilic esophagitis	332	530	diseases of the nervous system and sense organs	diseases of the digestive system	#985396	#FBAF5F	-0.057386133064755	2.681705429662e-07	5.50157835218714e-07	FALSE	TRUE	FALSE	172
+Bipolar disorder	Eosinophilic esophagitis	296	530	mental disorders	diseases of the digestive system	#805462	#FBAF5F	0.0825011462015924	4.53978071286688e-09	1.0493002386468e-08	TRUE	TRUE	FALSE	173
+Crohn's disease	Facioscapulohumeral muscular dystrophy	555	359	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	-0.08565621195919	1.76400194058634e-15	5.38420104513461e-15	FALSE	TRUE	FALSE	174
+Adenomatous polyps	Facioscapulohumeral muscular dystrophy	211	359	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.0832175929033661	0.0180562731752332	0.0253482296498465	TRUE	TRUE	FALSE	175
+Chronic obstructive pulmonary disease	Facioscapulohumeral muscular dystrophy	496	359	diseases of the respiratory system	diseases of the nervous system and sense organs	#00619C	#985396	-0.19191059105172	1.46216512454921e-66	1.37726521409151e-65	FALSE	TRUE	TRUE	176
+Ulcer	Facioscapulohumeral muscular dystrophy	569	359	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	0.0423433090451119	0.00336410658353499	0.00509854215774506	TRUE	TRUE	FALSE	177
+Hyperplastic polyps	Facioscapulohumeral muscular dystrophy	211	359	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.21845671195314	1.75633711057563e-47	1.21145772351516e-46	TRUE	TRUE	TRUE	178
+Colorectal cancer	Facioscapulohumeral muscular dystrophy	153	359	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.0863507718561553	0.0125549728811272	0.0178831808843373	FALSE	TRUE	FALSE	179
+Parkinson's disease	Facioscapulohumeral muscular dystrophy	332	359	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	0.101567234280258	8.45435014977198e-12	2.21736848239529e-11	TRUE	TRUE	FALSE	180
+Facioscapulohumeral muscular dystrophy	Familial dysautonomia	359	742	diseases of the nervous system and sense organs	congenital anomalies	#985396	#AEC6CC	0.143113247132872	2.80421345401184e-06	5.44676493506513e-06	TRUE	TRUE	FALSE	181
+Chronic lymphocytic leukemia	Familial dysautonomia	204	742	neoplasms	congenital anomalies	#FFB6AD	#AEC6CC	-0.147164216690674	3.43655296337142e-11	8.77673584814392e-11	FALSE	TRUE	FALSE	182
+Alagille syndrome	Familial dysautonomia	759	742	congenital anomalies	congenital anomalies	#AEC6CC	#AEC6CC	-0.135237037082099	9.57908098406218e-06	1.76658419832389e-05	FALSE	TRUE	FALSE	183
+Bipolar disorder	Familial dysautonomia	296	742	mental disorders	congenital anomalies	#805462	#AEC6CC	0.372719447630372	2.2684874877955e-36	1.24199689956804e-35	TRUE	TRUE	FALSE	184
+Down syndrome	Familial dysautonomia	758	742	congenital anomalies	congenital anomalies	#AEC6CC	#AEC6CC	-0.0765638425388883	0.0113769437191097	0.0162580794419903	FALSE	TRUE	FALSE	185
+Eosinophilic esophagitis	Familial dysautonomia	530	742	diseases of the digestive system	congenital anomalies	#FBAF5F	#AEC6CC	0.0687347408497712	1.45792232965987e-07	3.02639801133187e-07	TRUE	TRUE	FALSE	186
+Autism	Familial dysautonomia	299	742	mental disorders	congenital anomalies	#805462	#AEC6CC	0.322934540602922	2.84350033439265e-27	1.20333637339515e-26	TRUE	TRUE	FALSE	187
+Hyperplastic polyps	Familial dysautonomia	211	742	neoplasms	congenital anomalies	#FFB6AD	#AEC6CC	0.0732219783188232	1.51915478517223e-07	3.14605104447015e-07	TRUE	TRUE	FALSE	188
+Cardiomyopathy	Familial dysautonomia	425	742	diseases of the circulatory system	congenital anomalies	#DD3232	#AEC6CC	-0.0736499393072831	0.0112789176753876	0.0161443331432018	FALSE	TRUE	FALSE	189
+Adenomatous polyps	Familial dysautonomia	211	742	neoplasms	congenital anomalies	#FFB6AD	#AEC6CC	0.300070515918785	1.41650515456426e-39	8.32790949931738e-39	TRUE	TRUE	FALSE	190
+Liver cancer	Familial dysautonomia	155	742	neoplasms	congenital anomalies	#FFB6AD	#AEC6CC	0.0779858593698785	1.1251767920858e-11	2.93349663650941e-11	FALSE	TRUE	FALSE	191
+Schizophrenia	Familial dysautonomia	295	742	mental disorders	congenital anomalies	#805462	#AEC6CC	0.169005992389519	2.76841558197098e-10	6.85065550792818e-10	TRUE	TRUE	FALSE	192
+Parkinson's disease	Familial dysautonomia	332	742	diseases of the nervous system and sense organs	congenital anomalies	#985396	#AEC6CC	0.225480487465233	1.13142293930842e-61	9.43929995080172e-61	TRUE	TRUE	FALSE	193
+Human immunodeficiency virus infection	Familial dysautonomia	42	742	infectious and parasitic diseases	congenital anomalies	#A1CE5E	#AEC6CC	-0.160961235113466	1.31894862661603e-07	2.77074099979771e-07	FALSE	TRUE	TRUE	194
+Multiple sclerosis	Familial dysautonomia	340	742	diseases of the nervous system and sense organs	congenital anomalies	#985396	#AEC6CC	-0.060266279118578	0.0279049666029963	0.0381353365744537	FALSE	TRUE	FALSE	195
+Idiopathic pulmonary fibrosis	Familial dysautonomia	516	742	diseases of the respiratory system	congenital anomalies	#00619C	#AEC6CC	0.203795836124736	3.08146364258215e-68	2.96633203395821e-67	FALSE	TRUE	FALSE	196
+Breast cancer	Familial dysautonomia	174	742	neoplasms	congenital anomalies	#FFB6AD	#AEC6CC	0.0621653811167468	3.45620784237385e-09	8.11699214455627e-09	FALSE	TRUE	FALSE	197
+Prostate cancer	Familial dysautonomia	185	742	neoplasms	congenital anomalies	#FFB6AD	#AEC6CC	0.189168668552616	5.08207378091583e-10	1.24354654527438e-09	FALSE	TRUE	FALSE	198
+Ischemia	Familial dysautonomia	414	742	diseases of the circulatory system	congenital anomalies	#DD3232	#AEC6CC	0.16489597513145	6.14306783453723e-08	1.33201173837986e-07	FALSE	TRUE	FALSE	199
+Sessile serrated polyps	Familial dysautonomia	211	742	neoplasms	congenital anomalies	#FFB6AD	#AEC6CC	-0.0350716130881459	0.0341085902315606	0.0458972734913166	FALSE	TRUE	FALSE	200
+Crohn's disease	Familial dysautonomia	555	742	diseases of the digestive system	congenital anomalies	#FBAF5F	#AEC6CC	-0.085117679809004	3.27329781853464e-16	1.0389162641436e-15	FALSE	TRUE	FALSE	201
+Ulcer	Familial pulmonary arterial hypertension	569	416	diseases of the digestive system	diseases of the circulatory system	#FBAF5F	#DD3232	0.080339498793091	2.54507741817419e-08	5.63001974323381e-08	TRUE	TRUE	FALSE	202
+Borrelia burgdorferi infection	Familial pulmonary arterial hypertension	88	416	infectious and parasitic diseases	diseases of the circulatory system	#A1CE5E	#DD3232	0.202073518267847	3.29810866279993e-44	2.14010606563906e-43	FALSE	TRUE	FALSE	203
+Familial dysautonomia	Familial pulmonary arterial hypertension	742	416	congenital anomalies	diseases of the circulatory system	#AEC6CC	#DD3232	0.081889078760059	0.00755735148432706	0.0109970762462965	TRUE	TRUE	FALSE	204
+Colorectal cancer	Familial pulmonary arterial hypertension	153	416	neoplasms	diseases of the circulatory system	#FFB6AD	#DD3232	-0.0958897553438985	0.00555238523897335	0.00821602950902138	FALSE	TRUE	TRUE	205
+Schizophrenia	Familial pulmonary arterial hypertension	295	416	mental disorders	diseases of the circulatory system	#805462	#DD3232	0.114588864526019	0.0323490595073781	0.0436637536648123	FALSE	TRUE	FALSE	206
+Chronic lymphocytic leukemia	Familial pulmonary arterial hypertension	204	416	neoplasms	diseases of the circulatory system	#FFB6AD	#DD3232	-0.0727058329208203	0.0197935100490232	0.0275224044491179	FALSE	TRUE	FALSE	207
+Breast cancer	Familial pulmonary arterial hypertension	174	416	neoplasms	diseases of the circulatory system	#FFB6AD	#DD3232	-0.103574244577955	1.0744339510173e-21	3.9713254898361e-21	FALSE	TRUE	FALSE	208
+Smoker	Familial pulmonary arterial hypertension	305	416	mental disorders	diseases of the circulatory system	#805462	#DD3232	0.129855610487289	0.00116036946213058	0.00184145588555506	TRUE	TRUE	FALSE	209
+Glioblastoma	Familial pulmonary arterial hypertension	191	416	neoplasms	diseases of the circulatory system	#FFB6AD	#DD3232	-0.052545144882639	9.41505237309966e-07	1.86596965584509e-06	FALSE	TRUE	FALSE	210
+Liver cancer	Familial pulmonary arterial hypertension	155	416	neoplasms	diseases of the circulatory system	#FFB6AD	#DD3232	-0.046251955970958	0.000130081553113156	0.000220408975874516	FALSE	TRUE	FALSE	211
+Sessile serrated polyps	Familial pulmonary arterial hypertension	211	416	neoplasms	diseases of the circulatory system	#FFB6AD	#DD3232	0.161711136708167	1.51037000295149e-17	4.99277027390756e-17	TRUE	TRUE	FALSE	212
+Hyperplastic polyps	Familial pulmonary arterial hypertension	211	416	neoplasms	diseases of the circulatory system	#FFB6AD	#DD3232	0.244455998323757	2.29813282973043e-59	1.81366158454402e-58	TRUE	TRUE	TRUE	213
+Eosinophilic esophagitis	Familial pulmonary arterial hypertension	530	416	diseases of the digestive system	diseases of the circulatory system	#FBAF5F	#DD3232	-0.211862363377572	3.33001351879352e-52	2.49324089099412e-51	FALSE	TRUE	TRUE	214
+Idiopathic pulmonary fibrosis	Familial pulmonary arterial hypertension	516	416	diseases of the respiratory system	diseases of the circulatory system	#00619C	#DD3232	0.176029651271744	1.5962033008691e-46	1.06738480271857e-45	TRUE	TRUE	FALSE	215
+Parkinson's disease	Familial pulmonary arterial hypertension	332	416	diseases of the nervous system and sense organs	diseases of the circulatory system	#985396	#DD3232	0.0533129678717844	0.00034532211425023	0.000567546289086682	FALSE	TRUE	FALSE	216
+Chronic obstructive pulmonary disease	Familial pulmonary arterial hypertension	496	416	diseases of the respiratory system	diseases of the circulatory system	#00619C	#DD3232	0.0595800377573162	1.12367426516532e-07	2.3776296045527e-07	TRUE	TRUE	FALSE	217
+Papillary thyroid cancer	Familial pulmonary arterial hypertension	193	416	neoplasms	diseases of the circulatory system	#FFB6AD	#DD3232	0.0579894195745535	0.0240915608664799	0.0330786948574238	FALSE	TRUE	FALSE	218
+Autism	Friedreich's ataxia	299	334	mental disorders	diseases of the nervous system and sense organs	#805462	#985396	-0.054143517362301	0.00503577601857916	0.00750227855829141	FALSE	TRUE	FALSE	219
+Huntington's disease	Friedreich's ataxia	333	334	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	-0.101845387773584	5.25519188535266e-13	1.44765663256885e-12	FALSE	TRUE	FALSE	220
+Idiopathic pulmonary fibrosis	Friedreich's ataxia	516	334	diseases of the respiratory system	diseases of the nervous system and sense organs	#00619C	#985396	0.0796429559813301	6.81792693321642e-13	1.87225830517166e-12	FALSE	TRUE	FALSE	221
+Post-traumatic stress disorder	Friedreich's ataxia	309	334	mental disorders	diseases of the nervous system and sense organs	#805462	#985396	-0.186460427604208	2.28285563582795e-22	8.58275337761925e-22	FALSE	TRUE	FALSE	222
+Facioscapulohumeral muscular dystrophy	Friedreich's ataxia	359	334	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	-0.106595534939745	3.23153785208697e-08	7.13054699855965e-08	FALSE	TRUE	FALSE	223
+Breast cancer	Friedreich's ataxia	174	334	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.0604485540018705	3.49795437222058e-09	8.19306959910488e-09	FALSE	TRUE	FALSE	224
+Familial pulmonary arterial hypertension	Friedreich's ataxia	416	334	diseases of the circulatory system	diseases of the nervous system and sense organs	#DD3232	#985396	0.055708351000289	0.00393622274537014	0.00592462392602104	FALSE	TRUE	FALSE	225
+Eosinophilic esophagitis	Friedreich's ataxia	530	334	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	0.0289059199331751	0.0177378609421691	0.024941197729278	TRUE	TRUE	FALSE	226
+Asthma	Friedreich's ataxia	493	334	diseases of the respiratory system	diseases of the nervous system and sense organs	#00619C	#985396	0.0721185972045835	1.05942591428862e-05	1.94154205212727e-05	FALSE	TRUE	FALSE	227
+Cardiomyopathy	Friedreich's ataxia	425	334	diseases of the circulatory system	diseases of the nervous system and sense organs	#DD3232	#985396	0.101264893634012	8.26685152736949e-08	1.77930268746331e-07	FALSE	TRUE	FALSE	228
+Coeliac disease	Friedreich's ataxia	579	334	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	-0.11451165793762	2.8227234346501e-09	6.66497501011721e-09	FALSE	TRUE	FALSE	229
+Prostate cancer	Friedreich's ataxia	185	334	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.163013852824096	2.11706640665585e-17	6.91996332921838e-17	FALSE	TRUE	FALSE	230
+Lymphocytic colitis	Friedreich's ataxia	558	334	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	0.116625659936581	1.43036767775042e-09	3.41417462046149e-09	TRUE	TRUE	FALSE	231
+Myotonic dystrophy	Friedreich's ataxia	359	334	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	-0.19946638808987	2.00112411822424e-25	8.153417337509e-25	FALSE	TRUE	FALSE	232
+Amyotrophic lateral sclerosis	Friedreich's ataxia	335	334	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	0.104750040798213	5.50464389941313e-08	1.20251073712865e-07	TRUE	TRUE	FALSE	233
+Adenomatous polyps	Friedreich's ataxia	211	334	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.368251543549101	2.89943947906298e-104	4.23318163943196e-103	FALSE	TRUE	TRUE	234
+Rheumatoid arthritis	Friedreich's ataxia	714	334	diseases of the musculoskeletal system and connective tissue	diseases of the nervous system and sense organs	#969A52	#985396	-0.0413726932729225	0.0323120531832509	0.0436637536648123	FALSE	TRUE	FALSE	235
+Smoker	Friedreich's ataxia	305	334	mental disorders	diseases of the nervous system and sense organs	#805462	#985396	0.0458483933094922	0.0100537392352235	0.0144378288033701	TRUE	TRUE	FALSE	236
+Liver cancer	Friedreich's ataxia	155	334	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.0773603395733212	2.73476613014309e-12	7.32616247708058e-12	FALSE	TRUE	FALSE	237
+Hyperplastic polyps	Friedreich's ataxia	211	334	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.0622443312846537	9.48075013431236e-07	1.87474878502429e-06	FALSE	TRUE	FALSE	238
+Parkinson's disease	Friedreich's ataxia	332	334	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	-0.082048920814928	6.97928173002013e-11	1.76191665576301e-10	FALSE	TRUE	FALSE	239
+Lung cancer	Friedreich's ataxia	162	334	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.0796430277704311	1.01503318295322e-13	2.91530842054761e-13	TRUE	TRUE	FALSE	240
+Papillary thyroid cancer	Friedreich's ataxia	193	334	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.0633755645367445	6.54088645443962e-05	0.000113686835993831	FALSE	TRUE	FALSE	241
+Bipolar disorder	Friedreich's ataxia	296	334	mental disorders	diseases of the nervous system and sense organs	#805462	#985396	-0.104222329247463	6.4938338609262e-08	1.40223289654195e-07	FALSE	TRUE	FALSE	242
+Systemic lupus erythematosus	Friedreich's ataxia	710	334	diseases of the musculoskeletal system and connective tissue	diseases of the nervous system and sense organs	#969A52	#985396	0.150285146845373	5.36803152627849e-15	1.62712651107957e-14	TRUE	TRUE	FALSE	243
+Ulcer	Friedreich's ataxia	569	334	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	0.124632918987527	2.51677332092078e-24	9.9759883670887e-24	FALSE	TRUE	FALSE	244
+Chronic obstructive pulmonary disease	Friedreich's ataxia	496	334	diseases of the respiratory system	diseases of the nervous system and sense organs	#00619C	#985396	0.258717820321833	1.20062133049175e-136	2.33720952335727e-135	TRUE	TRUE	TRUE	245
+Colorectal cancer	Friedreich's ataxia	153	334	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.0365987202398595	0.0343441892219219	0.0461434198748522	FALSE	TRUE	FALSE	246
+Muscular dystrophy	Friedreich's ataxia	359	334	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	-0.267206223987158	5.37881100580153e-45	3.51629734409115e-44	FALSE	TRUE	TRUE	247
+Keratoconus	Friedreich's ataxia	371	334	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	0.167906788813916	2.21928339392747e-18	7.50614769529135e-18	FALSE	TRUE	FALSE	248
+Crohn's disease	Friedreich's ataxia	555	334	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	0.082397121348615	3.48755060400574e-16	1.09895479464354e-15	FALSE	TRUE	FALSE	249
+Down syndrome	Glioblastoma	758	191	congenital anomalies	neoplasms	#AEC6CC	#FFB6AD	-0.045309211629763	2.32774528525091e-05	4.19568903267448e-05	FALSE	TRUE	FALSE	250
+Human immunodeficiency virus infection	Glioblastoma	42	191	infectious and parasitic diseases	neoplasms	#A1CE5E	#FFB6AD	-0.0251294886060854	0.0190873177283315	0.0267100484505086	FALSE	TRUE	FALSE	251
+Sessile serrated polyps	Glioblastoma	211	191	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0414623504779734	3.70339040753932e-05	6.52750502415381e-05	FALSE	TRUE	FALSE	252
+Schizophrenia	Glioblastoma	295	191	mental disorders	neoplasms	#805462	#FFB6AD	0.245370719407251	4.08377373371075e-121	7.30078732802167e-120	FALSE	TRUE	FALSE	253
+Idiopathic pulmonary fibrosis	Glioblastoma	516	191	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	0.106026739635944	2.98716578206406e-30	1.4144633649125e-29	FALSE	TRUE	FALSE	254
+Multiple sclerosis	Glioblastoma	340	191	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.323461444872758	8.87341132547824e-214	2.68038217969619e-212	FALSE	TRUE	FALSE	255
+Adenomatous polyps	Glioblastoma	211	191	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.135147987514734	5.56654344893786e-38	3.10591851036278e-37	FALSE	TRUE	FALSE	256
+Cardiomyopathy	Glioblastoma	425	191	diseases of the circulatory system	neoplasms	#DD3232	#FFB6AD	-0.101120605211249	2.35764663701887e-21	8.49917059271001e-21	FALSE	TRUE	TRUE	257
+Smoker	Glioblastoma	305	191	mental disorders	neoplasms	#805462	#FFB6AD	-0.0520844376090512	8.33646185185818e-07	1.65971376868813e-06	FALSE	TRUE	FALSE	258
+Bipolar disorder	Glioblastoma	296	191	mental disorders	neoplasms	#805462	#FFB6AD	0.409875413425521	0	0	FALSE	TRUE	FALSE	259
+Systemic lupus erythematosus	Glioblastoma	710	191	diseases of the musculoskeletal system and connective tissue	neoplasms	#969A52	#FFB6AD	0.118567612393802	1.30912420421734e-28	5.79188284290094e-28	FALSE	TRUE	FALSE	260
+Ulcer	Glioblastoma	569	191	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.171859576217307	7.95837888685191e-73	8.01326425848538e-72	FALSE	TRUE	FALSE	261
+Colorectal cancer	Glioblastoma	153	191	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.092731868441875	1.05805014368894e-18	3.63471343479023e-18	FALSE	TRUE	FALSE	262
+Liver cancer	Glioblastoma	155	191	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0651336064079945	2.90935528841846e-12	7.7701074166298e-12	TRUE	TRUE	FALSE	263
+Parkinson's disease	Glioblastoma	332	191	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.458736593810193	0	0	FALSE	TRUE	FALSE	264
+Papillary thyroid cancer	Glioblastoma	193	191	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.137199661833461	2.00459611341687e-40	1.18650418604945e-39	FALSE	TRUE	FALSE	265
+Ischemia	Glioblastoma	414	191	diseases of the circulatory system	neoplasms	#DD3232	#FFB6AD	0.0851393906729546	1.79742404453534e-15	5.46716480212834e-15	FALSE	FALSE	FALSE	266
+Chronic lymphocytic leukemia	Glioblastoma	204	191	neoplasms	neoplasms	#FFB6AD	#FFB6AD	-0.0873365325470169	6.83498586018375e-17	2.20126750497094e-16	FALSE	TRUE	FALSE	267
+Eosinophilic esophagitis	Glioblastoma	530	191	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.100394822173603	1.58469238373984e-25	6.48687162689768e-25	FALSE	TRUE	FALSE	268
+Familial dysautonomia	Glioblastoma	742	191	congenital anomalies	neoplasms	#AEC6CC	#FFB6AD	0.365985343416597	2.56258351972579e-286	1.06896341108562e-284	TRUE	TRUE	FALSE	269
+Crohn's disease	Glioblastoma	555	191	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.0848417557597705	2.01120242903802e-21	7.28022036296409e-21	FALSE	TRUE	FALSE	270
+Alagille syndrome	Glioblastoma	759	191	congenital anomalies	neoplasms	#AEC6CC	#FFB6AD	-0.0383746452319414	0.000343663751003583	0.000565882417066051	FALSE	TRUE	FALSE	271
+Hyperplastic polyps	Glioblastoma	211	191	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0448914184128111	3.82256919663563e-06	7.39198811534837e-06	FALSE	TRUE	FALSE	272
+Lymphocytic colitis	Glioblastoma	558	191	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.0716810198002192	2.18303361098443e-11	5.6080276927342e-11	FALSE	TRUE	FALSE	273
+Facioscapulohumeral muscular dystrophy	Glioblastoma	359	191	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.0931906982455875	3.05329331197508e-18	1.02478350241003e-17	TRUE	TRUE	FALSE	274
+Chronic obstructive pulmonary disease	Glioblastoma	496	191	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	-0.0311140246963614	0.000643957696695301	0.00104078771643004	FALSE	TRUE	FALSE	275
+Autism	Glioblastoma	299	191	mental disorders	neoplasms	#805462	#FFB6AD	0.161274906620102	8.39668602966937e-52	6.23347200168675e-51	FALSE	TRUE	FALSE	276
+Breast cancer	Glioblastoma	174	191	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0878321682538689	3.31082083969682e-22	1.2289318032095e-21	FALSE	TRUE	FALSE	277
+Borrelia burgdorferi infection	Glioblastoma	88	191	infectious and parasitic diseases	neoplasms	#A1CE5E	#FFB6AD	-0.0823158823718459	2.14713433201063e-17	6.99215492506065e-17	FALSE	TRUE	FALSE	278
+Keratoconus	Glioblastoma	371	191	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	-0.0515108655856798	1.53335965738342e-06	2.99158810660997e-06	FALSE	TRUE	FALSE	279
+Asthma	Glioblastoma	493	191	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	0.0794597201689432	1.70615275218598e-14	5.10098911575057e-14	FALSE	TRUE	FALSE	280
+Prostate cancer	Glioblastoma	185	191	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0588019469919595	4.05760274858969e-08	8.93080403960946e-08	FALSE	TRUE	FALSE	281
+Colorectal cancer	Human immunodeficiency virus infection	153	42	neoplasms	infectious and parasitic diseases	#FFB6AD	#A1CE5E	0.165843147226371	1.44648507372347e-06	2.82839492094143e-06	FALSE	TRUE	FALSE	282
+Parkinson's disease	Human immunodeficiency virus infection	332	42	diseases of the nervous system and sense organs	infectious and parasitic diseases	#985396	#A1CE5E	-0.0421730859797442	0.00465249447335387	0.00695492347893855	FALSE	FALSE	FALSE	283
+Hyperplastic polyps	Human immunodeficiency virus infection	211	42	neoplasms	infectious and parasitic diseases	#FFB6AD	#A1CE5E	-0.135721616692732	4.45169875203641e-19	1.55366060031231e-18	FALSE	FALSE	FALSE	284
+Crohn's disease	Human immunodeficiency virus infection	555	42	diseases of the digestive system	infectious and parasitic diseases	#FBAF5F	#A1CE5E	0.111067393185251	5.13225617016155e-25	2.06231945186308e-24	FALSE	TRUE	FALSE	285
+Ulcer	Human immunodeficiency virus infection	569	42	diseases of the digestive system	infectious and parasitic diseases	#FBAF5F	#A1CE5E	0.0727194030169788	4.64659067652454e-07	9.40049291601731e-07	FALSE	TRUE	FALSE	286
+Eosinophilic esophagitis	Human immunodeficiency virus infection	530	42	diseases of the digestive system	infectious and parasitic diseases	#FBAF5F	#A1CE5E	0.0553670204299691	8.45410143297511e-05	0.000145783323922957	TRUE	TRUE	FALSE	287
+Autism	Huntington's disease	299	333	mental disorders	diseases of the nervous system and sense organs	#805462	#985396	0.294484072154615	1.05095028831967e-59	8.36938593243664e-59	TRUE	TRUE	FALSE	288
+Post-traumatic stress disorder	Huntington's disease	309	333	mental disorders	diseases of the nervous system and sense organs	#805462	#985396	-0.0425904806394316	0.0212511178477188	0.0294091299124829	FALSE	TRUE	FALSE	289
+Chronic lymphocytic leukemia	Huntington's disease	204	333	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.154762820990294	1.64712761597854e-21	5.98706967467717e-21	FALSE	TRUE	FALSE	290
+Schizophrenia	Huntington's disease	295	333	mental disorders	diseases of the nervous system and sense organs	#805462	#985396	0.361176287258291	1.45552674750948e-98	1.96160220125893e-97	TRUE	TRUE	FALSE	291
+Cardiomyopathy	Huntington's disease	425	333	diseases of the circulatory system	diseases of the nervous system and sense organs	#DD3232	#985396	-0.121494521185931	1.97835562066615e-11	5.11221098437625e-11	FALSE	TRUE	FALSE	292
+Crohn's disease	Huntington's disease	555	333	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	0.101583875121487	4.54606290933835e-24	1.78580767200914e-23	FALSE	TRUE	FALSE	293
+Coeliac disease	Huntington's disease	579	333	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	0.164683315471344	3.12903260814953e-19	1.0964130258956e-18	TRUE	TRUE	FALSE	294
+Alagille syndrome	Huntington's disease	759	333	congenital anomalies	diseases of the nervous system and sense organs	#AEC6CC	#985396	-0.210444085217149	1.20675083490082e-30	5.77657776706624e-30	FALSE	TRUE	FALSE	295
+Breast cancer	Huntington's disease	174	333	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.11250399337127	1.0425754937207e-28	4.63602097715396e-28	FALSE	TRUE	FALSE	296
+Lung cancer	Huntington's disease	162	333	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.0895361292142298	3.21856377403908e-17	1.04424513557712e-16	FALSE	TRUE	FALSE	297
+Adenomatous polyps	Huntington's disease	211	333	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.110122966438805	5.19923829595761e-11	1.32015441949532e-10	TRUE	TRUE	FALSE	298
+Multiple sclerosis	Huntington's disease	340	333	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	0.530797557357084	1.64527969145767e-227	5.76506003886768e-226	FALSE	TRUE	TRUE	299
+Eosinophilic esophagitis	Huntington's disease	530	333	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	0.0765233054510524	1.3976259311518e-10	3.50808113377931e-10	TRUE	TRUE	FALSE	300
+Parkinson's disease	Huntington's disease	332	333	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	0.566854608070482	0	0	TRUE	TRUE	TRUE	301
+Rheumatoid arthritis	Huntington's disease	714	333	diseases of the musculoskeletal system and connective tissue	diseases of the nervous system and sense organs	#969A52	#985396	0.245048745199157	2.95657410969971e-41	1.79858258340066e-40	TRUE	TRUE	FALSE	302
+Hyperplastic polyps	Huntington's disease	211	333	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.0512927019087882	4.02641577995816e-05	7.06841728104879e-05	FALSE	TRUE	FALSE	303
+Ischemia	Huntington's disease	414	333	diseases of the circulatory system	diseases of the nervous system and sense organs	#DD3232	#985396	0.170017801714699	2.00941825588832e-20	7.18469547819661e-20	FALSE	TRUE	FALSE	304
+Glioblastoma	Huntington's disease	191	333	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.486817453459417	0	0	FALSE	TRUE	TRUE	305
+Bipolar disorder	Huntington's disease	296	333	mental disorders	diseases of the nervous system and sense organs	#805462	#985396	0.594145080445393	1.05490365534938e-278	4.20043455493664e-277	TRUE	TRUE	TRUE	306
+Sessile serrated polyps	Huntington's disease	211	333	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.0387351627871129	0.00538408230544706	0.00798046717355605	FALSE	TRUE	FALSE	307
+Asthma	Huntington's disease	493	333	diseases of the respiratory system	diseases of the nervous system and sense organs	#00619C	#985396	-0.131895642175928	1.10758008101626e-16	3.52814600352816e-16	FALSE	TRUE	FALSE	308
+Myotonic dystrophy	Huntington's disease	359	333	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	-0.130233655035389	1.54284762788244e-12	4.19731218020192e-12	FALSE	TRUE	FALSE	309
+Muscular dystrophy	Huntington's disease	359	333	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	0.0849123184593055	4.25176630296994e-06	8.2038486374486e-06	TRUE	FALSE	FALSE	310
+Smoker	Huntington's disease	305	333	mental disorders	diseases of the nervous system and sense organs	#805462	#985396	-0.234397538550692	6.08501624384253e-44	3.89085710190223e-43	FALSE	TRUE	TRUE	311
+Facioscapulohumeral muscular dystrophy	Huntington's disease	359	333	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	0.0835399246905106	6.06557100802652e-06	1.15009528204139e-05	TRUE	TRUE	FALSE	312
+Amyotrophic lateral sclerosis	Huntington's disease	335	333	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	0.45129445844908	7.32940246615525e-147	1.64629655393641e-145	TRUE	TRUE	TRUE	313
+Familial dysautonomia	Huntington's disease	742	333	congenital anomalies	diseases of the nervous system and sense organs	#AEC6CC	#985396	0.408605283080779	1.52498608551447e-149	3.51549423923861e-148	TRUE	TRUE	TRUE	314
+Liver cancer	Huntington's disease	155	333	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.0965073797921484	7.79985108310476e-19	2.70065990071137e-18	FALSE	TRUE	FALSE	315
+Human immunodeficiency virus infection	Huntington's disease	42	333	infectious and parasitic diseases	diseases of the nervous system and sense organs	#A1CE5E	#985396	-0.0822505185177914	8.42757896220295e-06	1.56410151925631e-05	FALSE	FALSE	FALSE	316
+Down syndrome	Huntington's disease	758	333	congenital anomalies	diseases of the nervous system and sense organs	#AEC6CC	#985396	-0.162405975094458	6.82837006374232e-19	2.37367149834852e-18	FALSE	TRUE	TRUE	317
+Borrelia burgdorferi infection	Huntington's disease	88	333	infectious and parasitic diseases	diseases of the nervous system and sense organs	#A1CE5E	#985396	0.0722542000218779	3.60394328657129e-09	8.41881151743054e-09	TRUE	TRUE	FALSE	318
+Keratoconus	Huntington's disease	371	333	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	0.0801963441762925	1.40920570900338e-05	2.57180041893118e-05	FALSE	TRUE	FALSE	319
+Papillary thyroid cancer	Huntington's disease	193	333	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.0621831451684197	6.299906926176e-05	0.00010993463082331	FALSE	TRUE	FALSE	320
+Lymphocytic colitis	Huntington's disease	558	333	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	-0.148480541627971	6.93491455066012e-16	2.16963755227795e-15	FALSE	TRUE	FALSE	321
+Ulcer	Huntington's disease	569	333	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	0.028364515447839	0.0192623507334106	0.0268691389211268	TRUE	TRUE	FALSE	322
+Chronic obstructive pulmonary disease	Hyperplastic polyps	496	211	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	-0.178848240102211	1.25101703795584e-72	1.24533059687422e-71	FALSE	TRUE	FALSE	323
+Eosinophilic esophagitis	Hyperplastic polyps	530	211	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	-0.214117095876905	8.42711218074417e-79	8.8941569522071e-78	FALSE	TRUE	FALSE	324
+Bipolar disorder	Hyperplastic polyps	296	211	mental disorders	neoplasms	#805462	#FFB6AD	-0.20609474385279	2.41942181876424e-42	1.50313015123225e-41	FALSE	TRUE	FALSE	325
+Cardiomyopathy	Hyperplastic polyps	425	211	diseases of the circulatory system	neoplasms	#DD3232	#FFB6AD	-0.269260087737127	7.98515414396984e-74	8.13371515129951e-73	FALSE	TRUE	FALSE	326
+Ulcer	Hyperplastic polyps	569	211	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.155327709526142	1.71315380766161e-42	1.07194481107969e-41	TRUE	TRUE	FALSE	327
+Parkinson's disease	Hyperplastic polyps	332	211	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.243872014787647	1.35285519591861e-101	1.88111293908683e-100	FALSE	TRUE	FALSE	328
+Crohn's disease	Hyperplastic polyps	555	211	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	-0.0204015564917501	0.0372945275871445	0.0497260367828593	FALSE	TRUE	FALSE	329
+Adenomatous polyps	Hyperplastic polyps	211	211	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.374038152147868	1.93003274791115e-160	4.97267260932401e-159	FALSE	TRUE	FALSE	330
+Muscular dystrophy	Hyperplastic polyps	359	211	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	-0.0745140543662354	1.03855081258917e-06	2.04903268429755e-06	FALSE	TRUE	FALSE	331
+Colorectal cancer	Hyperplastic polyps	153	211	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0602872286734072	2.84921943579177e-05	5.05246199545262e-05	TRUE	TRUE	FALSE	332
+Lymphocytic colitis	Hyperplastic polyps	558	211	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	-0.31845379037515	1.21554502475282e-101	1.71744748658624e-100	FALSE	TRUE	TRUE	333
+Multiple sclerosis	Hyperplastic polyps	340	211	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.14988456859543	4.49706607468411e-24	1.77451796460508e-23	FALSE	TRUE	FALSE	334
+Down syndrome	Hyperplastic polyps	758	211	congenital anomalies	neoplasms	#AEC6CC	#FFB6AD	0.148554333464679	1.05492207947565e-22	4.00048372995959e-22	FALSE	TRUE	FALSE	335
+Asthma	Idiopathic pulmonary fibrosis	493	516	diseases of the respiratory system	diseases of the respiratory system	#00619C	#00619C	-0.0861189368339543	2.25952404823214e-13	6.30364033838011e-13	FALSE	TRUE	FALSE	336
+Keratoconus	Idiopathic pulmonary fibrosis	371	516	diseases of the nervous system and sense organs	diseases of the respiratory system	#985396	#00619C	0.0360199828004764	0.00362991579257071	0.00547298835506358	FALSE	TRUE	FALSE	337
+Facioscapulohumeral muscular dystrophy	Idiopathic pulmonary fibrosis	359	516	diseases of the nervous system and sense organs	diseases of the respiratory system	#985396	#00619C	0.194999718251913	6.95910525823693e-57	5.34752298790838e-56	TRUE	TRUE	FALSE	338
+Prostate cancer	Idiopathic pulmonary fibrosis	185	516	neoplasms	diseases of the respiratory system	#FFB6AD	#00619C	0.236515439240595	1.43476053945124e-83	1.57106279069911e-82	FALSE	TRUE	FALSE	339
+Eosinophilic esophagitis	Idiopathic pulmonary fibrosis	530	516	diseases of the digestive system	diseases of the respiratory system	#FBAF5F	#00619C	-0.0462931692678076	7.1110089706783e-06	1.3367476090803e-05	FALSE	TRUE	FALSE	340
+Bipolar disorder	Idiopathic pulmonary fibrosis	296	516	mental disorders	diseases of the respiratory system	#805462	#00619C	-0.0451006468348969	0.000269902259657657	0.00044610260275492	FALSE	TRUE	FALSE	341
+Colorectal cancer	Idiopathic pulmonary fibrosis	153	516	neoplasms	diseases of the respiratory system	#FFB6AD	#00619C	0.0352850271305911	0.00320812048655332	0.00487901657329985	FALSE	TRUE	FALSE	342
+Smoker	Idiopathic pulmonary fibrosis	305	516	mental disorders	diseases of the respiratory system	#805462	#00619C	-0.0513844893400261	1.95968567350454e-05	3.55421252585916e-05	FALSE	TRUE	FALSE	343
+Human immunodeficiency virus infection	Idiopathic pulmonary fibrosis	42	516	infectious and parasitic diseases	diseases of the respiratory system	#A1CE5E	#00619C	-0.094332004603385	2.31213151373103e-14	6.84265947982562e-14	FALSE	TRUE	FALSE	344
+Lymphocytic colitis	Idiopathic pulmonary fibrosis	558	516	diseases of the digestive system	diseases of the respiratory system	#FBAF5F	#00619C	0.139375468603991	1.22152313943629e-29	5.69177803269251e-29	TRUE	TRUE	FALSE	345
+Chronic obstructive pulmonary disease	Idiopathic pulmonary fibrosis	496	516	diseases of the respiratory system	diseases of the respiratory system	#00619C	#00619C	0.193478352509036	9.37128052619643e-94	1.15623123111945e-92	TRUE	TRUE	FALSE	346
+Multiple sclerosis	Idiopathic pulmonary fibrosis	340	516	diseases of the nervous system and sense organs	diseases of the respiratory system	#985396	#00619C	0.135741228869019	7.4611018700979e-29	3.35175653241321e-28	FALSE	TRUE	FALSE	347
+Alagille syndrome	Idiopathic pulmonary fibrosis	759	516	congenital anomalies	diseases of the respiratory system	#AEC6CC	#00619C	-0.199855947285925	1.0193313941317e-59	8.19205780971899e-59	FALSE	TRUE	TRUE	348
+Ulcer	Idiopathic pulmonary fibrosis	569	516	diseases of the digestive system	diseases of the respiratory system	#FBAF5F	#00619C	0.11034611900861	1.76228235353965e-26	7.28188368726763e-26	TRUE	TRUE	FALSE	349
+Chronic lymphocytic leukemia	Idiopathic pulmonary fibrosis	204	516	neoplasms	diseases of the respiratory system	#FFB6AD	#00619C	-0.146660292693343	3.5850184001411e-35	1.90331885971128e-34	FALSE	TRUE	FALSE	350
+Adenomatous polyps	Idiopathic pulmonary fibrosis	211	516	neoplasms	diseases of the respiratory system	#FFB6AD	#00619C	0.118994954937482	1.45562415363055e-23	5.64215379902816e-23	TRUE	TRUE	FALSE	351
+Autism	Idiopathic pulmonary fibrosis	299	516	mental disorders	diseases of the respiratory system	#805462	#00619C	0.0626706195105677	4.07098929339308e-07	8.27421489794046e-07	FALSE	TRUE	FALSE	352
+Ischemia	Idiopathic pulmonary fibrosis	414	516	diseases of the circulatory system	diseases of the respiratory system	#DD3232	#00619C	0.07490453512969	1.3987023695667e-09	3.34771386814324e-09	TRUE	TRUE	FALSE	353
+Down syndrome	Idiopathic pulmonary fibrosis	758	516	congenital anomalies	diseases of the respiratory system	#AEC6CC	#00619C	-0.0505427363826483	4.339634176389e-05	7.60303907703352e-05	FALSE	TRUE	FALSE	354
+Post-traumatic stress disorder	Idiopathic pulmonary fibrosis	309	516	mental disorders	diseases of the respiratory system	#805462	#00619C	-0.0382988238761735	0.00198276968751532	0.00311273520835738	FALSE	TRUE	FALSE	355
+Breast cancer	Idiopathic pulmonary fibrosis	174	516	neoplasms	diseases of the respiratory system	#FFB6AD	#00619C	0.0579606671101149	6.35596933815599e-10	1.54233494189048e-09	FALSE	TRUE	FALSE	356
+Cardiomyopathy	Idiopathic pulmonary fibrosis	425	516	diseases of the circulatory system	diseases of the respiratory system	#DD3232	#00619C	-0.154482974610115	1.99234347868347e-36	1.09766848259542e-35	FALSE	TRUE	FALSE	357
+Hyperplastic polyps	Idiopathic pulmonary fibrosis	211	516	neoplasms	diseases of the respiratory system	#FFB6AD	#00619C	0.100422957291176	1.33339685219283e-21	4.887262102598e-21	TRUE	TRUE	FALSE	358
+Papillary thyroid cancer	Idiopathic pulmonary fibrosis	193	516	neoplasms	diseases of the respiratory system	#FFB6AD	#00619C	0.0743818057463297	1.64603828350132e-10	4.1197986752776e-10	FALSE	TRUE	FALSE	359
+Adenomatous polyps	Ischemia	211	414	neoplasms	diseases of the circulatory system	#FFB6AD	#DD3232	0.139006557292751	7.20621672399496e-05	0.000124755846842284	TRUE	FALSE	FALSE	360
+Cardiomyopathy	Ischemia	425	414	diseases of the circulatory system	diseases of the circulatory system	#DD3232	#DD3232	0.235421313180664	0.00579769980980535	0.00855014315385435	TRUE	TRUE	FALSE	361
+Crohn's disease	Ischemia	555	414	diseases of the digestive system	diseases of the circulatory system	#FBAF5F	#DD3232	0.102519252932652	1.54145794461502e-21	5.62632149784482e-21	FALSE	TRUE	FALSE	362
+Parkinson's disease	Ischemia	332	414	diseases of the nervous system and sense organs	diseases of the circulatory system	#985396	#DD3232	0.146547615429826	4.85189080235694e-23	1.85600713662213e-22	TRUE	FALSE	FALSE	363
+Papillary thyroid cancer	Ischemia	193	414	neoplasms	diseases of the circulatory system	#FFB6AD	#DD3232	0.0940583362434228	0.000246238252063805	0.000407759373927964	FALSE	FALSE	FALSE	364
+Hyperplastic polyps	Ischemia	211	414	neoplasms	diseases of the circulatory system	#FFB6AD	#DD3232	0.166604810779765	4.65778685148018e-28	2.04011064094832e-27	TRUE	FALSE	FALSE	365
+Lymphocytic colitis	Ischemia	558	414	diseases of the digestive system	diseases of the circulatory system	#FBAF5F	#DD3232	-1	0	0	FALSE	TRUE	TRUE	366
+Ulcer	Ischemia	569	414	diseases of the digestive system	diseases of the circulatory system	#FBAF5F	#DD3232	0.125650576403778	2.45679175525827e-18	8.27749837540863e-18	TRUE	TRUE	FALSE	367
+Schizophrenia	Ischemia	295	414	mental disorders	diseases of the circulatory system	#805462	#DD3232	0.20876242340044	7.9346276909717e-05	0.000137095342352884	FALSE	TRUE	FALSE	368
+Chronic lymphocytic leukemia	Ischemia	204	414	neoplasms	diseases of the circulatory system	#FFB6AD	#DD3232	-0.128014138244093	3.78196848710056e-05	6.65261926646604e-05	FALSE	TRUE	FALSE	369
+Breast cancer	Ischemia	174	414	neoplasms	diseases of the circulatory system	#FFB6AD	#DD3232	-0.126544259106698	1.15898103985887e-31	5.73597395997948e-31	FALSE	TRUE	FALSE	370
+Eosinophilic esophagitis	Ischemia	530	414	diseases of the digestive system	diseases of the circulatory system	#FBAF5F	#DD3232	-0.0771733054946019	4.15931045874313e-08	9.13171920265408e-08	FALSE	TRUE	FALSE	371
+Muscular dystrophy	Ischemia	359	414	diseases of the nervous system and sense organs	diseases of the circulatory system	#985396	#DD3232	1	0	0	TRUE	TRUE	TRUE	372
+Chronic obstructive pulmonary disease	Ischemia	496	414	diseases of the respiratory system	diseases of the circulatory system	#00619C	#DD3232	0.0738235878626796	4.76050993794725e-11	1.21226939117494e-10	TRUE	TRUE	FALSE	373
+Colorectal cancer	Ischemia	153	414	neoplasms	diseases of the circulatory system	#FFB6AD	#DD3232	0.13776282768858	6.36821818337557e-05	0.000110905748084235	FALSE	TRUE	FALSE	374
+Human immunodeficiency virus infection	Ischemia	42	414	infectious and parasitic diseases	diseases of the circulatory system	#A1CE5E	#DD3232	-1	0	0	FALSE	TRUE	TRUE	375
+Familial dysautonomia	Kaposi's sarcoma	742	176	congenital anomalies	neoplasms	#AEC6CC	#FFB6AD	0.0770991534288016	0.00010138517429639	0.000174486075999288	FALSE	TRUE	FALSE	376
+Systemic lupus erythematosus	Kaposi's sarcoma	710	176	diseases of the musculoskeletal system and connective tissue	neoplasms	#969A52	#FFB6AD	0.0609097618940783	0.0156559788735202	0.0221203830535543	TRUE	TRUE	FALSE	377
+Amyotrophic lateral sclerosis	Kaposi's sarcoma	335	176	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.155915694119785	4.94373635793379e-10	1.21308488782913e-09	FALSE	TRUE	FALSE	378
+Eosinophilic esophagitis	Kaposi's sarcoma	530	176	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.233433383783319	4.75169275067344e-75	4.9553367257023e-74	TRUE	TRUE	FALSE	379
+Liver cancer	Kaposi's sarcoma	155	176	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.158248654120757	3.60267480410098e-44	2.32054641793563e-43	FALSE	TRUE	FALSE	380
+Ischemia	Kaposi's sarcoma	414	176	diseases of the circulatory system	neoplasms	#DD3232	#FFB6AD	0.144002220427634	9.24847793801494e-09	2.09345392085299e-08	TRUE	TRUE	FALSE	381
+Huntington's disease	Kaposi's sarcoma	333	176	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.0688314243962366	8.03601581934124e-06	1.50417732003054e-05	FALSE	TRUE	FALSE	382
+Adenomatous polyps	Kaposi's sarcoma	211	176	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0609827910661187	0.00347855871937924	0.00525382316926933	TRUE	TRUE	FALSE	383
+Keratoconus	Kaposi's sarcoma	371	176	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.0899048344405161	0.000355274875450304	0.000581721104475638	FALSE	TRUE	FALSE	384
+Crohn's disease	Kaposi's sarcoma	555	176	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.252570919139751	1.83384886506655e-132	3.41798213999638e-131	FALSE	TRUE	FALSE	385
+Lymphocytic colitis	Kaposi's sarcoma	558	176	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.220279387199999	9.47274240853504e-19	3.26697730310106e-18	TRUE	TRUE	FALSE	386
+Prostate cancer	Kaposi's sarcoma	185	176	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0969274104843994	0.000117404938913588	0.000200480948320279	FALSE	TRUE	FALSE	387
+Breast cancer	Kaposi's sarcoma	174	176	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.178344481596695	2.56853379825289e-66	2.39365490135056e-65	FALSE	TRUE	FALSE	388
+Lung cancer	Kaposi's sarcoma	162	176	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0294805119828666	0.00817596472996256	0.0118578561315351	TRUE	TRUE	FALSE	389
+Asthma	Kaposi's sarcoma	493	176	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	0.0572154756240843	0.00309052587511368	0.0047165516839714	TRUE	TRUE	FALSE	390
+Chronic obstructive pulmonary disease	Kaposi's sarcoma	496	176	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	-0.0292504944455788	0.00624548406599752	0.00917960409700306	FALSE	TRUE	FALSE	391
+Chronic lymphocytic leukemia	Kaposi's sarcoma	204	176	neoplasms	neoplasms	#FFB6AD	#FFB6AD	-0.115523832466804	8.00746121607509e-09	1.8219574091641e-08	FALSE	TRUE	TRUE	392
+Papillary thyroid cancer	Kaposi's sarcoma	193	176	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.218852049316598	7.34833571270591e-33	3.74252446763394e-32	FALSE	TRUE	FALSE	393
+Ulcer	Kaposi's sarcoma	569	176	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.293698562220214	8.33651573369903e-114	1.35236810791118e-112	FALSE	TRUE	FALSE	394
+Borrelia burgdorferi infection	Kaposi's sarcoma	88	176	infectious and parasitic diseases	neoplasms	#A1CE5E	#FFB6AD	0.0501984276312441	0.000147574717057012	0.000248606638734505	FALSE	TRUE	FALSE	395
+Schizophrenia	Kaposi's sarcoma	295	176	mental disorders	neoplasms	#805462	#FFB6AD	0.0696542575109147	0.00249281854322524	0.00385814318704119	FALSE	TRUE	FALSE	396
+Human immunodeficiency virus infection	Kaposi's sarcoma	42	176	infectious and parasitic diseases	neoplasms	#A1CE5E	#FFB6AD	0.0786185956425497	0.00179967399816416	0.00283545759422986	TRUE	TRUE	FALSE	397
+Autism	Kaposi's sarcoma	299	176	mental disorders	neoplasms	#805462	#FFB6AD	0.114139394185571	5.44704205591199e-06	1.0395661962917e-05	FALSE	TRUE	FALSE	398
+Colorectal cancer	Kaposi's sarcoma	153	176	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.103369719340856	7.81766060388878e-07	1.55997054419284e-06	FALSE	TRUE	FALSE	399
+Rheumatoid arthritis	Kaposi's sarcoma	714	176	diseases of the musculoskeletal system and connective tissue	neoplasms	#969A52	#FFB6AD	0.0572533275871071	0.0231162210184503	0.0318393232895636	TRUE	TRUE	FALSE	400
+Idiopathic pulmonary fibrosis	Kaposi's sarcoma	516	176	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	0.0807777570204787	4.3738245728259e-12	1.16458064613845e-11	FALSE	TRUE	FALSE	401
+Glioblastoma	Kaposi's sarcoma	191	176	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.206218148699826	1.58387116429664e-90	1.90064539715597e-89	FALSE	TRUE	FALSE	402
+Friedreich's ataxia	Kaposi's sarcoma	334	176	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.0369789162381981	0.0192088817394625	0.026837289320206	FALSE	TRUE	FALSE	403
+Crohn's disease	Keratoconus	555	371	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	0.116067311270541	3.49537461721816e-27	1.47209046378996e-26	FALSE	TRUE	FALSE	404
+Hyperplastic polyps	Keratoconus	211	371	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.281346234704867	8.02539089401146e-79	8.57346636970004e-78	FALSE	TRUE	FALSE	405
+Chronic obstructive pulmonary disease	Keratoconus	496	371	diseases of the respiratory system	diseases of the nervous system and sense organs	#00619C	#985396	0.271642364828117	5.6865001339848e-134	1.08290741681971e-132	FALSE	TRUE	TRUE	406
+Ulcer	Keratoconus	569	371	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	-0.0549732302793154	0.000140002926441081	0.000236305517461247	FALSE	TRUE	FALSE	407
+Chronic lymphocytic leukemia	Keratoconus	204	371	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.164686571688595	1.1111693798621e-07	2.35686289772203e-07	FALSE	TRUE	FALSE	408
+Parkinson's disease	Keratoconus	332	371	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	-0.300119413502801	2.30794122455701e-94	2.88822358958849e-93	FALSE	TRUE	FALSE	409
+Colorectal cancer	Keratoconus	153	371	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.0913839186267675	0.00823602095255227	0.0119252138089848	FALSE	TRUE	FALSE	410
+Adenomatous polyps	Keratoconus	211	371	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.386373517003884	3.95444532720323e-30	1.86241618636023e-29	FALSE	TRUE	TRUE	411
+Papillary thyroid cancer	Keratoconus	193	371	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	-0.148689191327727	6.20420054601645e-09	1.42274337128545e-08	FALSE	TRUE	FALSE	412
+Crohn's disease	Liver cancer	555	155	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	-0.0353086019508515	0.000159803552330596	0.000267663311360615	FALSE	TRUE	FALSE	413
+Sessile serrated polyps	Liver cancer	211	155	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0788008915589599	6.96608462877957e-13	1.90696566712841e-12	TRUE	TRUE	FALSE	414
+Breast cancer	Liver cancer	174	155	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.214382119659886	8.26784521348093e-116	1.39281392442486e-114	FALSE	TRUE	FALSE	415
+Colorectal cancer	Liver cancer	153	155	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.132262262584465	1.47075543617126e-29	6.81683472003187e-29	TRUE	TRUE	FALSE	416
+Alagille syndrome	Liver cancer	759	155	congenital anomalies	neoplasms	#AEC6CC	#FFB6AD	0.299486063747712	9.38860575969676e-142	1.9581949155939e-140	TRUE	TRUE	TRUE	417
+Autism	Liver cancer	299	155	mental disorders	neoplasms	#805462	#FFB6AD	0.0904958092586253	6.35234296653738e-14	1.85488414622891e-13	FALSE	TRUE	FALSE	418
+Bipolar disorder	Liver cancer	296	155	mental disorders	neoplasms	#805462	#FFB6AD	-0.133980017705088	9.15757136492448e-29	4.09287373248666e-28	FALSE	TRUE	TRUE	419
+Chronic obstructive pulmonary disease	Liver cancer	496	155	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	-0.035107736610446	0.00024261525178603	0.000402520758645004	FALSE	TRUE	FALSE	420
+Idiopathic pulmonary fibrosis	Liver cancer	516	155	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	0.144342992130664	1.0412493708212e-49	7.60112040699474e-49	FALSE	TRUE	FALSE	421
+Papillary thyroid cancer	Liver cancer	193	155	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.16557073158707	2.37880230510586e-48	1.68050872521995e-47	FALSE	TRUE	FALSE	422
+Multiple sclerosis	Liver cancer	340	155	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	-0.0405394164662602	0.000668944662935448	0.00107918144517763	FALSE	TRUE	FALSE	423
+Lymphocytic colitis	Liver cancer	558	155	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.132214263373709	4.76282704526686e-28	2.07573954808645e-27	TRUE	TRUE	FALSE	424
+Muscular dystrophy	Liver cancer	359	155	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	-0.034163692480744	0.00471942466905205	0.00704295742775059	FALSE	TRUE	FALSE	425
+Hyperplastic polyps	Liver cancer	211	155	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0848790549430507	6.33024016869655e-16	1.98755927877354e-15	TRUE	TRUE	FALSE	426
+Chronic lymphocytic leukemia	Liver cancer	204	155	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0487424209754704	2.84308818536345e-05	5.0518159236884e-05	FALSE	TRUE	FALSE	427
+Human immunodeficiency virus infection	Liver cancer	42	155	infectious and parasitic diseases	neoplasms	#A1CE5E	#FFB6AD	-0.0418570774843586	0.000535397692303411	0.00087269613087963	FALSE	TRUE	FALSE	428
+Schizophrenia	Liver cancer	295	155	mental disorders	neoplasms	#805462	#FFB6AD	0.0876001108129301	1.63781032102274e-13	4.62813497166427e-13	FALSE	TRUE	FALSE	429
+Smoker	Liver cancer	305	155	mental disorders	neoplasms	#805462	#FFB6AD	0.0435751157699267	0.000228059888018785	0.000379090060539764	TRUE	TRUE	FALSE	430
+Ulcer	Liver cancer	569	155	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.0929128540703165	1.61549634661299e-19	5.68343293025292e-19	TRUE	TRUE	FALSE	431
+Prostate cancer	Liver cancer	185	155	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.1099465086012	7.62585231889511e-20	2.69364783522263e-19	FALSE	TRUE	FALSE	432
+Eosinophilic esophagitis	Liver cancer	530	155	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.0301720158692323	0.00343662185610958	0.00519944861131605	TRUE	TRUE	FALSE	433
+Keratoconus	Liver cancer	371	155	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	-0.0711618958398542	3.83034914364838e-09	8.92389853679782e-09	FALSE	TRUE	FALSE	434
+Down syndrome	Liver cancer	758	155	congenital anomalies	neoplasms	#AEC6CC	#FFB6AD	-0.0935498207953403	8.34720911911245e-15	2.50416273573374e-14	FALSE	TRUE	FALSE	435
+Post-traumatic stress disorder	Lung cancer	309	162	mental disorders	neoplasms	#805462	#FFB6AD	0.123915896334308	1.2490387596565e-26	5.21027596885281e-26	TRUE	TRUE	FALSE	436
+Bipolar disorder	Lung cancer	296	162	mental disorders	neoplasms	#805462	#FFB6AD	-0.0671150243145348	7.96390902923703e-09	1.8167667472947e-08	FALSE	TRUE	FALSE	437
+Hyperplastic polyps	Lung cancer	211	162	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0603671273547886	4.52079579335796e-09	1.04767648544486e-08	FALSE	TRUE	FALSE	438
+Smoker	Lung cancer	305	162	mental disorders	neoplasms	#805462	#FFB6AD	-0.0636751218404498	2.04444512847993e-08	4.55708379783312e-08	FALSE	TRUE	FALSE	439
+Chronic obstructive pulmonary disease	Lung cancer	496	162	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	-0.117222655346469	5.31294628146834e-36	2.89077077178029e-35	FALSE	TRUE	FALSE	440
+Cardiomyopathy	Lung cancer	425	162	diseases of the circulatory system	neoplasms	#DD3232	#FFB6AD	-0.107736159277947	1.24552439239042e-20	4.47163675300822e-20	FALSE	TRUE	FALSE	441
+Asthma	Lung cancer	493	162	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	0.125124403465529	1.86777734977858e-29	8.61143662318968e-29	TRUE	TRUE	FALSE	442
+Autism	Lung cancer	299	162	mental disorders	neoplasms	#805462	#FFB6AD	0.129363255345355	6.58354743357097e-29	2.97277708856091e-28	FALSE	TRUE	FALSE	443
+Human immunodeficiency virus infection	Lung cancer	42	162	infectious and parasitic diseases	neoplasms	#A1CE5E	#FFB6AD	-0.0594853082903346	3.18546908163912e-07	6.51979185868193e-07	FALSE	TRUE	FALSE	444
+Familial pulmonary arterial hypertension	Lung cancer	416	162	diseases of the circulatory system	neoplasms	#DD3232	#FFB6AD	-0.0488806223448879	2.67434096434651e-05	4.79084393612995e-05	FALSE	TRUE	FALSE	445
+Borrelia burgdorferi infection	Lung cancer	88	162	infectious and parasitic diseases	neoplasms	#A1CE5E	#FFB6AD	-0.0627550641813083	5.88023901690145e-10	1.43085816077935e-09	FALSE	TRUE	FALSE	446
+Adenomatous polyps	Lung cancer	211	162	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0837035297296172	1.45727844251018e-13	4.1313136428444e-13	FALSE	TRUE	FALSE	447
+Ischemia	Lung cancer	414	162	diseases of the circulatory system	neoplasms	#DD3232	#FFB6AD	-0.051902852815183	8.21303298306083e-06	1.53076955173644e-05	FALSE	FALSE	FALSE	448
+Chronic lymphocytic leukemia	Lung cancer	204	162	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0501850354097506	8.61303071095511e-06	1.59514057141579e-05	TRUE	TRUE	FALSE	449
+Papillary thyroid cancer	Lung cancer	193	162	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.182280084160134	1.87730699671612e-61	1.55143483879559e-60	FALSE	TRUE	FALSE	450
+Schizophrenia	Lung cancer	295	162	mental disorders	neoplasms	#805462	#FFB6AD	0.157578729177275	3.01529743078085e-43	1.91405836910437e-42	FALSE	TRUE	FALSE	451
+Muscular dystrophy	Lung cancer	359	162	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	-0.0702136429658202	1.57763282675914e-09	3.74527467815991e-09	FALSE	TRUE	FALSE	452
+Idiopathic pulmonary fibrosis	Lung cancer	516	162	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	0.426751595264787	0	0	TRUE	TRUE	TRUE	453
+Liver cancer	Lung cancer	155	162	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.400285123176519	0	0	TRUE	TRUE	TRUE	454
+Amyotrophic lateral sclerosis	Lung cancer	335	162	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	-0.163352888141838	2.82127795625482e-45	1.85822518020994e-44	FALSE	TRUE	FALSE	455
+Systemic lupus erythematosus	Lung cancer	710	162	diseases of the musculoskeletal system and connective tissue	neoplasms	#969A52	#FFB6AD	0.0611934143030592	1.44406943095559e-07	3.0047620463589e-07	FALSE	TRUE	FALSE	456
+Crohn's disease	Lung cancer	555	162	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	-0.211529524631639	1.401665663192e-117	2.40756690383567e-116	FALSE	TRUE	TRUE	457
+Colorectal cancer	Lung cancer	153	162	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.141231135623644	8.15103527879982e-36	4.35384567331015e-35	FALSE	TRUE	FALSE	458
+Facioscapulohumeral muscular dystrophy	Lung cancer	359	162	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.129686016224047	4.96617219024664e-29	2.25407608220521e-28	TRUE	TRUE	FALSE	459
+Ulcer	Lung cancer	569	162	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	-0.0332373025316053	0.00101278956987863	0.00161309756947942	FALSE	TRUE	FALSE	460
+Rheumatoid arthritis	Lung cancer	714	162	diseases of the musculoskeletal system and connective tissue	neoplasms	#969A52	#FFB6AD	-0.0890070222938841	1.89387933119839e-14	5.62385862416878e-14	FALSE	TRUE	FALSE	461
+Down syndrome	Lung cancer	758	162	congenital anomalies	neoplasms	#AEC6CC	#FFB6AD	-0.133682676767153	7.96157272181166e-31	3.83205368368517e-30	FALSE	TRUE	FALSE	462
+Keratoconus	Lung cancer	371	162	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	-0.0243373740833775	0.036618167940041	0.0489516703286159	FALSE	TRUE	FALSE	463
+Glioblastoma	Lung cancer	191	162	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.100111225291185	1.57595828984002e-27	6.7016478733003e-27	TRUE	TRUE	FALSE	464
+Lymphocytic colitis	Lung cancer	558	162	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.169190731593181	1.73303985897825e-48	1.23426253371134e-47	FALSE	TRUE	FALSE	465
+Familial dysautonomia	Lung cancer	742	162	congenital anomalies	neoplasms	#AEC6CC	#FFB6AD	0.14919155758726	4.18801079790235e-41	2.5301361785948e-40	FALSE	TRUE	FALSE	466
+Coeliac disease	Lung cancer	579	162	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.0573104127505453	8.4400510739634e-07	1.67652715210702e-06	FALSE	TRUE	FALSE	467
+Alagille syndrome	Lung cancer	759	162	congenital anomalies	neoplasms	#AEC6CC	#FFB6AD	0.124083557972096	1.0675503940567e-26	4.47451744111803e-26	TRUE	TRUE	FALSE	468
+Breast cancer	Lung cancer	174	162	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.444720797347085	0	0	FALSE	TRUE	TRUE	469
+Eosinophilic esophagitis	Lung cancer	530	162	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.0489015338673908	1.33895062733583e-06	2.62986715144886e-06	TRUE	TRUE	FALSE	470
+Prostate cancer	Lung cancer	185	162	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.13846999479568	6.72482410421761e-33	3.44499761128341e-32	FALSE	TRUE	FALSE	471
+Eosinophilic esophagitis	Lymphocytic colitis	530	558	diseases of the digestive system	diseases of the digestive system	#FBAF5F	#FBAF5F	0.272546286496449	1.74573590958914e-86	1.93577804658238e-85	TRUE	TRUE	TRUE	472
+Parkinson's disease	Lymphocytic colitis	332	558	diseases of the nervous system and sense organs	diseases of the digestive system	#985396	#FBAF5F	-0.0792032235938021	1.03096778801646e-07	2.20275068854248e-07	FALSE	TRUE	FALSE	473
+Ulcer	Lymphocytic colitis	569	558	diseases of the digestive system	diseases of the digestive system	#FBAF5F	#FBAF5F	0.171157412767055	7.7010977739914e-33	3.89951540463379e-32	TRUE	TRUE	FALSE	474
+Down syndrome	Multiple sclerosis	758	340	congenital anomalies	diseases of the nervous system and sense organs	#AEC6CC	#985396	0.198847401545461	0.000330386571934265	0.000545044514151443	FALSE	TRUE	TRUE	475
+Parkinson's disease	Multiple sclerosis	332	340	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	0.371894714446629	3.21203488902091e-155	7.81595156328421e-154	FALSE	TRUE	FALSE	476
+Ulcer	Multiple sclerosis	569	340	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	0.181072650886139	4.83515289316247e-38	2.73264124800666e-37	TRUE	TRUE	FALSE	477
+Chronic obstructive pulmonary disease	Multiple sclerosis	496	340	diseases of the respiratory system	diseases of the nervous system and sense organs	#00619C	#985396	-0.0299667297171827	0.00698913161700121	0.0102382596931322	FALSE	TRUE	FALSE	478
+Ulcer	Muscular dystrophy	569	359	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	-0.0666923922047975	3.80723011255768e-06	7.37861411194806e-06	FALSE	TRUE	FALSE	479
+Eosinophilic esophagitis	Muscular dystrophy	530	359	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	-0.0416454582756614	0.00311748597478057	0.00474942211114396	FALSE	TRUE	FALSE	480
+Ischemia	Myotonic dystrophy	414	359	diseases of the circulatory system	diseases of the nervous system and sense organs	#DD3232	#985396	1	0	0	TRUE	TRUE	TRUE	481
+Eosinophilic esophagitis	Myotonic dystrophy	530	359	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	-0.0585534619318573	3.21370168761017e-05	5.67581185150506e-05	FALSE	TRUE	FALSE	482
+Crohn's disease	Myotonic dystrophy	555	359	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	-0.15434373383469	5.36359447441455e-47	3.64225485239314e-46	FALSE	TRUE	FALSE	483
+Sessile serrated polyps	Myotonic dystrophy	211	359	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.139329066340329	2.23994575539263e-13	6.26898556461324e-13	TRUE	FALSE	FALSE	484
+Papillary thyroid cancer	Myotonic dystrophy	193	359	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.154616093854806	1.48885622387537e-09	3.54412514161636e-09	FALSE	TRUE	FALSE	485
+Cardiomyopathy	Myotonic dystrophy	425	359	diseases of the circulatory system	diseases of the nervous system and sense organs	#DD3232	#985396	-0.364291613271776	1.62786658637046e-05	2.96468010324433e-05	FALSE	TRUE	FALSE	486
+Colorectal cancer	Myotonic dystrophy	153	359	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.103821664680106	0.00266722361935103	0.00410630560729614	FALSE	FALSE	FALSE	487
+Chronic obstructive pulmonary disease	Myotonic dystrophy	496	359	diseases of the respiratory system	diseases of the nervous system and sense organs	#00619C	#985396	-0.434571630438537	0	0	FALSE	TRUE	TRUE	488
+Glioblastoma	Myotonic dystrophy	191	359	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.13889883329995	9.90376512989759e-39	5.74549553231145e-38	TRUE	TRUE	FALSE	489
+Liver cancer	Myotonic dystrophy	155	359	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.0332765464386754	0.00592015687473354	0.00871606289456569	FALSE	TRUE	FALSE	490
+Lung cancer	Myotonic dystrophy	162	359	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.0890443218514849	1.84696370244103e-14	5.50319797053859e-14	TRUE	TRUE	FALSE	491
+Hyperplastic polyps	Myotonic dystrophy	211	359	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.403242761639288	2.28276923575026e-167	6.24908078286635e-166	TRUE	TRUE	TRUE	492
+Breast cancer	Myotonic dystrophy	174	359	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.187581837855427	4.13378841783023e-68	3.93608549349922e-67	FALSE	TRUE	FALSE	493
+Borrelia burgdorferi infection	Myotonic dystrophy	88	359	infectious and parasitic diseases	diseases of the nervous system and sense organs	#A1CE5E	#985396	-0.209505870889754	1.84591439343209e-47	1.26329766300508e-46	FALSE	TRUE	TRUE	494
+Smoker	Myotonic dystrophy	305	359	mental disorders	diseases of the nervous system and sense organs	#805462	#985396	0.202011150225385	3.68445188211844e-07	7.50599964822268e-07	TRUE	TRUE	FALSE	495
+Idiopathic pulmonary fibrosis	Myotonic dystrophy	516	359	diseases of the respiratory system	diseases of the nervous system and sense organs	#00619C	#985396	0.0631830318711356	3.29848253735419e-07	6.73536294340856e-07	TRUE	FALSE	FALSE	496
+Ulcer	Myotonic dystrophy	569	359	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	0.0730579506680962	4.10792243179923e-07	8.32995382003733e-07	TRUE	FALSE	FALSE	497
+Asthma	Myotonic dystrophy	493	359	diseases of the respiratory system	diseases of the nervous system and sense organs	#00619C	#985396	0.173448099160363	8.34143730493251e-10	2.00744480195628e-09	TRUE	TRUE	FALSE	498
+Parkinson's disease	Myotonic dystrophy	332	359	diseases of the nervous system and sense organs	diseases of the nervous system and sense organs	#985396	#985396	0.369774520172355	6.80938771594556e-146	1.49125590979208e-144	TRUE	TRUE	TRUE	499
+Adenomatous polyps	Myotonic dystrophy	211	359	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.650488754212217	2.93163973426908e-98	3.89108546548441e-97	TRUE	TRUE	TRUE	500
+Chronic lymphocytic leukemia	Myotonic dystrophy	204	359	neoplasms	diseases of the nervous system and sense organs	#FFB6AD	#985396	0.0701177694165124	0.0246347470924035	0.0337715781736236	TRUE	TRUE	FALSE	501
+Ulcer	Parkinson's disease	569	332	diseases of the digestive system	diseases of the nervous system and sense organs	#FBAF5F	#985396	0.153619129361724	3.687984172428e-43	2.32422599643664e-42	TRUE	TRUE	FALSE	502
+Bipolar disorder	Parkinson's disease	296	332	mental disorders	diseases of the nervous system and sense organs	#805462	#985396	0.366456946414597	3.96151289959589e-143	8.46411048791707e-142	TRUE	TRUE	FALSE	503
+Ulcer	Post-traumatic stress disorder	569	309	diseases of the digestive system	mental disorders	#FBAF5F	#805462	-0.1661222721695	5.22666464632368e-31	2.54364346121086e-30	FALSE	TRUE	TRUE	504
+Parkinson's disease	Post-traumatic stress disorder	332	309	diseases of the nervous system and sense organs	mental disorders	#985396	#805462	-0.0832654775098995	2.20589510843256e-08	4.90447744920539e-08	FALSE	TRUE	FALSE	505
+Chronic lymphocytic leukemia	Post-traumatic stress disorder	204	309	neoplasms	mental disorders	#FFB6AD	#805462	0.165608753546	9.41474079505774e-08	2.0214002295271e-07	FALSE	TRUE	FALSE	506
+Eosinophilic esophagitis	Post-traumatic stress disorder	530	309	diseases of the digestive system	mental disorders	#FBAF5F	#805462	0.178842216110588	1.82664595566685e-37	1.01274801086339e-36	TRUE	TRUE	FALSE	507
+Crohn's disease	Post-traumatic stress disorder	555	309	diseases of the digestive system	mental disorders	#FBAF5F	#805462	-0.104602709736988	2.34205611915919e-22	8.76769726659594e-22	FALSE	TRUE	FALSE	508
+Hyperplastic polyps	Post-traumatic stress disorder	211	309	neoplasms	mental disorders	#FFB6AD	#805462	-0.0951667727539704	4.28107825482896e-10	1.0534338627051e-09	FALSE	TRUE	FALSE	509
+Adenomatous polyps	Post-traumatic stress disorder	211	309	neoplasms	mental disorders	#FFB6AD	#805462	0.352555940728838	4.97571168045868e-25	2.00862830971512e-24	TRUE	TRUE	TRUE	510
+Chronic obstructive pulmonary disease	Post-traumatic stress disorder	496	309	diseases of the respiratory system	mental disorders	#00619C	#805462	-0.256487922684799	3.71080693490472e-119	6.50133374995306e-118	FALSE	TRUE	TRUE	511
+Crohn's disease	Prostate cancer	555	185	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	-0.0982825570042528	6.53177495352221e-20	2.31653233169452e-19	FALSE	TRUE	FALSE	512
+Smoker	Prostate cancer	305	185	mental disorders	neoplasms	#805462	#FFB6AD	-0.18255283201145	4.51920776037339e-06	8.66263894548597e-06	FALSE	TRUE	TRUE	513
+Colorectal cancer	Prostate cancer	153	185	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.133175937663065	0.00011350734051341	0.000194203965409663	FALSE	TRUE	FALSE	514
+Chronic obstructive pulmonary disease	Prostate cancer	496	185	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	-0.137755597357257	7.54567990982257e-35	3.9819371090389e-34	FALSE	TRUE	FALSE	515
+Papillary thyroid cancer	Prostate cancer	193	185	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.12846063850003	5.34690695505737e-07	1.0742868102363e-06	FALSE	TRUE	FALSE	516
+Eosinophilic esophagitis	Prostate cancer	530	185	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	-0.0854698804362545	1.24015491384527e-09	2.97637179322864e-09	FALSE	TRUE	FALSE	517
+Parkinson's disease	Prostate cancer	332	185	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.119864775396815	7.06245946666278e-16	2.20167775544363e-15	FALSE	TRUE	FALSE	518
+Hyperplastic polyps	Prostate cancer	211	185	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.239894220233502	3.57665810577559e-57	2.77270132801718e-56	FALSE	TRUE	FALSE	519
+Adenomatous polyps	Prostate cancer	211	185	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.369712230008195	1.53254898439418e-27	6.54884346502098e-27	FALSE	TRUE	TRUE	520
+Parkinson's disease	Rheumatoid arthritis	332	714	diseases of the nervous system and sense organs	diseases of the musculoskeletal system and connective tissue	#985396	#969A52	-0.361697091197414	3.21977859790661e-139	6.41028648128679e-138	FALSE	TRUE	TRUE	521
+Breast cancer	Rheumatoid arthritis	174	714	neoplasms	diseases of the musculoskeletal system and connective tissue	#FFB6AD	#969A52	-0.124016733264239	1.8303704230032e-30	8.71415483995004e-30	FALSE	TRUE	FALSE	522
+Liver cancer	Rheumatoid arthritis	155	714	neoplasms	diseases of the musculoskeletal system and connective tissue	#FFB6AD	#969A52	-0.0776567136029437	1.27090823041405e-10	3.19918278690433e-10	FALSE	TRUE	FALSE	523
+Sessile serrated polyps	Rheumatoid arthritis	211	714	neoplasms	diseases of the musculoskeletal system and connective tissue	#FFB6AD	#969A52	-0.165832121117248	2.1977692917254e-18	7.46219340911416e-18	FALSE	TRUE	FALSE	524
+Hyperplastic polyps	Rheumatoid arthritis	211	714	neoplasms	diseases of the musculoskeletal system and connective tissue	#FFB6AD	#969A52	-0.319455869050983	2.63788955951014e-102	3.78818238382112e-101	FALSE	TRUE	TRUE	525
+Ulcer	Rheumatoid arthritis	569	714	diseases of the digestive system	diseases of the musculoskeletal system and connective tissue	#FBAF5F	#969A52	-0.0317022364634234	0.0281634920901914	0.0384286901417564	FALSE	TRUE	FALSE	526
+Asthma	Rheumatoid arthritis	493	714	diseases of the respiratory system	diseases of the musculoskeletal system and connective tissue	#00619C	#969A52	-0.157919711757303	2.38604030871502e-08	5.29157293780849e-08	FALSE	TRUE	FALSE	527
+Chronic lymphocytic leukemia	Rheumatoid arthritis	204	714	neoplasms	diseases of the musculoskeletal system and connective tissue	#FFB6AD	#969A52	-0.21105293955973	8.34781536866875e-12	2.19600188076692e-11	FALSE	TRUE	TRUE	528
+Eosinophilic esophagitis	Rheumatoid arthritis	530	714	diseases of the digestive system	diseases of the musculoskeletal system and connective tissue	#FBAF5F	#969A52	0.114658284196245	3.30592864572328e-16	1.04548501575942e-15	TRUE	TRUE	FALSE	529
+Borrelia burgdorferi infection	Rheumatoid arthritis	88	714	infectious and parasitic diseases	diseases of the musculoskeletal system and connective tissue	#A1CE5E	#969A52	0.211302263547785	2.89160042129352e-48	2.01035076908978e-47	TRUE	TRUE	TRUE	530
+Smoker	Rheumatoid arthritis	305	714	mental disorders	diseases of the musculoskeletal system and connective tissue	#805462	#969A52	-0.337012693814692	5.18493973203826e-18	1.73359053636088e-17	FALSE	TRUE	TRUE	531
+Chronic obstructive pulmonary disease	Rheumatoid arthritis	496	714	diseases of the respiratory system	diseases of the musculoskeletal system and connective tissue	#00619C	#969A52	0.321705663033611	4.45949094782163e-190	1.26016582912637e-188	TRUE	TRUE	TRUE	532
+Crohn's disease	Rheumatoid arthritis	555	714	diseases of the digestive system	diseases of the musculoskeletal system and connective tissue	#FBAF5F	#969A52	0.174684584120652	6.78605795728109e-60	5.50424700979466e-59	TRUE	TRUE	FALSE	533
+Colorectal cancer	Rheumatoid arthritis	153	714	neoplasms	diseases of the musculoskeletal system and connective tissue	#FFB6AD	#969A52	-0.0849237643076199	0.0140983465800222	0.0199840640843033	FALSE	TRUE	FALSE	534
+Cardiomyopathy	Rheumatoid arthritis	425	714	diseases of the circulatory system	diseases of the musculoskeletal system and connective tissue	#DD3232	#969A52	0.244196675740947	0.00461645776095698	0.00691284957025353	FALSE	TRUE	FALSE	535
+Adenomatous polyps	Rheumatoid arthritis	211	714	neoplasms	diseases of the musculoskeletal system and connective tissue	#FFB6AD	#969A52	-0.134427945660062	0.000128000896707272	0.000217303847898392	FALSE	TRUE	FALSE	536
+Familial dysautonomia	Rheumatoid arthritis	742	714	congenital anomalies	diseases of the musculoskeletal system and connective tissue	#AEC6CC	#969A52	0.106601733104305	0.000498717830176851	0.000815068692602465	TRUE	TRUE	FALSE	537
+Schizophrenia	Rheumatoid arthritis	295	714	mental disorders	diseases of the musculoskeletal system and connective tissue	#805462	#969A52	-0.115087039135661	0.0315997943979973	0.0428504951898539	FALSE	TRUE	TRUE	538
+Papillary thyroid cancer	Rheumatoid arthritis	193	714	neoplasms	diseases of the musculoskeletal system and connective tissue	#FFB6AD	#969A52	-0.203561076396743	1.29273269586202e-15	3.95955888662634e-15	FALSE	TRUE	TRUE	539
+Crohn's disease	Schizophrenia	555	295	diseases of the digestive system	mental disorders	#FBAF5F	#805462	0.032998993383807	0.00200635698917768	0.00314413009395286	FALSE	TRUE	FALSE	540
+Papillary thyroid cancer	Schizophrenia	193	295	neoplasms	mental disorders	#FFB6AD	#805462	0.098262889730541	2.69082286061085e-05	4.81053229774511e-05	FALSE	TRUE	FALSE	541
+Ulcer	Schizophrenia	569	295	diseases of the digestive system	mental disorders	#FBAF5F	#805462	0.0763682480228629	5.99252412235618e-08	1.3025933328e-07	TRUE	TRUE	FALSE	542
+Eosinophilic esophagitis	Schizophrenia	530	295	diseases of the digestive system	mental disorders	#FBAF5F	#805462	0.0587471019311077	1.93498115952372e-05	3.5166877505037e-05	TRUE	TRUE	FALSE	543
+Parkinson's disease	Schizophrenia	332	295	diseases of the nervous system and sense organs	mental disorders	#985396	#805462	0.375011572723139	2.80419854029846e-157	7.01850834657557e-156	TRUE	TRUE	FALSE	544
+Facioscapulohumeral muscular dystrophy	Schizophrenia	359	295	diseases of the nervous system and sense organs	mental disorders	#985396	#805462	0.140844565737724	0.0084161864922682	0.0121659725531798	FALSE	TRUE	FALSE	545
+Prostate cancer	Schizophrenia	185	295	neoplasms	mental disorders	#FFB6AD	#805462	0.14476116085792	0.00674979918256167	0.0099042279462714	FALSE	TRUE	FALSE	546
+Adenomatous polyps	Schizophrenia	211	295	neoplasms	mental disorders	#FFB6AD	#805462	0.0797526884325371	0.00703289127586547	0.0102851632014326	FALSE	TRUE	FALSE	547
+Alagille syndrome	Schizophrenia	759	295	congenital anomalies	mental disorders	#AEC6CC	#805462	0.129460476429042	0.0153706247656711	0.021752289652226	FALSE	TRUE	FALSE	548
+Multiple sclerosis	Schizophrenia	340	295	diseases of the nervous system and sense organs	mental disorders	#985396	#805462	0.20954247705068	1.05770274040971e-07	2.24890194320123e-07	FALSE	TRUE	FALSE	549
+Bipolar disorder	Schizophrenia	296	295	mental disorders	mental disorders	#805462	#805462	0.439137002831611	6.93704679699314e-18	2.31059049207832e-17	TRUE	TRUE	TRUE	550
+Colorectal cancer	Schizophrenia	153	295	neoplasms	mental disorders	#FFB6AD	#805462	0.128667312289625	1.01123472967614e-05	1.85711032116625e-05	FALSE	TRUE	FALSE	551
+Lymphocytic colitis	Sessile serrated polyps	558	211	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	-0.243887267503723	1.79211034391756e-38	1.01940822160505e-37	FALSE	TRUE	TRUE	552
+Breast cancer	Sessile serrated polyps	174	211	neoplasms	neoplasms	#FFB6AD	#FFB6AD	-0.0535392646597346	1.33530020677867e-07	2.79838033765099e-07	FALSE	TRUE	FALSE	553
+Smoker	Sessile serrated polyps	305	211	mental disorders	neoplasms	#805462	#FFB6AD	0.277247161843698	8.6431094930956e-58	6.76014635352835e-57	TRUE	TRUE	FALSE	554
+Alagille syndrome	Sessile serrated polyps	759	211	congenital anomalies	neoplasms	#AEC6CC	#FFB6AD	0.100344297276063	1.36319401047505e-07	2.85001898132732e-07	TRUE	TRUE	FALSE	555
+Post-traumatic stress disorder	Sessile serrated polyps	309	211	mental disorders	neoplasms	#805462	#FFB6AD	-0.140051179477437	1.68061188563759e-13	4.73381354282485e-13	FALSE	TRUE	FALSE	556
+Keratoconus	Sessile serrated polyps	371	211	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	-0.158059501143571	7.99394332795516e-17	2.56508950743177e-16	FALSE	TRUE	FALSE	557
+Crohn's disease	Sessile serrated polyps	555	211	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.169227745022635	6.2154271399482e-63	5.44471417459462e-62	TRUE	TRUE	FALSE	558
+Hyperplastic polyps	Sessile serrated polyps	211	211	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.836366454233836	0	0	FALSE	TRUE	TRUE	559
+Ischemia	Sessile serrated polyps	414	211	diseases of the circulatory system	neoplasms	#DD3232	#FFB6AD	0.167095902186029	1.17075196266954e-18	4.00616687225984e-18	TRUE	FALSE	FALSE	560
+Prostate cancer	Sessile serrated polyps	185	211	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0707919397810433	0.000205117325242799	0.000342252908405128	FALSE	FALSE	FALSE	561
+Colorectal cancer	Sessile serrated polyps	153	211	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.177014479297828	8.39969223121565e-25	3.34460472479314e-24	TRUE	TRUE	FALSE	562
+Schizophrenia	Sessile serrated polyps	295	211	mental disorders	neoplasms	#805462	#FFB6AD	0.0596207988916647	0.00100989713079411	0.00161142055842557	FALSE	TRUE	FALSE	563
+Muscular dystrophy	Sessile serrated polyps	359	211	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	-0.0414660586933426	0.029790733935447	0.0405858210380273	FALSE	TRUE	FALSE	564
+Adenomatous polyps	Sessile serrated polyps	211	211	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.126292571868839	1.31063452210809e-13	3.73979101422374e-13	FALSE	FALSE	FALSE	565
+Asthma	Sessile serrated polyps	493	211	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	0.215446338319702	7.94083977962505e-41	4.73209227683779e-40	TRUE	TRUE	FALSE	566
+Chronic obstructive pulmonary disease	Sessile serrated polyps	496	211	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	-0.0275483117728733	0.00777226402999961	0.0112910502326363	FALSE	TRUE	FALSE	567
+Facioscapulohumeral muscular dystrophy	Sessile serrated polyps	359	211	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.0409069286260668	0.032069927584934	0.0434207983993851	TRUE	FALSE	FALSE	568
+Parkinson's disease	Sessile serrated polyps	332	211	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.219499484837586	7.6013463560945e-71	7.39864378659865e-70	FALSE	TRUE	FALSE	569
+Multiple sclerosis	Sessile serrated polyps	340	211	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.177218092754617	1.95426850101215e-22	7.37904830554587e-22	FALSE	TRUE	FALSE	570
+Ulcer	Sessile serrated polyps	569	211	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.225334728530163	5.45737672433252e-75	5.62430824766505e-74	TRUE	TRUE	FALSE	571
+Chronic lymphocytic leukemia	Sessile serrated polyps	204	211	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0389402303686022	0.020277361838999	0.028150505500734	FALSE	TRUE	FALSE	572
+Papillary thyroid cancer	Sessile serrated polyps	193	211	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.266735028368359	2.18131659185125e-65	1.96993127264092e-64	FALSE	TRUE	TRUE	573
+Human immunodeficiency virus infection	Sessile serrated polyps	42	211	infectious and parasitic diseases	neoplasms	#A1CE5E	#FFB6AD	-0.0495443505768345	0.00941377908069456	0.0135856185744455	FALSE	FALSE	FALSE	574
+Eosinophilic esophagitis	Sessile serrated polyps	530	211	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	-0.150319860492945	9.9282141714996e-35	5.20785366121776e-34	FALSE	TRUE	FALSE	575
+Down syndrome	Sessile serrated polyps	758	211	congenital anomalies	neoplasms	#AEC6CC	#FFB6AD	0.136880783549214	4.48036696787008e-13	1.24202577970069e-12	FALSE	TRUE	FALSE	576
+Bipolar disorder	Sessile serrated polyps	296	211	mental disorders	neoplasms	#805462	#FFB6AD	-0.104162908634768	4.48067348251185e-08	9.81267492670094e-08	FALSE	TRUE	FALSE	577
+Breast cancer	Systemic lupus erythematosus	174	710	neoplasms	diseases of the musculoskeletal system and connective tissue	#FFB6AD	#969A52	0.063056413931411	6.01302576345516e-09	1.38252245899914e-08	FALSE	TRUE	FALSE	578
+Chronic obstructive pulmonary disease	Systemic lupus erythematosus	496	710	diseases of the respiratory system	diseases of the musculoskeletal system and connective tissue	#00619C	#969A52	0.0561148775092831	5.84023103566781e-07	1.17071908174943e-06	TRUE	TRUE	FALSE	579
+Smoker	Systemic lupus erythematosus	305	710	mental disorders	diseases of the musculoskeletal system and connective tissue	#805462	#969A52	0.206579294811713	1.92682745940841e-07	3.97153142221592e-07	FALSE	TRUE	TRUE	580
+Idiopathic pulmonary fibrosis	Systemic lupus erythematosus	516	710	diseases of the respiratory system	diseases of the musculoskeletal system and connective tissue	#00619C	#969A52	0.154011285117582	6.81654744759085e-36	3.6633715117114e-35	TRUE	TRUE	FALSE	581
+Adenomatous polyps	Systemic lupus erythematosus	211	710	neoplasms	diseases of the musculoskeletal system and connective tissue	#FFB6AD	#969A52	-0.156349714708792	8.01061840234813e-06	1.50263420138265e-05	FALSE	TRUE	FALSE	582
+Parkinson's disease	Systemic lupus erythematosus	332	710	diseases of the nervous system and sense organs	diseases of the musculoskeletal system and connective tissue	#985396	#969A52	0.0677205213121835	5.40797567523367e-06	1.03436390644207e-05	FALSE	TRUE	FALSE	583
+Crohn's disease	Systemic lupus erythematosus	555	710	diseases of the digestive system	diseases of the musculoskeletal system and connective tissue	#FBAF5F	#969A52	0.0524575513618572	1.13100456574032e-06	2.22642696536746e-06	TRUE	TRUE	FALSE	584
+Chronic lymphocytic leukemia	Systemic lupus erythematosus	204	710	neoplasms	diseases of the musculoskeletal system and connective tissue	#FFB6AD	#969A52	-0.257647760853395	4.74463479180387e-17	1.53369006554251e-16	FALSE	TRUE	TRUE	585
+Papillary thyroid cancer	Systemic lupus erythematosus	193	710	neoplasms	diseases of the musculoskeletal system and connective tissue	#FFB6AD	#969A52	0.107436796465189	2.81828786129546e-05	5.01792716767241e-05	FALSE	TRUE	FALSE	586
+Ulcer	Systemic lupus erythematosus	569	710	diseases of the digestive system	diseases of the musculoskeletal system and connective tissue	#FBAF5F	#969A52	0.185842977283571	1.61532596346339e-38	9.30937857890745e-38	TRUE	TRUE	FALSE	587
+Hyperplastic polyps	Systemic lupus erythematosus	211	710	neoplasms	diseases of the musculoskeletal system and connective tissue	#FFB6AD	#969A52	0.165737596702189	8.7116600423941e-28	3.77792782036497e-27	TRUE	TRUE	FALSE	588
+Sessile serrated polyps	Systemic lupus erythematosus	211	710	neoplasms	diseases of the musculoskeletal system and connective tissue	#FFB6AD	#969A52	0.101610769207095	9.44967869577819e-08	2.02394096271435e-07	TRUE	TRUE	FALSE	589
+Multiple sclerosis	Smoker	340	305	diseases of the nervous system and sense organs	mental disorders	#985396	#805462	0.360987971222221	2.65929467868024e-29	1.21965556990779e-28	FALSE	TRUE	TRUE	590
+Parkinson's disease	Smoker	332	305	diseases of the nervous system and sense organs	mental disorders	#985396	#805462	0.242657190754398	2.76449891825755e-66	2.54915900251959e-65	FALSE	TRUE	FALSE	591
+Human immunodeficiency virus infection	Smoker	42	305	infectious and parasitic diseases	mental disorders	#A1CE5E	#805462	0.1798642436702	6.26389412445992e-06	1.18513417991942e-05	TRUE	TRUE	TRUE	592
+Ulcer	Smoker	569	305	diseases of the digestive system	mental disorders	#FBAF5F	#805462	0.154104740724651	4.57988602014818e-29	2.08957299669261e-28	FALSE	TRUE	FALSE	593
+Crohn's disease	Smoker	555	305	diseases of the digestive system	mental disorders	#FBAF5F	#805462	0.0324978304626929	0.00221202765618777	0.00344792922921795	FALSE	TRUE	FALSE	594
+Chronic obstructive pulmonary disease	Smoker	496	305	diseases of the respiratory system	mental disorders	#00619C	#805462	-0.0429311948857487	0.000107040862657284	0.000183858422917218	FALSE	TRUE	FALSE	595
+Alagille syndrome	Smoker	759	305	congenital anomalies	mental disorders	#AEC6CC	#805462	0.168140789008413	2.42330011657115e-05	4.35002234040231e-05	TRUE	TRUE	FALSE	596
+Lymphocytic colitis	Smoker	558	305	diseases of the digestive system	mental disorders	#FBAF5F	#805462	0.0964635057608959	0.0160178053436993	0.0225951650258946	TRUE	TRUE	FALSE	597
+Adenomatous polyps	Smoker	211	305	neoplasms	mental disorders	#FFB6AD	#805462	-0.197945184309426	8.61927635903424e-14	2.4919096008297e-13	FALSE	TRUE	FALSE	598
+Hyperplastic polyps	Smoker	211	305	neoplasms	mental disorders	#FFB6AD	#805462	0.284552272349009	4.3413947955584e-88	5.00402873803836e-87	TRUE	TRUE	FALSE	599
+Eosinophilic esophagitis	Smoker	530	305	diseases of the digestive system	mental disorders	#FBAF5F	#805462	-0.22104041795883	5.13949673105458e-61	4.20766274430263e-60	FALSE	TRUE	TRUE	600
+Papillary thyroid cancer	Smoker	193	305	neoplasms	mental disorders	#FFB6AD	#805462	0.252681310074047	1.57146937071413e-31	7.69054284215405e-31	FALSE	TRUE	FALSE	601
+Bipolar disorder	Smoker	296	305	mental disorders	mental disorders	#805462	#805462	-0.271222916444752	5.75461169291094e-12	1.52297276223262e-11	FALSE	TRUE	TRUE	602
+Colorectal cancer	Smoker	153	305	neoplasms	mental disorders	#FFB6AD	#805462	0.163527154466076	5.69973224168245e-10	1.39079817373644e-09	FALSE	TRUE	FALSE	603
+Down syndrome	Smoker	758	305	congenital anomalies	mental disorders	#AEC6CC	#805462	0.122042982222424	0.00184094463541866	0.00289527378927602	FALSE	TRUE	FALSE	604
+Cardiomyopathy	Papillary thyroid cancer	425	193	diseases of the circulatory system	neoplasms	#DD3232	#FFB6AD	-0.113372376438594	4.37487588866792e-06	8.41036189549127e-06	FALSE	TRUE	FALSE	605
+Bipolar disorder	Papillary thyroid cancer	296	193	mental disorders	neoplasms	#805462	#FFB6AD	-0.189607396995125	1.03249012950469e-13	2.95575605701344e-13	FALSE	TRUE	FALSE	606
+Ulcer	Papillary thyroid cancer	569	193	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.232543484277545	1.92185237134222e-72	1.8916209857256e-71	FALSE	TRUE	FALSE	607
+Human immunodeficiency virus infection	Papillary thyroid cancer	42	193	infectious and parasitic diseases	neoplasms	#A1CE5E	#FFB6AD	-0.0587268223524723	0.0223481137619467	0.0308784663335416	FALSE	TRUE	FALSE	608
+Chronic obstructive pulmonary disease	Papillary thyroid cancer	496	193	diseases of the respiratory system	neoplasms	#00619C	#FFB6AD	-0.143137288223381	4.88173341849233e-41	2.9290400510954e-40	FALSE	TRUE	FALSE	609
+Colorectal cancer	Papillary thyroid cancer	153	193	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0518998236616644	0.013213972815127	0.0187608430892241	FALSE	TRUE	FALSE	610
+Facioscapulohumeral muscular dystrophy	Papillary thyroid cancer	359	193	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.136258267088136	1.03465131981617e-07	2.20524222909723e-07	FALSE	TRUE	FALSE	611
+Muscular dystrophy	Papillary thyroid cancer	359	193	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	-0.114371610132777	8.2070188926003e-06	1.53076955173644e-05	FALSE	TRUE	FALSE	612
+Alagille syndrome	Papillary thyroid cancer	759	193	congenital anomalies	neoplasms	#AEC6CC	#FFB6AD	0.14610231244997	1.1242168182617e-08	2.53165535423458e-08	TRUE	TRUE	FALSE	613
+Eosinophilic esophagitis	Papillary thyroid cancer	530	193	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.0544509160236479	2.21084856447541e-05	3.99320276800095e-05	FALSE	TRUE	FALSE	614
+Multiple sclerosis	Papillary thyroid cancer	340	193	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.0710447433729721	0.00280737571170294	0.00430693716891729	FALSE	TRUE	FALSE	615
+Hyperplastic polyps	Papillary thyroid cancer	211	193	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.226089904093416	6.74823189171317e-63	5.85292191796112e-62	FALSE	TRUE	FALSE	616
+Adenomatous polyps	Papillary thyroid cancer	211	193	neoplasms	neoplasms	#FFB6AD	#FFB6AD	0.0479982842468031	0.0225870275393079	0.0311594269676121	FALSE	TRUE	FALSE	617
+Parkinson's disease	Papillary thyroid cancer	332	193	diseases of the nervous system and sense organs	neoplasms	#985396	#FFB6AD	0.263458726885534	2.40811737829819e-88	2.81268109785228e-87	FALSE	TRUE	FALSE	618
+Crohn's disease	Papillary thyroid cancer	555	193	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.026950074918469	0.00956267035882957	0.013755171156543	FALSE	TRUE	FALSE	619
+Lymphocytic colitis	Papillary thyroid cancer	558	193	diseases of the digestive system	neoplasms	#FBAF5F	#FFB6AD	0.0770148373876914	0.00272073202416489	0.00418133553187446	FALSE	TRUE	FALSE	620
+Sessile serrated polyps	Ulcerative colitis	211	556	neoplasms	diseases of the digestive system	#FFB6AD	#FBAF5F	0.218601060318738	6.42192701584697e-90	7.60217306200264e-89	TRUE	TRUE	FALSE	621
+Alagille syndrome	Ulcerative colitis	759	556	congenital anomalies	diseases of the digestive system	#AEC6CC	#FBAF5F	-0.153201846208025	1.73194750610287e-38	9.91624846631447e-38	FALSE	TRUE	FALSE	622
+Post-traumatic stress disorder	Ulcerative colitis	309	556	mental disorders	diseases of the digestive system	#805462	#FBAF5F	-0.122104862335343	5.86841153582502e-25	2.34736461433001e-24	FALSE	TRUE	FALSE	623
+Facioscapulohumeral muscular dystrophy	Ulcerative colitis	359	556	diseases of the nervous system and sense organs	diseases of the digestive system	#985396	#FBAF5F	-0.0352631044952815	0.00298363203336858	0.00456136415572579	FALSE	TRUE	FALSE	624
+Glioblastoma	Ulcerative colitis	191	556	neoplasms	diseases of the digestive system	#FFB6AD	#FBAF5F	0.136232100303465	1.05262262440826e-49	7.62063982629454e-49	FALSE	TRUE	FALSE	625
+Amyotrophic lateral sclerosis	Ulcerative colitis	335	556	diseases of the nervous system and sense organs	diseases of the digestive system	#985396	#FBAF5F	0.279406351822022	2.75678431174211e-127	5.03113136892935e-126	FALSE	TRUE	FALSE	626
+Ulcer	Ulcerative colitis	569	556	diseases of the digestive system	diseases of the digestive system	#FBAF5F	#FBAF5F	0.605670561845009	0	0	TRUE	TRUE	FALSE	627
+Asthma	Ulcerative colitis	493	556	diseases of the respiratory system	diseases of the digestive system	#00619C	#FBAF5F	-0.0423310132951076	0.000186397660065305	0.00031161135537635	FALSE	TRUE	FALSE	628
+Papillary thyroid cancer	Ulcerative colitis	193	556	neoplasms	diseases of the digestive system	#FFB6AD	#FBAF5F	0.0762846765564878	1.19008485954783e-11	3.08436194368018e-11	FALSE	TRUE	FALSE	629
+Myotonic dystrophy	Ulcerative colitis	359	556	diseases of the nervous system and sense organs	diseases of the digestive system	#985396	#FBAF5F	-0.183880284662727	5.97597757742437e-55	4.552135963325e-54	FALSE	TRUE	FALSE	630
+Lymphocytic colitis	Ulcerative colitis	558	556	diseases of the digestive system	diseases of the digestive system	#FBAF5F	#FBAF5F	0.136634223057237	6.86120189310079e-31	3.32067008748966e-30	TRUE	TRUE	FALSE	631
+Chronic obstructive pulmonary disease	Ulcerative colitis	496	556	diseases of the respiratory system	diseases of the digestive system	#00619C	#FBAF5F	0.289567658629488	6.88983625067706e-214	2.20017721001459e-212	TRUE	TRUE	TRUE	632
+Down syndrome	Ulcerative colitis	758	556	congenital anomalies	diseases of the digestive system	#AEC6CC	#FBAF5F	-0.0455901583491908	0.000120827733558315	0.000205924308554638	FALSE	TRUE	FALSE	633
+Lung cancer	Ulcerative colitis	162	556	neoplasms	diseases of the digestive system	#FFB6AD	#FBAF5F	-0.116262775593326	5.0621294517157e-34	2.63953892839462e-33	FALSE	TRUE	FALSE	634
+Friedreich's ataxia	Ulcerative colitis	334	556	diseases of the nervous system and sense organs	diseases of the digestive system	#985396	#FBAF5F	0.115600498592729	1.39538584050388e-26	5.79316585915354e-26	FALSE	TRUE	FALSE	635
+Huntington's disease	Ulcerative colitis	333	556	diseases of the nervous system and sense organs	diseases of the digestive system	#985396	#FBAF5F	0.179326026078367	7.73332858822704e-63	6.64156455224205e-62	FALSE	TRUE	FALSE	636
+Bipolar disorder	Ulcerative colitis	296	556	mental disorders	diseases of the digestive system	#805462	#FBAF5F	0.0837261991596451	1.65804292545665e-12	4.49673561207439e-12	TRUE	TRUE	FALSE	637
+Borrelia burgdorferi infection	Ulcerative colitis	88	556	infectious and parasitic diseases	diseases of the digestive system	#A1CE5E	#FBAF5F	0.074403934510586	3.63853101292551e-13	1.01185814835643e-12	FALSE	TRUE	FALSE	638
+Human immunodeficiency virus infection	Ulcerative colitis	42	556	infectious and parasitic diseases	diseases of the digestive system	#A1CE5E	#FBAF5F	0.0681084319530883	9.46062727022921e-09	2.13595605379402e-08	TRUE	TRUE	FALSE	639
+Chronic lymphocytic leukemia	Ulcerative colitis	204	556	neoplasms	diseases of the digestive system	#FFB6AD	#FBAF5F	-0.135279981378861	2.71896975253206e-32	1.35330539955573e-31	FALSE	TRUE	FALSE	640
+Systemic lupus erythematosus	Ulcerative colitis	710	556	diseases of the musculoskeletal system and connective tissue	diseases of the digestive system	#969A52	#FBAF5F	0.113234634403322	1.14375328253094e-21	4.20978098948363e-21	TRUE	TRUE	FALSE	641
+Rheumatoid arthritis	Ulcerative colitis	714	556	diseases of the musculoskeletal system and connective tissue	diseases of the digestive system	#969A52	#FBAF5F	0.23246907566071	1.2923740205752e-87	1.47028524938165e-86	TRUE	TRUE	FALSE	642
+Keratoconus	Ulcerative colitis	371	556	diseases of the nervous system and sense organs	diseases of the digestive system	#985396	#FBAF5F	0.138328299690748	1.26029820804555e-31	6.20236646206687e-31	FALSE	TRUE	FALSE	643
+Crohn's disease	Ulcerative colitis	555	556	diseases of the digestive system	diseases of the digestive system	#FBAF5F	#FBAF5F	0.81295472297967	0	0	TRUE	TRUE	TRUE	644
+Hyperplastic polyps	Ulcerative colitis	211	556	neoplasms	diseases of the digestive system	#FFB6AD	#FBAF5F	0.0226171645299833	0.02986035108756	0.0406174961998486	TRUE	FALSE	FALSE	645
+Coeliac disease	Ulcerative colitis	579	556	diseases of the digestive system	diseases of the digestive system	#FBAF5F	#FBAF5F	0.0538715266143391	5.67166838311452e-06	1.07897637357319e-05	TRUE	TRUE	FALSE	646
+Kaposi's sarcoma	Ulcerative colitis	176	556	neoplasms	diseases of the digestive system	#FFB6AD	#FBAF5F	0.366207661219995	2.22932960541559e-243	8.49083797540896e-242	TRUE	TRUE	TRUE	647
+Cardiomyopathy	Ulcerative colitis	425	556	diseases of the circulatory system	diseases of the digestive system	#DD3232	#FBAF5F	0.115723835913678	8.2203217045714e-23	3.13087035356719e-22	FALSE	TRUE	FALSE	648
+Colorectal cancer	Ulcerative colitis	153	556	neoplasms	diseases of the digestive system	#FFB6AD	#FBAF5F	0.242472552440318	2.59816421337256e-99	3.55623726705369e-98	TRUE	TRUE	FALSE	649
+Schizophrenia	Ulcerative colitis	295	556	mental disorders	diseases of the digestive system	#805462	#FBAF5F	0.0912074601654476	6.1018210206612e-15	1.83683684333306e-14	FALSE	TRUE	FALSE	650
+Familial dysautonomia	Ulcerative colitis	742	556	congenital anomalies	diseases of the digestive system	#AEC6CC	#FBAF5F	0.034865797287946	0.00215329825614049	0.00336837370067691	FALSE	TRUE	FALSE	651
+Breast cancer	Ulcerative colitis	174	556	neoplasms	diseases of the digestive system	#FFB6AD	#FBAF5F	-0.251106366288967	9.89826460826105e-163	2.62753933237475e-161	FALSE	TRUE	TRUE	652
+Eosinophilic esophagitis	Ulcerative colitis	530	556	diseases of the digestive system	diseases of the digestive system	#FBAF5F	#FBAF5F	0.101106644201079	3.56330695100729e-23	1.37509114056493e-22	TRUE	TRUE	FALSE	653
+Multiple sclerosis	Ulcerative colitis	340	556	diseases of the nervous system and sense organs	diseases of the digestive system	#985396	#FBAF5F	0.115923395185439	3.93468730219725e-23	1.51174827926526e-22	TRUE	TRUE	FALSE	654
+Idiopathic pulmonary fibrosis	Ulcerative colitis	516	556	diseases of the respiratory system	diseases of the digestive system	#00619C	#FBAF5F	0.0785783715514808	7.30454238750497e-16	2.26907061399091e-15	TRUE	TRUE	FALSE	655
+Ischemia	Ulcerative colitis	414	556	diseases of the circulatory system	diseases of the digestive system	#DD3232	#FBAF5F	0.169501175064954	7.53852711944002e-47	5.07980750509958e-46	TRUE	TRUE	FALSE	656
+Familial pulmonary arterial hypertension	Ulcerative colitis	416	556	diseases of the circulatory system	diseases of the digestive system	#DD3232	#FBAF5F	0.0318964281244462	0.00723633660734978	0.0105650514467307	FALSE	TRUE	FALSE	657
+Autism	Ulcerative colitis	299	556	mental disorders	diseases of the digestive system	#805462	#FBAF5F	0.118605583855826	1.20418293462703e-23	4.68828555881457e-23	FALSE	TRUE	FALSE	658

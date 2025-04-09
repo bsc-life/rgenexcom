@@ -1,0 +1,659 @@
+source	target	ultrametric_distance	is_ultrametric	distance
+Multiple sclerosis	Adenomatous polyps	0.630226479827645	False	0.8612821728818271
+Multiple sclerosis	Amyotrophic lateral sclerosis	0.54870654155092	False	0.824073675864687
+Multiple sclerosis	Asthma	0.7226712763445969	False	0.9050250720641226
+Multiple sclerosis	Autism	0.568897697323114	False	0.851012712538721
+Multiple sclerosis	Borrelia burgdorferi infection	0.788698736452215	False	0.96583549178211
+Multiple sclerosis	Crohn's disease	0.710433341370512	False	0.896533563500723
+Multiple sclerosis	Glioblastoma	0.513183546540583	False	0.6765395551272421
+Multiple sclerosis	Huntington's disease	0.46920344264291597	True	0.46920344264291597
+Multiple sclerosis	Hyperplastic polyps	0.630226479827645	False	0.85011643140457
+Multiple sclerosis	Idiopathic pulmonary fibrosis	0.7005149362522881	False	0.8642597711309811
+Multiple sclerosis	Down syndrome	0.8011535984545389	True	0.8011535984545389
+Multiple sclerosis	Parkinson's disease	0.46920344264291597	False	0.6281062855533711
+Multiple sclerosis	Ulcer	0.710433341370512	False	0.818928349113861
+Multiple sclerosis	Schizophrenia	0.560863997168389	False	0.7904585229493201
+Multiple sclerosis	Sessile serrated polyps	0.630226479827645	False	0.822782907245383
+Multiple sclerosis	Smoker	0.639013028777779	True	0.639013028777779
+Multiple sclerosis	Papillary thyroid cancer	0.7332659716316411	False	0.928956256627028
+Multiple sclerosis	Ulcerative colitis	0.710433341370512	False	0.884077604814561
+Adenomatous polyps	Colorectal cancer	0.6425785163225821	True	0.6425785163225821
+Adenomatous polyps	Lymphocytic colitis	0.6425785163225821	False	0.847407362094828
+Adenomatous polyps	Muscular dystrophy	0.3495122457877829	False	0.7817812709912351
+Adenomatous polyps	Parkinson's disease	0.630226479827645	False	0.847008540960211
+Adenomatous polyps	Bipolar disorder	0.630226479827645	False	0.771901601567879
+Adenomatous polyps	Ulcer	0.710433341370512	False	0.9181561764782051
+Adenomatous polyps	Autism	0.630226479827645	False	0.737639081025341
+Adenomatous polyps	Breast cancer	0.7005149362522881	False	0.771048214304772
+Adenomatous polyps	Coeliac disease	0.639013028777779	False	0.780051481463422
+Adenomatous polyps	Facioscapulohumeral muscular dystrophy	0.78154428804686	False	0.916783407096634
+Adenomatous polyps	Familial dysautonomia	0.630226479827645	False	0.699930484081215
+Adenomatous polyps	Glioblastoma	0.630226479827645	False	0.864853012485266
+Adenomatous polyps	Huntington's disease	0.630226479827645	False	0.889878033561195
+Adenomatous polyps	Hyperplastic polyps	0.5967582383607121	False	0.6259628478521321
+Adenomatous polyps	Idiopathic pulmonary fibrosis	0.7005149362522881	False	0.881006045062518
+Adenomatous polyps	Ischemia	0.3495122457877829	False	0.860994442707249
+Adenomatous polyps	Kaposi's sarcoma	0.710433341370512	False	0.9390182089338813
+Adenomatous polyps	Lung cancer	0.7005149362522881	False	0.9162974702703829
+Adenomatous polyps	Myotonic dystrophy	0.3495122457877829	True	0.3495122457877829
+Adenomatous polyps	Post-traumatic stress disorder	0.6474450592711621	True	0.6474450592711621
+Adenomatous polyps	Prostate cancer	0.630288769991805	True	0.630288769991805
+Adenomatous polyps	Schizophrenia	0.630226479827645	False	0.9202483115674629
+Adenomatous polyps	Sessile serrated polyps	0.5967582383607121	False	0.873708428131161
+Adenomatous polyps	Papillary thyroid cancer	0.7332659716316411	False	0.952002715753197
+Colorectal cancer	Autism	0.6425785163225821	False	0.8946493291325021
+Colorectal cancer	Breast cancer	0.7005149362522881	False	0.9329095297164797
+Colorectal cancer	Chronic lymphocytic leukemia	0.7383854781658961	False	0.9415563233189137
+Colorectal cancer	Parkinson's disease	0.6425785163225821	False	0.9517395734852951
+Colorectal cancer	Eosinophilic esophagitis	0.7274547135035511	False	0.9014424997668441
+Colorectal cancer	Lymphocytic colitis	0.5541864719334361	True	0.5541864719334361
+Colorectal cancer	Ulcer	0.710433341370512	False	0.7702666580968901
+Colorectal cancer	Crohn's disease	0.710433341370512	False	0.760701009466405
+Colorectal cancer	Facioscapulohumeral muscular dystrophy	0.78154428804686	False	0.9136502281438447
+Colorectal cancer	Friedreich's ataxia	0.741283179678167	False	0.9634022797601405
+Colorectal cancer	Glioblastoma	0.6425785163225821	False	0.907269131558125
+Colorectal cancer	Human immunodeficiency virus infection	0.8201367563298	False	0.834157852773629
+Colorectal cancer	Hyperplastic polyps	0.6425785163225821	False	0.9397137713265928
+Colorectal cancer	Idiopathic pulmonary fibrosis	0.7005149362522881	False	0.9647159728694089
+Colorectal cancer	Ischemia	0.6425785163225821	False	0.8622381723114201
+Colorectal cancer	Kaposi's sarcoma	0.710433341370512	False	0.896631280659144
+Colorectal cancer	Liver cancer	0.7005149362522881	False	0.8677387374155351
+Colorectal cancer	Lung cancer	0.7005149362522881	False	0.858769864376356
+Colorectal cancer	Myotonic dystrophy	0.6425785163225821	False	0.896179335319894
+Colorectal cancer	Prostate cancer	0.6425785163225821	False	0.866825062336935
+Colorectal cancer	Schizophrenia	0.6425785163225821	False	0.871333687710375
+Colorectal cancer	Sessile serrated polyps	0.6425785163225821	False	0.822986520702172
+Colorectal cancer	Smoker	0.6425785163225821	False	0.836473845533924
+Colorectal cancer	Papillary thyroid cancer	0.7332659716316411	False	0.9481011763383357
+Colorectal cancer	Ulcerative colitis	0.710433341370512	False	0.7575284475596821
+Lymphocytic colitis	Breast cancer	0.7005149362522881	False	0.722375127256707
+Lymphocytic colitis	Crohn's disease	0.710433341370512	False	0.83483406489128
+Lymphocytic colitis	Friedreich's ataxia	0.741283179678167	False	0.883375340063419
+Lymphocytic colitis	Glioblastoma	0.6425785163225821	False	0.9283199801997808
+Lymphocytic colitis	Idiopathic pulmonary fibrosis	0.7005149362522881	False	0.8606255313960091
+Lymphocytic colitis	Kaposi's sarcoma	0.710433341370512	False	0.7797216128000011
+Lymphocytic colitis	Liver cancer	0.7005149362522881	False	0.867786736626291
+Lymphocytic colitis	Lung cancer	0.7005149362522881	False	0.830810268406819
+Lymphocytic colitis	Eosinophilic esophagitis	0.7274547135035511	True	0.7274547135035511
+Lymphocytic colitis	Ulcer	0.710433341370512	False	0.828843587232945
+Lymphocytic colitis	Smoker	0.6425785163225821	False	0.9035374942391041
+Lymphocytic colitis	Papillary thyroid cancer	0.7332659716316411	False	0.9229861626123086
+Lymphocytic colitis	Ulcerative colitis	0.710433341370512	False	0.863366776942763
+Muscular dystrophy	Chronic obstructive pulmonary disease	0.630226479827645	False	0.945820503830354
+Muscular dystrophy	Crohn's disease	0.710433341370512	False	0.9756017419397935
+Muscular dystrophy	Huntington's disease	0.630226479827645	False	0.9150886815406946
+Muscular dystrophy	Ischemia	1e-06	True	1e-06
+Parkinson's disease	Alagille syndrome	0.54870654155092	False	0.873508647392682
+Parkinson's disease	Asthma	0.7226712763445969	True	0.7226712763445969
+Parkinson's disease	Autism	0.568897697323114	False	0.9125280738044209
+Parkinson's disease	Chronic lymphocytic leukemia	0.7383854781658961	False	0.9147984229889248
+Parkinson's disease	Coeliac disease	0.639013028777779	False	0.843519196534242
+Parkinson's disease	Down syndrome	0.8011535984545389	False	0.880749930679896
+Parkinson's disease	Facioscapulohumeral muscular dystrophy	0.78154428804686	False	0.898433765719742
+Parkinson's disease	Familial dysautonomia	0.591395716919221	False	0.7745205125347671
+Parkinson's disease	Familial pulmonary arterial hypertension	0.755545001676243	False	0.9466880321282156
+Parkinson's disease	Glioblastoma	0.513183546540583	False	0.541264406189807
+Parkinson's disease	Huntington's disease	0.4331463919295179	True	0.4331463919295179
+Parkinson's disease	Hyperplastic polyps	0.630226479827645	False	0.756128985212353
+Parkinson's disease	Ischemia	0.630226479827645	False	0.8534533845701741
+Parkinson's disease	Myotonic dystrophy	0.630226479827645	True	0.630226479827645
+Parkinson's disease	Ulcer	0.710433341370512	False	0.8463818706382761
+Parkinson's disease	Bipolar disorder	0.4331463919295179	False	0.633544053585403
+Parkinson's disease	Prostate cancer	0.630288769991805	False	0.8801362246031851
+Parkinson's disease	Schizophrenia	0.560863997168389	False	0.624989427276861
+Parkinson's disease	Sessile serrated polyps	0.630226479827645	False	0.7805015151624141
+Parkinson's disease	Systemic lupus erythematosus	0.793421705188287	False	0.9322804786878165
+Parkinson's disease	Smoker	0.639013028777779	False	0.7573438092456021
+Parkinson's disease	Papillary thyroid cancer	0.7332659716316411	False	0.7365422731144661
+Bipolar disorder	Borrelia burgdorferi infection	0.788698736452215	False	0.9526735614399923
+Bipolar disorder	Chronic obstructive pulmonary disease	0.54870654155092	False	0.9014426987234402
+Bipolar disorder	Crohn's disease	0.710433341370512	False	0.9515140912792004
+Bipolar disorder	Eosinophilic esophagitis	0.7274547135035511	False	0.9174998537984076
+Bipolar disorder	Familial dysautonomia	0.591395716919221	False	0.6272815523696281
+Bipolar disorder	Glioblastoma	0.513183546540583	False	0.590125586574479
+Bipolar disorder	Huntington's disease	0.40585591955460704	True	0.40585591955460704
+Bipolar disorder	Schizophrenia	0.560863997168389	True	0.560863997168389
+Bipolar disorder	Ulcerative colitis	0.710433341370512	False	0.916274800840355
+Ulcer	Amyotrophic lateral sclerosis	0.710433341370512	False	0.8983782330918441
+Ulcer	Asthma	0.7226712763445969	False	0.7752629476832721
+Ulcer	Chronic obstructive pulmonary disease	0.710433341370512	False	0.837837998620902
+Ulcer	Coeliac disease	0.710433341370512	False	0.9442827687301366
+Ulcer	Crohn's disease	0.2869313215679699	True	0.2869313215679699
+Ulcer	Down syndrome	0.8011535984545389	False	0.9243170184735122
+Ulcer	Eosinophilic esophagitis	0.7274547135035511	False	0.9243630510660868
+Ulcer	Facioscapulohumeral muscular dystrophy	0.78154428804686	False	0.9576576909548882
+Ulcer	Familial pulmonary arterial hypertension	0.755545001676243	False	0.919661501206909
+Ulcer	Friedreich's ataxia	0.741283179678167	False	0.875368081012473
+Ulcer	Glioblastoma	0.710433341370512	False	0.8281414237826931
+Ulcer	Human immunodeficiency virus infection	0.8201367563298	False	0.9272815969830213
+Ulcer	Huntington's disease	0.710433341370512	False	0.971636484552161
+Ulcer	Hyperplastic polyps	0.710433341370512	False	0.844673290473858
+Ulcer	Idiopathic pulmonary fibrosis	0.710433341370512	False	0.88965488099139
+Ulcer	Ischemia	0.710433341370512	False	0.8743504235962221
+Ulcer	Kaposi's sarcoma	0.633793338780005	False	0.7063024377797861
+Ulcer	Liver cancer	0.710433341370512	False	0.9070881459296836
+Ulcer	Myotonic dystrophy	0.710433341370512	False	0.9269430493319039
+Ulcer	Schizophrenia	0.710433341370512	False	0.9236327519771371
+Ulcer	Sessile serrated polyps	0.710433341370512	False	0.774666271469837
+Ulcer	Systemic lupus erythematosus	0.793421705188287	False	0.814158022716429
+Ulcer	Smoker	0.710433341370512	False	0.8458962592753491
+Ulcer	Papillary thyroid cancer	0.7332659716316411	False	0.767457515722455
+Ulcer	Ulcerative colitis	0.2869313215679699	False	0.39433043815499097
+Alagille syndrome	Hyperplastic polyps	0.630226479827645	False	0.9532287909436999
+Alagille syndrome	Eosinophilic esophagitis	0.7274547135035511	False	0.926633437493883
+Alagille syndrome	Amyotrophic lateral sclerosis	1e-06	True	1e-06
+Alagille syndrome	Asthma	0.7226712763445969	False	0.7918376314502841
+Alagille syndrome	Breast cancer	0.7005149362522881	False	0.767001352906277
+Alagille syndrome	Chronic lymphocytic leukemia	0.7383854781658961	True	0.7383854781658961
+Alagille syndrome	Liver cancer	0.7005149362522881	True	0.7005149362522881
+Alagille syndrome	Lung cancer	0.7005149362522881	False	0.875917442027904
+Alagille syndrome	Schizophrenia	0.560863997168389	False	0.870540523570958
+Alagille syndrome	Sessile serrated polyps	0.630226479827645	False	0.899656702723937
+Alagille syndrome	Smoker	0.639013028777779	False	0.831860210991587
+Alagille syndrome	Papillary thyroid cancer	0.7332659716316411	False	0.8538986875500301
+Hyperplastic polyps	Asthma	0.7226712763445969	False	0.772251210114951
+Hyperplastic polyps	Autism	0.630226479827645	False	0.9488696774851196
+Hyperplastic polyps	Breast cancer	0.7005149362522881	False	0.9607964394288235
+Hyperplastic polyps	Coeliac disease	0.639013028777779	False	0.8169706929304631
+Hyperplastic polyps	Facioscapulohumeral muscular dystrophy	0.78154428804686	True	0.78154428804686
+Hyperplastic polyps	Familial dysautonomia	0.630226479827645	False	0.9267790216811769
+Hyperplastic polyps	Familial pulmonary arterial hypertension	0.755545001676243	True	0.755545001676243
+Hyperplastic polyps	Glioblastoma	0.630226479827645	False	0.955109581587189
+Hyperplastic polyps	Down syndrome	0.8011535984545389	False	0.851446666535321
+Hyperplastic polyps	Idiopathic pulmonary fibrosis	0.7005149362522881	False	0.899578042708824
+Hyperplastic polyps	Ischemia	0.5967582383607121	False	0.8333961892202351
+Hyperplastic polyps	Liver cancer	0.7005149362522881	False	0.9151219450569493
+Hyperplastic polyps	Lung cancer	0.7005149362522881	False	0.9396338726452115
+Hyperplastic polyps	Myotonic dystrophy	0.5967582383607121	True	0.5967582383607121
+Hyperplastic polyps	Prostate cancer	0.630288769991805	False	0.7601067797664981
+Hyperplastic polyps	Sessile serrated polyps	0.16363454576616407	True	0.16363454576616407
+Hyperplastic polyps	Systemic lupus erythematosus	0.793421705188287	False	0.834263403297811
+Hyperplastic polyps	Smoker	0.639013028777779	False	0.7154487276509911
+Hyperplastic polyps	Papillary thyroid cancer	0.7332659716316411	False	0.773911095906584
+Hyperplastic polyps	Ulcerative colitis	0.710433341370512	False	0.9773838354700167
+Eosinophilic esophagitis	Amyotrophic lateral sclerosis	0.7274547135035511	False	0.9298643492568196
+Eosinophilic esophagitis	Asthma	0.7274547135035511	False	0.9175636881473626
+Eosinophilic esophagitis	Breast cancer	0.7274547135035511	False	0.9237717605472041
+Eosinophilic esophagitis	Cardiomyopathy	0.7274547135035511	False	0.9410468368230335
+Eosinophilic esophagitis	Crohn's disease	0.7274547135035511	False	0.9000182153858672
+Eosinophilic esophagitis	Familial dysautonomia	0.7274547135035511	False	0.9312662591502289
+Eosinophilic esophagitis	Friedreich's ataxia	0.741283179678167	False	0.9710950800668249
+Eosinophilic esophagitis	Glioblastoma	0.7274547135035511	False	0.899606177826397
+Eosinophilic esophagitis	Human immunodeficiency virus infection	0.8201367563298	False	0.9446339795700309
+Eosinophilic esophagitis	Huntington's disease	0.7274547135035511	False	0.9234776945489477
+Eosinophilic esophagitis	Kaposi's sarcoma	0.7274547135035511	False	0.7665676162166811
+Eosinophilic esophagitis	Liver cancer	0.7274547135035511	False	0.9698289841307677
+Eosinophilic esophagitis	Lung cancer	0.7274547135035511	False	0.9510994661326092
+Eosinophilic esophagitis	Post-traumatic stress disorder	0.7274547135035511	False	0.821158783889412
+Eosinophilic esophagitis	Rheumatoid arthritis	0.7274547135035511	False	0.885342715803755
+Eosinophilic esophagitis	Schizophrenia	0.7274547135035511	False	0.9412538980688924
+Eosinophilic esophagitis	Papillary thyroid cancer	0.7332659716316411	False	0.9455500839763521
+Eosinophilic esophagitis	Ulcerative colitis	0.7274547135035511	False	0.898894355798921
+Chronic obstructive pulmonary disease	Amyotrophic lateral sclerosis	0.5090202536196861	True	0.5090202536196861
+Chronic obstructive pulmonary disease	Borrelia burgdorferi infection	0.788698736452215	False	0.9388337536865335
+Chronic obstructive pulmonary disease	Cardiomyopathy	0.659554728274964	True	0.659554728274964
+Chronic obstructive pulmonary disease	Crohn's disease	0.710433341370512	False	0.719869766266367
+Chronic obstructive pulmonary disease	Familial pulmonary arterial hypertension	0.755545001676243	False	0.9404209622426838
+Chronic obstructive pulmonary disease	Friedreich's ataxia	0.741283179678167	True	0.741283179678167
+Chronic obstructive pulmonary disease	Idiopathic pulmonary fibrosis	0.7005149362522881	False	0.806522647490964
+Chronic obstructive pulmonary disease	Ischemia	0.630226479827645	False	0.9261774121373204
+Chronic obstructive pulmonary disease	Keratoconus	0.728358635171883	True	0.728358635171883
+Chronic obstructive pulmonary disease	Rheumatoid arthritis	0.678295336966389	True	0.678295336966389
+Chronic obstructive pulmonary disease	Systemic lupus erythematosus	0.793421705188287	False	0.9438861224907169
+Chronic obstructive pulmonary disease	Ulcerative colitis	0.710433341370512	True	0.710433341370512
+Amyotrophic lateral sclerosis	Familial dysautonomia	0.591395716919221	False	0.757682889265179
+Amyotrophic lateral sclerosis	Idiopathic pulmonary fibrosis	0.7005149362522881	False	0.9076731640315345
+Amyotrophic lateral sclerosis	Crohn's disease	0.710433341370512	False	0.732634124553303
+Amyotrophic lateral sclerosis	Glioblastoma	0.54870654155092	False	0.780956669205026
+Amyotrophic lateral sclerosis	Schizophrenia	0.560863997168389	False	0.876739566628371
+Amyotrophic lateral sclerosis	Borrelia burgdorferi infection	0.788698736452215	False	0.952050546145425
+Amyotrophic lateral sclerosis	Friedreich's ataxia	0.741283179678167	False	0.895250959201787
+Amyotrophic lateral sclerosis	Huntington's disease	0.54870654155092	True	0.54870654155092
+Amyotrophic lateral sclerosis	Kaposi's sarcoma	0.710433341370512	False	0.844085305880215
+Amyotrophic lateral sclerosis	Ulcerative colitis	0.710433341370512	False	0.720594648177978
+Familial dysautonomia	Coeliac disease	0.639013028777779	False	0.8832503770347041
+Familial dysautonomia	Facioscapulohumeral muscular dystrophy	0.78154428804686	False	0.856887752867128
+Familial dysautonomia	Autism	0.591395716919221	False	0.677066459397078
+Familial dysautonomia	Liver cancer	0.7005149362522881	False	0.9220151406301216
+Familial dysautonomia	Schizophrenia	0.591395716919221	False	0.830995007610481
+Familial dysautonomia	Idiopathic pulmonary fibrosis	0.7005149362522881	False	0.796205163875264
+Familial dysautonomia	Breast cancer	0.7005149362522881	False	0.9378356188832532
+Familial dysautonomia	Prostate cancer	0.630288769991805	False	0.810832331447384
+Familial dysautonomia	Ischemia	0.630226479827645	False	0.83510502486855
+Familial dysautonomia	Familial pulmonary arterial hypertension	0.755545001676243	False	0.918111921239941
+Familial dysautonomia	Glioblastoma	0.591395716919221	False	0.6340156565834031
+Familial dysautonomia	Huntington's disease	0.591395716919221	True	0.591395716919221
+Familial dysautonomia	Kaposi's sarcoma	0.710433341370512	False	0.9229018465711984
+Familial dysautonomia	Lung cancer	0.7005149362522881	False	0.85080944241274
+Familial dysautonomia	Rheumatoid arthritis	0.678295336966389	False	0.893399266895695
+Familial dysautonomia	Ulcerative colitis	0.710433341370512	False	0.965135202712054
+Idiopathic pulmonary fibrosis	Coeliac disease	0.7005149362522881	False	0.863913810164984
+Idiopathic pulmonary fibrosis	Familial pulmonary arterial hypertension	0.755545001676243	False	0.8239713487282561
+Idiopathic pulmonary fibrosis	Friedreich's ataxia	0.741283179678167	False	0.9203580440186699
+Idiopathic pulmonary fibrosis	Glioblastoma	0.7005149362522881	False	0.893974260364056
+Idiopathic pulmonary fibrosis	Keratoconus	0.728358635171883	False	0.9639810171995237
+Idiopathic pulmonary fibrosis	Facioscapulohumeral muscular dystrophy	0.78154428804686	False	0.805001281748087
+Idiopathic pulmonary fibrosis	Prostate cancer	0.7005149362522881	False	0.763485560759405
+Idiopathic pulmonary fibrosis	Autism	0.7005149362522881	False	0.9373303804894323
+Idiopathic pulmonary fibrosis	Ischemia	0.7005149362522881	False	0.92509646487031
+Idiopathic pulmonary fibrosis	Breast cancer	0.5732494047352129	False	0.9420403328898851
+Idiopathic pulmonary fibrosis	Papillary thyroid cancer	0.7332659716316411	False	0.9256191942536703
+Idiopathic pulmonary fibrosis	Kaposi's sarcoma	0.710433341370512	False	0.9192232429795213
+Idiopathic pulmonary fibrosis	Liver cancer	0.599715876823481	False	0.855658007869336
+Idiopathic pulmonary fibrosis	Lung cancer	0.5732494047352129	True	0.5732494047352129
+Idiopathic pulmonary fibrosis	Myotonic dystrophy	0.7005149362522881	False	0.9368179681288644
+Idiopathic pulmonary fibrosis	Systemic lupus erythematosus	0.793421705188287	False	0.845989714882418
+Idiopathic pulmonary fibrosis	Ulcerative colitis	0.710433341370512	False	0.9214226284485192
+Crohn's disease	Asthma	0.7226712763445969	False	0.9782214351978467
+Crohn's disease	Borrelia burgdorferi infection	0.788698736452215	False	0.9562135960416094
+Crohn's disease	Down syndrome	0.8011535984545389	False	0.9683847261565856
+Crohn's disease	Cardiomyopathy	0.710433341370512	False	0.842653071444881
+Crohn's disease	Friedreich's ataxia	0.741283179678167	False	0.917603878651385
+Crohn's disease	Glioblastoma	0.710433341370512	False	0.9151592442402295
+Crohn's disease	Human immunodeficiency virus infection	0.8201367563298	False	0.8889336068147491
+Crohn's disease	Huntington's disease	0.710433341370512	False	0.898417124878513
+Crohn's disease	Ischemia	0.710433341370512	False	0.8974817470673481
+Crohn's disease	Kaposi's sarcoma	0.633793338780005	False	0.7474300808602491
+Crohn's disease	Keratoconus	0.728358635171883	False	0.883933688729459
+Crohn's disease	Rheumatoid arthritis	0.710433341370512	False	0.8253164158793481
+Crohn's disease	Schizophrenia	0.710433341370512	False	0.9670020066161931
+Crohn's disease	Sessile serrated polyps	0.710433341370512	False	0.830773254977365
+Crohn's disease	Systemic lupus erythematosus	0.793421705188287	False	0.9475434486381428
+Crohn's disease	Smoker	0.710433341370512	False	0.9675031695373071
+Crohn's disease	Papillary thyroid cancer	0.7332659716316411	False	0.973050925081531
+Crohn's disease	Ulcerative colitis	0.18704627702033003	True	0.18704627702033003
+Glioblastoma	Coeliac disease	0.639013028777779	False	0.9281932129549612
+Glioblastoma	Sessile serrated polyps	0.630226479827645	False	0.9585386495220266
+Glioblastoma	Schizophrenia	0.560863997168389	False	0.7546302805927491
+Glioblastoma	Systemic lupus erythematosus	0.793421705188287	False	0.881433387606198
+Glioblastoma	Liver cancer	0.7005149362522881	False	0.9348673935920055
+Glioblastoma	Papillary thyroid cancer	0.7332659716316411	False	0.862801338166539
+Glioblastoma	Ischemia	0.630226479827645	False	0.9148616093270454
+Glioblastoma	Facioscapulohumeral muscular dystrophy	0.78154428804686	False	0.9068103017544126
+Glioblastoma	Autism	0.568897697323114	False	0.838726093379898
+Glioblastoma	Breast cancer	0.7005149362522881	False	0.9121688317461312
+Glioblastoma	Asthma	0.7226712763445969	False	0.9205412798310568
+Glioblastoma	Prostate cancer	0.630288769991805	False	0.9411990530080405
+Glioblastoma	Huntington's disease	0.513183546540583	True	0.513183546540583
+Glioblastoma	Kaposi's sarcoma	0.710433341370512	False	0.793782851300174
+Glioblastoma	Lung cancer	0.7005149362522881	False	0.899889774708815
+Glioblastoma	Myotonic dystrophy	0.630226479827645	False	0.86110216670005
+Glioblastoma	Ulcerative colitis	0.710433341370512	False	0.863768899696535
+Schizophrenia	Asthma	0.7226712763445969	False	0.9450040428773895
+Schizophrenia	Autism	0.568897697323114	True	0.568897697323114
+Schizophrenia	Breast cancer	0.7005149362522881	False	0.9628009404876866
+Schizophrenia	Familial pulmonary arterial hypertension	0.755545001676243	False	0.885412135473981
+Schizophrenia	Huntington's disease	0.560863997168389	False	0.6388247127417089
+Schizophrenia	Ischemia	0.630226479827645	False	0.7912385765995601
+Schizophrenia	Kaposi's sarcoma	0.710433341370512	False	0.9303467424890853
+Schizophrenia	Liver cancer	0.7005149362522881	False	0.91240088918707
+Schizophrenia	Lung cancer	0.7005149362522881	False	0.842422270822725
+Schizophrenia	Papillary thyroid cancer	0.7332659716316411	False	0.901738110269459
+Schizophrenia	Facioscapulohumeral muscular dystrophy	0.78154428804686	False	0.8591564342622761
+Schizophrenia	Prostate cancer	0.630288769991805	False	0.85523983914208
+Schizophrenia	Sessile serrated polyps	0.630226479827645	False	0.9403802011083353
+Schizophrenia	Ulcerative colitis	0.710433341370512	False	0.9087935398345525
+Borrelia burgdorferi infection	Post-traumatic stress disorder	0.788698736452215	False	0.9343063291433383
+Borrelia burgdorferi infection	Sessile serrated polyps	0.788698736452215	False	0.9572243190392046
+Borrelia burgdorferi infection	Cardiomyopathy	0.788698736452215	False	0.9518007879645223
+Borrelia burgdorferi infection	Ischemia	0.788698736452215	False	0.9348336911031134
+Borrelia burgdorferi infection	Keratoconus	0.788698736452215	False	0.917746115393911
+Borrelia burgdorferi infection	Familial pulmonary arterial hypertension	0.788698736452215	False	0.797927481732153
+Borrelia burgdorferi infection	Huntington's disease	0.788698736452215	False	0.9277467999781221
+Borrelia burgdorferi infection	Kaposi's sarcoma	0.788698736452215	False	0.9498025723687559
+Borrelia burgdorferi infection	Rheumatoid arthritis	0.788698736452215	True	0.788698736452215
+Borrelia burgdorferi infection	Ulcerative colitis	0.788698736452215	False	0.925597065489414
+Chronic lymphocytic leukemia	Asthma	0.7383854781658961	False	0.9291767384591917
+Chronic lymphocytic leukemia	Breast cancer	0.7383854781658961	False	0.9258997231953688
+Chronic lymphocytic leukemia	Smoker	0.7383854781658961	False	0.831862349482262
+Chronic lymphocytic leukemia	Down syndrome	0.8011535984545389	False	0.9316080078258204
+Chronic lymphocytic leukemia	Papillary thyroid cancer	0.7383854781658961	False	0.9575514473980359
+Chronic lymphocytic leukemia	Cardiomyopathy	0.7383854781658961	False	0.9008528393952323
+Chronic lymphocytic leukemia	Liver cancer	0.7383854781658961	False	0.9512585790245296
+Chronic lymphocytic leukemia	Lung cancer	0.7383854781658961	False	0.9498159645902494
+Chronic lymphocytic leukemia	Myotonic dystrophy	0.7383854781658961	False	0.9298832305834877
+Chronic lymphocytic leukemia	Post-traumatic stress disorder	0.7383854781658961	False	0.834392246454
+Chronic lymphocytic leukemia	Sessile serrated polyps	0.7383854781658961	False	0.9610607696313979
+Asthma	Smoker	0.7226712763445969	False	0.824806823391517
+Asthma	Papillary thyroid cancer	0.7332659716316411	False	0.751592936076936
+Asthma	Facioscapulohumeral muscular dystrophy	0.78154428804686	False	0.9214868900497197
+Asthma	Breast cancer	0.7226712763445969	False	0.794771027341865
+Asthma	Friedreich's ataxia	0.741283179678167	False	0.9278824027954166
+Asthma	Kaposi's sarcoma	0.7226712763445969	False	0.9427855243759157
+Asthma	Lung cancer	0.7226712763445969	False	0.874876596534471
+Asthma	Myotonic dystrophy	0.7226712763445969	False	0.8265529008396371
+Asthma	Sessile serrated polyps	0.7226712763445969	False	0.784554661680298
+Smoker	Coeliac disease	0.5819912487912391	True	0.5819912487912391
+Smoker	Familial pulmonary arterial hypertension	0.755545001676243	False	0.870145389512711
+Smoker	Friedreich's ataxia	0.741283179678167	False	0.9541526066905078
+Smoker	Liver cancer	0.7005149362522881	False	0.9564258842300734
+Smoker	Myotonic dystrophy	0.639013028777779	False	0.7979898497746151
+Smoker	Sessile serrated polyps	0.639013028777779	False	0.722753838156302
+Smoker	Systemic lupus erythematosus	0.793421705188287	True	0.793421705188287
+Smoker	Human immunodeficiency virus infection	0.8201367563298	True	0.8201367563298
+Smoker	Papillary thyroid cancer	0.7332659716316411	False	0.747319689925953
+Smoker	Down syndrome	0.8011535984545389	False	0.877958017777576
+Papillary thyroid cancer	Autism	0.7332659716316411	False	0.945827246471453
+Papillary thyroid cancer	Breast cancer	0.7332659716316411	False	0.8044504029046841
+Papillary thyroid cancer	Coeliac disease	0.7332659716316411	False	0.9030837816553111
+Papillary thyroid cancer	Familial pulmonary arterial hypertension	0.755545001676243	False	0.9420115804254465
+Papillary thyroid cancer	Friedreich's ataxia	0.741283179678167	False	0.9366254354632555
+Papillary thyroid cancer	Ischemia	0.7332659716316411	False	0.9059426637565772
+Papillary thyroid cancer	Kaposi's sarcoma	0.7332659716316411	False	0.7811489506834021
+Papillary thyroid cancer	Liver cancer	0.7332659716316411	False	0.83443026841293
+Papillary thyroid cancer	Lung cancer	0.7332659716316411	False	0.8177209158398661
+Papillary thyroid cancer	Myotonic dystrophy	0.7332659716316411	False	0.845384906145194
+Papillary thyroid cancer	Prostate cancer	0.7332659716316411	False	0.87154036149997
+Papillary thyroid cancer	Sessile serrated polyps	0.7332659716316411	True	0.7332659716316411
+Papillary thyroid cancer	Systemic lupus erythematosus	0.793421705188287	False	0.892564203534811
+Papillary thyroid cancer	Facioscapulohumeral muscular dystrophy	0.78154428804686	False	0.863742732911864
+Papillary thyroid cancer	Ulcerative colitis	0.7332659716316411	False	0.9237163234435123
+Facioscapulohumeral muscular dystrophy	Breast cancer	0.78154428804686	False	0.838258781370562
+Facioscapulohumeral muscular dystrophy	Huntington's disease	0.78154428804686	False	0.9164610753094894
+Facioscapulohumeral muscular dystrophy	Lung cancer	0.78154428804686	False	0.8703149837759531
+Facioscapulohumeral muscular dystrophy	Sessile serrated polyps	0.78154428804686	False	0.9590940713739332
+Breast cancer	Prostate cancer	0.7005149362522881	False	0.952085349300005
+Breast cancer	Post-traumatic stress disorder	0.7005149362522881	False	0.7612346648115401
+Breast cancer	Coeliac disease	0.7005149362522881	False	0.9186206362458895
+Breast cancer	Kaposi's sarcoma	0.710433341370512	False	0.821656518403305
+Breast cancer	Liver cancer	0.599715876823481	False	0.785618880340114
+Breast cancer	Lung cancer	0.555280202652915	True	0.555280202652915
+Breast cancer	Myotonic dystrophy	0.7005149362522881	False	0.812419162144573
+Breast cancer	Systemic lupus erythematosus	0.793421705188287	False	0.936944586068589
+Autism	Huntington's disease	0.568897697323114	False	0.7055169278453851
+Autism	Kaposi's sarcoma	0.710433341370512	False	0.8858616058144291
+Autism	Liver cancer	0.7005149362522881	False	0.9095051907413747
+Autism	Lung cancer	0.7005149362522881	False	0.870637744654645
+Autism	Ulcerative colitis	0.710433341370512	False	0.881395416144174
+Post-traumatic stress disorder	Lung cancer	0.7005149362522881	False	0.876085103665692
+Sessile serrated polyps	Coeliac disease	0.639013028777779	False	0.899353839817238
+Sessile serrated polyps	Familial pulmonary arterial hypertension	0.755545001676243	False	0.8382898632918331
+Sessile serrated polyps	Liver cancer	0.7005149362522881	False	0.9212001084410402
+Sessile serrated polyps	Myotonic dystrophy	0.5967582383607121	False	0.860671933659671
+Sessile serrated polyps	Ischemia	0.5967582383607121	False	0.832905097813971
+Sessile serrated polyps	Prostate cancer	0.630288769991805	False	0.9292090602189568
+Sessile serrated polyps	Down syndrome	0.8011535984545389	False	0.863120216450786
+Sessile serrated polyps	Systemic lupus erythematosus	0.793421705188287	False	0.898390230792905
+Sessile serrated polyps	Ulcerative colitis	0.710433341370512	False	0.781399939681262
+Cardiomyopathy	Friedreich's ataxia	0.741283179678167	False	0.898736106365988
+Cardiomyopathy	Ischemia	0.659554728274964	False	0.7645796868193361
+Cardiomyopathy	Rheumatoid arthritis	0.678295336966389	False	0.7558043242590531
+Cardiomyopathy	Ulcerative colitis	0.710433341370512	False	0.884277164086322
+Ischemia	Huntington's disease	0.630226479827645	False	0.829983198285301
+Ischemia	Kaposi's sarcoma	0.710433341370512	False	0.855998779572366
+Ischemia	Myotonic dystrophy	1e-06	True	1e-06
+Ischemia	Ulcerative colitis	0.710433341370512	False	0.830499824935046
+Keratoconus	Friedreich's ataxia	0.741283179678167	False	0.8320942111860841
+Keratoconus	Huntington's disease	0.728358635171883	False	0.9198046558237075
+Keratoconus	Kaposi's sarcoma	0.728358635171883	False	0.9100961655594839
+Keratoconus	Ulcerative colitis	0.728358635171883	False	0.861672700309252
+Prostate cancer	Kaposi's sarcoma	0.710433341370512	False	0.9030735895156007
+Prostate cancer	Liver cancer	0.7005149362522881	False	0.8900544913988
+Prostate cancer	Lung cancer	0.7005149362522881	False	0.86153100520432
+Coeliac disease	Huntington's disease	0.639013028777779	False	0.8353176845286561
+Coeliac disease	Lung cancer	0.7005149362522881	False	0.9426905872494548
+Coeliac disease	Ulcerative colitis	0.710433341370512	False	0.9461294733856609
+Liver cancer	Friedreich's ataxia	0.741283179678167	False	0.9226406604266788
+Liver cancer	Kaposi's sarcoma	0.710433341370512	False	0.8417523458792431
+Liver cancer	Lung cancer	0.599715876823481	True	0.599715876823481
+Liver cancer	Myotonic dystrophy	0.7005149362522881	False	0.9667244535613246
+Familial pulmonary arterial hypertension	Friedreich's ataxia	0.755545001676243	False	0.944292648999711
+Familial pulmonary arterial hypertension	Ulcerative colitis	0.755545001676243	False	0.9681045718755539
+Friedreich's ataxia	Lung cancer	0.741283179678167	False	0.9203579722295689
+Friedreich's ataxia	Systemic lupus erythematosus	0.793421705188287	False	0.849715853154627
+Friedreich's ataxia	Kaposi's sarcoma	0.741283179678167	False	0.9630220837618019
+Friedreich's ataxia	Ulcerative colitis	0.741283179678167	False	0.884400501407271
+Lung cancer	Kaposi's sarcoma	0.710433341370512	False	0.9705204880171334
+Lung cancer	Systemic lupus erythematosus	0.793421705188287	False	0.9388075856969408
+Lung cancer	Myotonic dystrophy	0.7005149362522881	False	0.9109566781485151
+Systemic lupus erythematosus	Kaposi's sarcoma	0.793421705188287	False	0.9390912381059218
+Systemic lupus erythematosus	Ulcerative colitis	0.793421705188287	False	0.8867663655966781
+Human immunodeficiency virus infection	Kaposi's sarcoma	0.8201367563298	False	0.9213824043574503
+Human immunodeficiency virus infection	Ulcerative colitis	0.8201367563298	False	0.9318925680469118
+Huntington's disease	Rheumatoid arthritis	0.678295336966389	False	0.754952254800843
+Huntington's disease	Kaposi's sarcoma	0.710433341370512	False	0.9311695756037635
+Huntington's disease	Ulcerative colitis	0.710433341370512	False	0.820674973921633
+Rheumatoid arthritis	Kaposi's sarcoma	0.710433341370512	False	0.9427476724128929
+Rheumatoid arthritis	Ulcerative colitis	0.710433341370512	False	0.7675319243392901
+Kaposi's sarcoma	Ulcerative colitis	0.633793338780005	True	0.633793338780005
+Cardiomyopathy	Adenomatous polyps	0.5894089296864411	True	0.5894089296864411
+Cardiomyopathy	Asthma	0.768984455971508	False	0.808348978253019
+Cardiomyopathy	Breast cancer	0.6279407403780891	False	0.776291829643428
+Cardiomyopathy	Parkinson's disease	0.662988306185308	False	0.7558730136463111
+Cardiomyopathy	Multiple sclerosis	0.873620877824078	True	0.873620877824078
+Cardiomyopathy	Ulcer	0.8338787278305001	False	0.9568267872106703
+Cardiomyopathy	Familial dysautonomia	0.839039764886534	False	0.9263510606927169
+Cardiomyopathy	Glioblastoma	0.898880394788751	True	0.898880394788751
+Cardiomyopathy	Huntington's disease	0.765603461449308	False	0.8785064788140691
+Cardiomyopathy	Hyperplastic polyps	0.680545130949017	False	0.7307409122628731
+Cardiomyopathy	Idiopathic pulmonary fibrosis	0.800145052714075	False	0.8455180253898851
+Cardiomyopathy	Lung cancer	0.788471475368361	False	0.892264840722053
+Cardiomyopathy	Myotonic dystrophy	0.5894089296864411	False	0.6357093867282241
+Cardiomyopathy	Papillary thyroid cancer	0.796439923603257	False	0.886628623561406
+Adenomatous polyps	Chronic obstructive pulmonary disease	0.5535897373774691	True	0.5535897373774691
+Adenomatous polyps	Alagille syndrome	0.757972634356192	False	0.894400872890291
+Adenomatous polyps	Amyotrophic lateral sclerosis	0.600800220411535	True	0.600800220411535
+Adenomatous polyps	Asthma	0.768984455971508	False	0.9478547712294918
+Adenomatous polyps	Borrelia burgdorferi infection	0.790495129110246	False	0.9612650548253446
+Adenomatous polyps	Chronic lymphocytic leukemia	0.78894806044027	False	0.9187791788602543
+Adenomatous polyps	Friedreich's ataxia	0.6317494564508991	True	0.6317494564508991
+Adenomatous polyps	Keratoconus	0.613627482996116	True	0.613627482996116
+Adenomatous polyps	Rheumatoid arthritis	0.662988306185308	False	0.865573054339938
+Adenomatous polyps	Systemic lupus erythematosus	0.78894806044027	False	0.843651285291208
+Adenomatous polyps	Smoker	0.6139169534651321	False	0.802055815690574
+Chronic obstructive pulmonary disease	Alagille syndrome	0.757972634356192	True	0.757972634356192
+Chronic obstructive pulmonary disease	Asthma	0.768984455971508	True	0.768984455971508
+Chronic obstructive pulmonary disease	Breast cancer	0.6279407403780891	True	0.6279407403780891
+Chronic obstructive pulmonary disease	Chronic lymphocytic leukemia	0.78894806044027	False	0.86388776196853
+Chronic obstructive pulmonary disease	Parkinson's disease	0.662988306185308	False	0.7982486699347521
+Chronic obstructive pulmonary disease	Lymphocytic colitis	0.6815472096248499	False	0.9417211351468349
+Chronic obstructive pulmonary disease	Coeliac disease	0.78894806044027	False	0.8412891546510131
+Chronic obstructive pulmonary disease	Down syndrome	0.837595024905542	False	0.9719192213253528
+Chronic obstructive pulmonary disease	Facioscapulohumeral muscular dystrophy	0.80809040894828	True	0.80809040894828
+Chronic obstructive pulmonary disease	Glioblastoma	0.898880394788751	False	0.9688869753036387
+Chronic obstructive pulmonary disease	Hyperplastic polyps	0.680545130949017	False	0.821152759897789
+Chronic obstructive pulmonary disease	Kaposi's sarcoma	0.884477167533196	False	0.9707505055544212
+Chronic obstructive pulmonary disease	Liver cancer	0.866020982294912	False	0.9648932633895541
+Chronic obstructive pulmonary disease	Lung cancer	0.788471475368361	False	0.882778344653531
+Chronic obstructive pulmonary disease	Multiple sclerosis	0.873620877824078	False	0.9700342702828173
+Chronic obstructive pulmonary disease	Myotonic dystrophy	0.565429369561463	True	0.565429369561463
+Chronic obstructive pulmonary disease	Post-traumatic stress disorder	0.7435130773152011	True	0.7435130773152011
+Chronic obstructive pulmonary disease	Prostate cancer	0.81744816798855	False	0.8622454026427431
+Chronic obstructive pulmonary disease	Sessile serrated polyps	0.756113732496277	False	0.9724526882271267
+Chronic obstructive pulmonary disease	Smoker	0.6139169534651321	False	0.9570698051142513
+Chronic obstructive pulmonary disease	Papillary thyroid cancer	0.796439923603257	False	0.856863711776619
+Alagille syndrome	Crohn's disease	0.757972634356192	False	0.9268215144759071
+Alagille syndrome	Borrelia burgdorferi infection	0.790495129110246	False	0.9534100817946697
+Alagille syndrome	Familial dysautonomia	0.839039764886534	False	0.864763962917901
+Alagille syndrome	Glioblastoma	0.898880394788751	False	0.9616263547680586
+Alagille syndrome	Huntington's disease	0.765603461449308	False	0.7895569147828511
+Alagille syndrome	Idiopathic pulmonary fibrosis	0.800145052714075	True	0.800145052714075
+Alagille syndrome	Ulcerative colitis	0.757972634356192	False	0.846799153791975
+Crohn's disease	Breast cancer	0.723677704733625	True	0.723677704733625
+Crohn's disease	Chronic lymphocytic leukemia	0.78894806044027	False	0.9378142180507325
+Crohn's disease	Coeliac disease	0.78894806044027	False	0.9633635690848025
+Crohn's disease	Parkinson's disease	0.723677704733625	False	0.9687965962736649
+Crohn's disease	Facioscapulohumeral muscular dystrophy	0.80809040894828	False	0.91434478804081
+Crohn's disease	Familial dysautonomia	0.839039764886534	False	0.914883320190996
+Crohn's disease	Hyperplastic polyps	0.723677704733625	False	0.9795994435082499
+Crohn's disease	Liver cancer	0.866020982294912	False	0.9646923980491485
+Crohn's disease	Lung cancer	0.788471475368361	True	0.788471475368361
+Crohn's disease	Myotonic dystrophy	0.723677704733625	False	0.84565726616531
+Crohn's disease	Post-traumatic stress disorder	0.7435130773152011	False	0.895398290263012
+Crohn's disease	Prostate cancer	0.81744816798855	False	0.9017184429957472
+Breast cancer	Amyotrophic lateral sclerosis	0.6279407403780891	False	0.6503898899215611
+Breast cancer	Borrelia burgdorferi infection	0.790495129110246	False	0.9441136440508217
+Breast cancer	Multiple sclerosis	0.873620877824078	False	0.9693178650689072
+Breast cancer	Keratoconus	0.6279407403780891	False	0.9010165268844846
+Breast cancer	Smoker	0.6279407403780891	False	0.9204021360112559
+Breast cancer	Muscular dystrophy	0.732794776012842	False	0.870307503010004
+Breast cancer	Down syndrome	0.837595024905542	False	0.9251887300933351
+Breast cancer	Ulcer	0.8338787278305001	False	0.890679554394314
+Breast cancer	Familial pulmonary arterial hypertension	0.788138636622428	False	0.896426755422045
+Breast cancer	Friedreich's ataxia	0.6317494564508991	False	0.9395524459981295
+Breast cancer	Huntington's disease	0.765603461449308	False	0.88749700662873
+Breast cancer	Ischemia	0.6815472096248499	False	0.873456740893302
+Breast cancer	Rheumatoid arthritis	0.662988306185308	False	0.875984266735761
+Breast cancer	Sessile serrated polyps	0.756113732496277	False	0.9464617353402655
+Breast cancer	Ulcerative colitis	0.748894633711033	True	0.748894633711033
+Amyotrophic lateral sclerosis	Chronic lymphocytic leukemia	0.78894806044027	False	0.821020601437059
+Amyotrophic lateral sclerosis	Papillary thyroid cancer	0.796439923603257	False	0.809493945372126
+Amyotrophic lateral sclerosis	Hyperplastic polyps	0.680545130949017	False	0.819956651148227
+Amyotrophic lateral sclerosis	Liver cancer	0.866020982294912	False	0.9391681662765471
+Amyotrophic lateral sclerosis	Asthma	0.768984455971508	False	0.812699041091303
+Amyotrophic lateral sclerosis	Smoker	0.6139169534651321	True	0.6139169534651321
+Amyotrophic lateral sclerosis	Lung cancer	0.788471475368361	False	0.836648111858162
+Chronic lymphocytic leukemia	Autism	0.813361442543258	False	0.888978573643068
+Chronic lymphocytic leukemia	Borrelia burgdorferi infection	0.790495129110246	False	0.9216816339701395
+Chronic lymphocytic leukemia	Schizophrenia	0.884913960864339	False	0.9271189103567078
+Chronic lymphocytic leukemia	Prostate cancer	0.81744816798855	False	0.9131861467729342
+Chronic lymphocytic leukemia	Facioscapulohumeral muscular dystrophy	0.80809040894828	False	0.9046761280932156
+Chronic lymphocytic leukemia	Bipolar disorder	0.78894806044027	False	0.880533163234703
+Chronic lymphocytic leukemia	Coeliac disease	0.7449880315680489	True	0.7449880315680489
+Chronic lymphocytic leukemia	Familial dysautonomia	0.839039764886534	False	0.852836783309326
+Chronic lymphocytic leukemia	Familial pulmonary arterial hypertension	0.78894806044027	False	0.9272951670791797
+Chronic lymphocytic leukemia	Glioblastoma	0.898880394788751	False	0.9126644674529831
+Chronic lymphocytic leukemia	Huntington's disease	0.78894806044027	False	0.845238179009706
+Chronic lymphocytic leukemia	Idiopathic pulmonary fibrosis	0.800145052714075	False	0.853340707306657
+Chronic lymphocytic leukemia	Ischemia	0.78894806044027	False	0.871986861755907
+Chronic lymphocytic leukemia	Kaposi's sarcoma	0.884477167533196	True	0.884477167533196
+Chronic lymphocytic leukemia	Keratoconus	0.78894806044027	False	0.835314428311405
+Chronic lymphocytic leukemia	Rheumatoid arthritis	0.78894806044027	True	0.78894806044027
+Chronic lymphocytic leukemia	Systemic lupus erythematosus	0.7423532391466051	True	0.7423532391466051
+Chronic lymphocytic leukemia	Ulcerative colitis	0.78894806044027	False	0.864721018621139
+Papillary thyroid cancer	Borrelia burgdorferi infection	0.796439923603257	False	0.9446387985014943
+Papillary thyroid cancer	Huntington's disease	0.796439923603257	False	0.9378178548315803
+Papillary thyroid cancer	Keratoconus	0.796439923603257	False	0.8513118086722731
+Papillary thyroid cancer	Rheumatoid arthritis	0.796439923603257	True	0.796439923603257
+Papillary thyroid cancer	Bipolar disorder	0.796439923603257	False	0.8103936030048751
+Papillary thyroid cancer	Human immunodeficiency virus infection	0.796439923603257	False	0.9412741776475277
+Papillary thyroid cancer	Muscular dystrophy	0.796439923603257	False	0.8856293898672231
+Hyperplastic polyps	Friedreich's ataxia	0.680545130949017	False	0.9377566687153464
+Hyperplastic polyps	Human immunodeficiency virus infection	0.6815472096248499	False	0.8642793833072681
+Hyperplastic polyps	Huntington's disease	0.765603461449308	False	0.9487082980912118
+Hyperplastic polyps	Eosinophilic esophagitis	0.77896058204117	False	0.7858839041230951
+Hyperplastic polyps	Bipolar disorder	0.7287780835552481	False	0.79390625614721
+Hyperplastic polyps	Muscular dystrophy	0.732794776012842	False	0.9254869456337647
+Hyperplastic polyps	Lymphocytic colitis	0.6815472096248499	True	0.6815472096248499
+Hyperplastic polyps	Keratoconus	0.680545130949017	False	0.7186547652951331
+Hyperplastic polyps	Post-traumatic stress disorder	0.7435130773152011	False	0.9048342272460296
+Hyperplastic polyps	Rheumatoid arthritis	0.680545130949017	True	0.680545130949017
+Liver cancer	Borrelia burgdorferi infection	0.866020982294912	False	0.9439718541072303
+Liver cancer	Familial pulmonary arterial hypertension	0.866020982294912	False	0.953749044029042
+Liver cancer	Huntington's disease	0.866020982294912	False	0.9034936202078516
+Liver cancer	Bipolar disorder	0.866020982294912	True	0.866020982294912
+Liver cancer	Multiple sclerosis	0.873620877824078	False	0.9594615835337398
+Liver cancer	Muscular dystrophy	0.866020982294912	False	0.965837307519256
+Liver cancer	Human immunodeficiency virus infection	0.866020982294912	False	0.9581439225156414
+Liver cancer	Keratoconus	0.866020982294912	False	0.9288391041601458
+Liver cancer	Down syndrome	0.866020982294912	False	0.9064511792046598
+Liver cancer	Rheumatoid arthritis	0.866020982294912	False	0.9223442863970563
+Asthma	Bipolar disorder	0.768984455971508	False	0.9394987234693791
+Asthma	Muscular dystrophy	0.768984455971508	False	0.857532703300483
+Asthma	Keratoconus	0.768984455971508	False	0.8793557494781601
+Asthma	Lymphocytic colitis	0.768984455971508	False	0.9329573379594717
+Asthma	Borrelia burgdorferi infection	0.790495129110246	False	0.9247038585471149
+Asthma	Huntington's disease	0.768984455971508	False	0.868105357824072
+Asthma	Idiopathic pulmonary fibrosis	0.800145052714075	False	0.9138820631660457
+Asthma	Rheumatoid arthritis	0.768984455971508	False	0.842081288242697
+Asthma	Ulcerative colitis	0.768984455971508	False	0.9576699867048925
+Smoker	Autism	0.813361442543258	True	0.813361442543258
+Smoker	Borrelia burgdorferi infection	0.790495129110246	False	0.9381179131774672
+Smoker	Glioblastoma	0.898880394788751	False	0.9479165623909488
+Smoker	Huntington's disease	0.765603461449308	True	0.765603461449308
+Smoker	Idiopathic pulmonary fibrosis	0.800145052714075	False	0.9486165106599739
+Smoker	Lung cancer	0.788471475368361	False	0.9363258781595503
+Smoker	Prostate cancer	0.81744816798855	True	0.81744816798855
+Smoker	Rheumatoid arthritis	0.662988306185308	True	0.662988306185308
+Smoker	Eosinophilic esophagitis	0.77896058204117	True	0.77896058204117
+Smoker	Bipolar disorder	0.7287780835552481	True	0.7287780835552481
+Bipolar disorder	Ulcer	0.8338787278305001	False	0.9394900852710363
+Bipolar disorder	Colorectal cancer	0.9041112446561015	False	0.9280120827077706
+Bipolar disorder	Friedreich's ataxia	0.7287780835552481	False	0.895778670752537
+Bipolar disorder	Idiopathic pulmonary fibrosis	0.800145052714075	False	0.9549003531651031
+Bipolar disorder	Lung cancer	0.788471475368361	False	0.9328859756854653
+Bipolar disorder	Sessile serrated polyps	0.756113732496277	False	0.8958380913652321
+Muscular dystrophy	Borrelia burgdorferi infection	0.790495129110246	False	0.9147903492218569
+Muscular dystrophy	Friedreich's ataxia	0.732794776012842	True	0.732794776012842
+Muscular dystrophy	Lung cancer	0.788471475368361	False	0.9297873570341798
+Muscular dystrophy	Ulcer	0.8338787278305001	False	0.9333086077952025
+Muscular dystrophy	Eosinophilic esophagitis	0.77896058204117	False	0.9583555417243387
+Muscular dystrophy	Sessile serrated polyps	0.756113732496277	False	0.9585349413066574
+Keratoconus	Glioblastoma	0.898880394788751	False	0.9484901344143203
+Keratoconus	Ulcer	0.8338787278305001	False	0.9450277697206846
+Keratoconus	Parkinson's disease	0.662988306185308	False	0.699881586497199
+Keratoconus	Colorectal cancer	0.9041112446561015	False	0.9086170813732325
+Keratoconus	Lung cancer	0.788471475368361	False	0.9756636259166225
+Keratoconus	Sessile serrated polyps	0.756113732496277	False	0.841941498856429
+Lymphocytic colitis	Borrelia burgdorferi infection	0.790495129110246	False	0.894399611096223
+Lymphocytic colitis	Huntington's disease	0.765603461449308	False	0.851520458372029
+Lymphocytic colitis	Ischemia	1e-06	True	1e-06
+Lymphocytic colitis	Parkinson's disease	0.6815472096248499	False	0.920797776406198
+Lymphocytic colitis	Sessile serrated polyps	0.756113732496277	True	0.756113732496277
+Autism	Friedreich's ataxia	0.813361442543258	False	0.945857482637699
+Ulcer	Lung cancer	0.8338787278305001	False	0.9667636974683947
+Ulcer	Post-traumatic stress disorder	0.8338787278305001	True	0.8338787278305001
+Ulcer	Rheumatoid arthritis	0.8338787278305001	False	0.9682987635365766
+Down syndrome	Borrelia burgdorferi infection	0.837595024905542	False	0.8972930926703561
+Down syndrome	Eosinophilic esophagitis	0.837595024905542	False	0.9468535347305921
+Down syndrome	Familial dysautonomia	0.839039764886534	False	0.9234371574611118
+Down syndrome	Glioblastoma	0.898880394788751	False	0.954691788370237
+Down syndrome	Huntington's disease	0.837595024905542	True	0.837595024905542
+Down syndrome	Idiopathic pulmonary fibrosis	0.837595024905542	False	0.9494582636173517
+Down syndrome	Lung cancer	0.837595024905542	False	0.866318323232847
+Down syndrome	Ulcerative colitis	0.837595024905542	False	0.9544108416508092
+Borrelia burgdorferi infection	Schizophrenia	0.884913960864339	False	0.9415772656135096
+Borrelia burgdorferi infection	Eosinophilic esophagitis	0.790495129110246	False	0.9684200584339518
+Borrelia burgdorferi infection	Systemic lupus erythematosus	0.790495129110246	False	0.9227236770274386
+Borrelia burgdorferi infection	Colorectal cancer	0.9041112446561015	False	0.9251986276479689
+Borrelia burgdorferi infection	Human immunodeficiency virus infection	0.790495129110246	False	0.9564901644212779
+Borrelia burgdorferi infection	Parkinson's disease	0.790495129110246	False	0.847443476758752
+Borrelia burgdorferi infection	Glioblastoma	0.898880394788751	False	0.9176851176281541
+Borrelia burgdorferi infection	Lung cancer	0.790495129110246	False	0.9372459358186918
+Borrelia burgdorferi infection	Myotonic dystrophy	0.790495129110246	True	0.790495129110246
+Schizophrenia	Rheumatoid arthritis	0.884913960864339	True	0.884913960864339
+Eosinophilic esophagitis	Coeliac disease	0.78894806044027	False	0.887575440079559
+Eosinophilic esophagitis	Parkinson's disease	0.77896058204117	False	0.942614866935245
+Eosinophilic esophagitis	Familial pulmonary arterial hypertension	0.788138636622428	True	0.788138636622428
+Eosinophilic esophagitis	Idiopathic pulmonary fibrosis	0.800145052714075	False	0.9537078307321925
+Eosinophilic esophagitis	Ischemia	0.77896058204117	False	0.9228276945053981
+Eosinophilic esophagitis	Myotonic dystrophy	0.77896058204117	False	0.9414475380681427
+Eosinophilic esophagitis	Prostate cancer	0.81744816798855	False	0.9145311195637456
+Eosinophilic esophagitis	Sessile serrated polyps	0.77896058204117	False	0.849681139507055
+Colorectal cancer	Familial pulmonary arterial hypertension	0.9041112446561015	True	0.9041112446561015
+Colorectal cancer	Rheumatoid arthritis	0.9041112446561015	False	0.9150772356923801
+Human immunodeficiency virus infection	Familial dysautonomia	0.839039764886534	True	0.839039764886534
+Human immunodeficiency virus infection	Glioblastoma	0.898880394788751	False	0.9748715113939146
+Human immunodeficiency virus infection	Parkinson's disease	0.6815472096248499	False	0.9578279140202558
+Human immunodeficiency virus infection	Huntington's disease	0.765603461449308	False	0.9177504814822086
+Human immunodeficiency virus infection	Idiopathic pulmonary fibrosis	0.800145052714075	False	0.905668995396615
+Human immunodeficiency virus infection	Ischemia	1e-06	True	1e-06
+Human immunodeficiency virus infection	Lung cancer	0.788471475368361	False	0.9405156917096654
+Human immunodeficiency virus infection	Sessile serrated polyps	0.756113732496277	False	0.9504566494231655
+Parkinson's disease	Friedreich's ataxia	0.662988306185308	False	0.917952079185072
+Parkinson's disease	Post-traumatic stress disorder	0.7435130773152011	False	0.9167355224901005
+Parkinson's disease	Rheumatoid arthritis	0.638303908802586	True	0.638303908802586
+Multiple sclerosis	Familial dysautonomia	0.873620877824078	False	0.9397347208814221
+Prostate cancer	Friedreich's ataxia	0.81744816798855	False	0.8369871471759041
+Facioscapulohumeral muscular dystrophy	Friedreich's ataxia	0.80809040894828	False	0.8934054650602551
+Facioscapulohumeral muscular dystrophy	Ulcerative colitis	0.80809040894828	False	0.9647378955047186
+Coeliac disease	Friedreich's ataxia	0.78894806044027	False	0.8854893420623801
+Familial dysautonomia	Sessile serrated polyps	0.839039764886534	False	0.9649293869118541
+Sessile serrated polyps	Huntington's disease	0.765603461449308	False	0.9612658372128872
+Sessile serrated polyps	Rheumatoid arthritis	0.756113732496277	False	0.834168878882752
+Sessile serrated polyps	Post-traumatic stress disorder	0.756113732496277	False	0.8599498205225631
+Familial pulmonary arterial hypertension	Glioblastoma	0.898880394788751	False	0.947455855117361
+Familial pulmonary arterial hypertension	Lung cancer	0.788471475368361	False	0.9511203776551121
+Friedreich's ataxia	Huntington's disease	0.765603461449308	False	0.898155612226416
+Friedreich's ataxia	Post-traumatic stress disorder	0.7435130773152011	False	0.813540572395792
+Friedreich's ataxia	Myotonic dystrophy	0.6317494564508991	False	0.8005346119101301
+Friedreich's ataxia	Rheumatoid arthritis	0.662988306185308	False	0.9586283067270776
+Huntington's disease	Post-traumatic stress disorder	0.765603461449308	False	0.9574105193605684
+Huntington's disease	Lung cancer	0.788471475368361	False	0.9104648707857702
+Huntington's disease	Myotonic dystrophy	0.765603461449308	False	0.869767344964611
+Post-traumatic stress disorder	Idiopathic pulmonary fibrosis	0.800145052714075	False	0.9617021761238266
+Post-traumatic stress disorder	Ulcerative colitis	0.748894633711033	False	0.877896137664657
+Myotonic dystrophy	Ulcerative colitis	0.748894633711033	False	0.816120715337273
+Rheumatoid arthritis	Lung cancer	0.788471475368361	False	0.9109939777061159
+Lung cancer	Ischemia	0.788471475368361	False	0.948098147184817
+Lung cancer	Ulcerative colitis	0.788471475368361	False	0.883738224406674
