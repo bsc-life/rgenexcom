@@ -24,10 +24,11 @@ renv::init(bare = TRUE, restart = TRUE)
 
 packageList <-
   c(
-    "shiny",
+    "shiny@1.6.0",
     "shinythemes",
     "shinydashboard",
     "shinydashboardPlus",
+    "cpp11@0.5.0",
     "igraph",
     "magrittr",
     "visNetwork",
