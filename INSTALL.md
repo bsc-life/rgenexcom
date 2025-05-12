@@ -75,7 +75,9 @@ these are the steps to regenerate the renv profiles:
 ```bash
 cd "${HOME}"/SHINY_ROOT/rgenexcom
 rm -rf renv renv.lock .Rprofile
+R -f create_r_user.R
 R -f regen_bootstrap.R
+R -f bootstrap.R
 ```
 
 ## Apache setup
