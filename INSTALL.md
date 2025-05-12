@@ -61,7 +61,7 @@ in order to install the app and its dependencies:
 
 ```bash
 cd "${HOME}"/SHINY_ROOT
-git clone https://github.com/bsc-life/https://github.com/bsc-life/Comorbidities_RNAseq.git
+git clone https://github.com/bsc-life/rgenexcom.git
 cd rgenexcom
 R -f create_r_user.R
 R -f bootstrap.R
@@ -73,9 +73,8 @@ In case the dependencies versions have to be updated, or [regen_bootstrap.R](reg
 these are the steps to regenerate the renv profiles:
 
 ```bash
-cd "${HOME}"/SHINY_ROOT/neurodegenerative_diseases-cancer_comorbidities
+cd "${HOME}"/SHINY_ROOT/rgenexcom
 rm -rf renv renv.lock .Rprofile
-R -f create_r_user.R
 R -f regen_bootstrap.R
 ```
 
